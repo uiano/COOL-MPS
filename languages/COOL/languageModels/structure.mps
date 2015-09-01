@@ -306,6 +306,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
+    <node concept="1TJgyj" id="F52IPXe16w" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="caseExpressions" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="F52IPXe16z" resolve="CaseExpr" />
+    </node>
   </node>
   <node concept="1TIwiD" id="F52IPXe0fC">
     <property role="TrG5h" value="New" />
@@ -354,6 +360,25 @@
       <property role="20kJfa" value="expr2" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="F52IPXe16z">
+    <property role="TrG5h" value="CaseExpr" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="F52IPXe17H" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
+    </node>
+    <node concept="1TJgyj" id="F52IPXe1bh" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
+    </node>
+    <node concept="PrWs8" id="F52IPXe18T" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
