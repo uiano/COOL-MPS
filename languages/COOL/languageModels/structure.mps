@@ -15,6 +15,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -59,19 +62,11 @@
       <ref role="20lvS9" node="2r1Ysa16LFx" resolve="IFeature" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2r1Ysa16LFx">
-    <property role="TrG5h" value="IFeature" />
-    <property role="34LRSv" value="feature" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2r1Ysa16LFy" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2r1Ysa16MkR">
     <property role="TrG5h" value="Attribute" />
-    <ref role="1TJDcQ" node="2r1Ysa16PP9" resolve="BaseAttribute" />
-    <node concept="PrWs8" id="2r1Ysa16MkS" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="F52IPXc0EX" role="PzmwI">
+      <ref role="PrY4T" node="F52IPXbUXh" resolve="IFeature" />
     </node>
     <node concept="1TJgyj" id="2r1Ysa16M$5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -91,9 +86,6 @@
   <node concept="1TIwiD" id="2r1Ysa16PMR">
     <property role="TrG5h" value="Method" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2r1Ysa16PMS" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="2r1Ysa16PN5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="parameters" />
@@ -112,18 +104,27 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
     </node>
+    <node concept="PrWs8" id="F52IPXc0F0" role="PzmwI">
+      <ref role="PrY4T" node="F52IPXbUXh" resolve="IFeature" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2r1Ysa16PP9">
     <property role="TrG5h" value="BaseAttribute" />
-    <ref role="1TJDcQ" node="2r1Ysa16LFx" resolve="IFeature" />
-    <node concept="PrWs8" id="2r1Ysa16PPa" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="F52IPXc0F2" role="PzmwI">
+      <ref role="PrY4T" node="F52IPXbUXh" resolve="IFeature" />
     </node>
     <node concept="1TJgyj" id="2r1Ysa16PPc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="className" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="F52IPXbUXh">
+    <property role="TrG5h" value="IFeature" />
+    <node concept="PrWs8" id="F52IPXc0EV" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
