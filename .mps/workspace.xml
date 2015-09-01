@@ -42,7 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Class" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Class" pinned="false" current-in-tab="true">
         <entry file="mps://node://COOL/COOL.structure/Class">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -50,23 +50,23 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="387" />
-                    <property name="caretXRelative" value="60" />
+                    <property name="caretX" value="353" />
+                    <property name="caretXRelative" value="71" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:d45fb549-5b9a-4d9f-80d6-481aa513b381(COOL.editor)/2792787857731459088" />
+                      <node node_reference="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:d45fb549-5b9a-4d9f-80d6-481aa513b381(COOL.editor)/2792787857731459088" />
+              <node node_ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" />
             </state>
           </provider>
         </entry>
@@ -90,7 +90,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -118,7 +118,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -128,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyCool" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyCool" pinned="false" current-in-tab="false">
         <entry file="mps://node://COOL.sandbox/COOL.sandbox/MyCool">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -136,10 +136,10 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="37" />
-                    <property name="caretXRelative" value="0" />
+                    <property name="caretX" value="26" />
+                    <property name="caretXRelative" value="11" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="empty_features" cellNumber="0" isInList="false">
+                    <cellInfo cellId="Constant_rerokq_c0" cellNumber="0" isInList="false">
                       <node node_reference="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" />
                     </cellInfo>
                   </stackElement>
@@ -147,7 +147,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -175,7 +175,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -193,10 +193,10 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="113" />
-                    <property name="caretXRelative" value="5" />
+                    <property name="caretX" value="37" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                    <cellInfo cellId="emptyPropertiesPlaceHolder" cellNumber="0" isInList="false">
                       <node node_reference="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731429687" />
                     </cellInfo>
                   </stackElement>
@@ -204,7 +204,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -233,7 +233,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -262,7 +262,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -397,6 +397,24 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="COOL.editor">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="COOL">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="COOL.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -408,6 +426,18 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="COOL.sandbox">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="COOL">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="COOL.sandbox">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -512,8 +542,8 @@
     <configuration>C:\Users\Guro\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
-    <editor active="false" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49973616" order="7" side_tool="false" content_ui="tabs" />
@@ -536,7 +566,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18153034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18153034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -969,23 +999,23 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="387" />
-                <property name="caretXRelative" value="60" />
+                <property name="caretX" value="353" />
+                <property name="caretXRelative" value="71" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:d45fb549-5b9a-4d9f-80d6-481aa513b381(COOL.editor)/2792787857731459088" />
+                  <node node_reference="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
-          <node node_ref="r:d45fb549-5b9a-4d9f-80d6-481aa513b381(COOL.editor)/2792787857731459088" />
+          <node node_ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" />
         </state>
       </provider>
     </entry>
@@ -1007,7 +1037,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1023,10 +1053,10 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="113" />
-                <property name="caretXRelative" value="5" />
+                <property name="caretX" value="37" />
+                <property name="caretXRelative" value="0" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_conceptAlias" cellNumber="0" isInList="false">
+                <cellInfo cellId="emptyPropertiesPlaceHolder" cellNumber="0" isInList="false">
                   <node node_reference="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731429687" />
                 </cellInfo>
               </stackElement>
@@ -1034,7 +1064,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1061,7 +1091,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1115,7 +1145,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1169,7 +1199,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1185,10 +1215,10 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="37" />
-                <property name="caretXRelative" value="0" />
+                <property name="caretX" value="26" />
+                <property name="caretXRelative" value="11" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="empty_features" cellNumber="0" isInList="false">
+                <cellInfo cellId="Constant_rerokq_c0" cellNumber="0" isInList="false">
                   <node node_reference="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" />
                 </cellInfo>
               </stackElement>
@@ -1196,7 +1226,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1258,11 +1288,38 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:930a4d9a-79be-496e-b9ca-42a1bfb66b24(COOL.sandbox)/2792787857731459064" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)/2792787857731420168" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
           </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.lang.core/jetbrains.mps.lang.core.structure/BaseConcept">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="310" />
+                <property name="caretXRelative" value="71" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1156234966388" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1156234966388" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)/1133920641626" />
         </state>
       </provider>
     </entry>
