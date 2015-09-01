@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="hfyx" ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="hfyx" ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -44,18 +44,13 @@
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="2r1Ysa16QZ8">
-    <ref role="1XX52x" to="hfyx:2r1Ysa16Ml0" resolve="Expression" />
-    <node concept="3F0A7n" id="2r1Ysa16SMN" role="2wV5jI">
-      <ref role="1NtTu8" to="hfyx:2r1Ysa16QpN" resolve="value" />
-    </node>
-  </node>
   <node concept="24kQdi" id="2r1Ysa16Twg">
     <ref role="1XX52x" to="hfyx:2r1Ysa16K08" resolve="Class" />
     <node concept="b$f91" id="2r1Ysa17kzy" role="2wV5jI">
@@ -91,6 +86,27 @@
           </node>
         </node>
         <node concept="2iRfu4" id="2r1Ysa17kzF" role="2iSdaV" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="F52IPXcV$x">
+    <ref role="1XX52x" to="hfyx:F52IPXcVzl" resolve="Assignment" />
+    <node concept="3EZMnI" id="F52IPXcWt8" role="2wV5jI">
+      <node concept="2iRfu4" id="F52IPXcWt9" role="2iSdaV" />
+      <node concept="1iCGBv" id="F52IPXcWte" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXcV$u" />
+        <node concept="1sVBvm" id="F52IPXcWtg" role="1sWHZn">
+          <node concept="3F0A7n" id="F52IPXcWtn" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="F52IPXcWtL" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;-" />
+      </node>
+      <node concept="3F1sOY" id="F52IPXcWt_" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXcVzZ" />
       </node>
     </node>
   </node>
