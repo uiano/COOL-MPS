@@ -195,7 +195,7 @@
     <node concept="1TJgyj" id="F52IPXe012" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
     <node concept="1TJgyj" id="F52IPXe014" role="1TKVEi">
