@@ -21,6 +21,9 @@
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
         <child id="1068580123156" name="expression" index="3clFbG" />
@@ -74,6 +77,16 @@
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853935960" name="anchorTag" index="1K8rD$" />
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
       </concept>
     </language>
   </registry>
@@ -134,6 +147,11 @@
             <node concept="1mIQ4w" id="35koj2PnJ0J" role="2OqNvi">
               <node concept="chp4Y" id="35koj2PnJpp" role="cj9EA">
                 <ref role="cht4Q" to="hfyx:2r1Ysa16K08" resolve="Class" />
+              </node>
+              <node concept="1KehLL" id="35koj2PobIY" role="lGtFl">
+                <property role="1K8rM7" value="Constant_hebcrg_d0" />
+                <property role="1K8rD$" value="default_RTransform" />
+                <property role="1Kfyot" value="right" />
               </node>
             </node>
           </node>
@@ -210,6 +228,24 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="35koj2PocgX">
+    <ref role="1M2myG" to="hfyx:2r1Ysa16MkR" resolve="Attribute" />
+    <node concept="EnEH3" id="35koj2Poch7" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="QB0g5" id="35koj2Poch9" role="QCWH9">
+        <node concept="3clFbS" id="35koj2Pocha" role="2VODD2">
+          <node concept="3clFbF" id="35koj2Pocm5" role="3cqZAp">
+            <node concept="3y3z36" id="35koj2Poc_y" role="3clFbG">
+              <node concept="1Wqviy" id="35koj2Pocm4" role="3uHU7B" />
+              <node concept="Xl_RD" id="35koj2PocEN" role="3uHU7w">
+                <property role="Xl_RC" value="self" />
               </node>
             </node>
           </node>
