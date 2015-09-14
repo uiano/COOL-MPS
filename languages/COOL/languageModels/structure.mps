@@ -144,7 +144,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="id" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
+      <ref role="20lvS9" node="2r1Ysa16MkR" resolve="Attribute" />
     </node>
   </node>
   <node concept="PlHQZ" id="F52IPXcVzm">
@@ -263,7 +263,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="F52IPXe0a1">
-    <property role="TrG5h" value="Blocks" />
+    <property role="TrG5h" value="Block" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXe0a2" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
