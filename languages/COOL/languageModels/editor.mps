@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="hfyx" ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="hfyx" ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -386,12 +386,12 @@
       <node concept="3F0ifn" id="NASnH8XX6N" role="3EZMnx">
         <property role="3F0ifm" value="loop" />
       </node>
-      <node concept="3EZMnI" id="NASnH8UPnZ" role="3EZMnx">
-        <node concept="2iRkQZ" id="NASnH8UPo0" role="2iSdaV" />
-        <node concept="3F1sOY" id="NASnH8UPnU" role="3EZMnx">
-          <ref role="1NtTu8" to="hfyx:F52IPXe08o" />
+      <node concept="3F1sOY" id="1q0f6kcjWmr" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXe08o" />
+        <node concept="pVoyu" id="1q0f6kcjWmE" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
-        <node concept="pVoyu" id="NASnH8UPo$" role="3F10Kt">
+        <node concept="lj46D" id="1q0f6kcjWnt" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -446,6 +446,36 @@
       </node>
       <node concept="3F1sOY" id="NASnH8WjIA" role="3EZMnx">
         <ref role="1NtTu8" to="hfyx:F52IPXe0bO" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1q0f6kckbyV">
+    <ref role="1XX52x" to="hfyx:F52IPXe123" resolve="Operation" />
+    <node concept="3EZMnI" id="1q0f6kckbyX" role="2wV5jI">
+      <node concept="l2Vlx" id="1q0f6kckbyY" role="2iSdaV" />
+      <node concept="3F1sOY" id="1q0f6kckbz8" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXe15k" />
+      </node>
+      <node concept="3F0A7n" id="1q0f6kckb_p" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXe136" resolve="operator" />
+      </node>
+      <node concept="3F1sOY" id="1q0f6kckbze" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXe15m" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1q0f6kckrlk">
+    <ref role="1XX52x" to="hfyx:1q0f6kckrk3" resolve="Identifier" />
+    <node concept="3EZMnI" id="1q0f6kclbWj" role="2wV5jI">
+      <node concept="2iRfu4" id="1q0f6kclbWk" role="2iSdaV" />
+      <node concept="1iCGBv" id="1q0f6kclbWn" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:1q0f6kckrk4" />
+        <node concept="1sVBvm" id="1q0f6kclbWo" role="1sWHZn">
+          <node concept="3F0A7n" id="1q0f6kclbWw" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

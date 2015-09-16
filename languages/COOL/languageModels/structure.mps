@@ -134,6 +134,8 @@
   </node>
   <node concept="1TIwiD" id="F52IPXcVzl">
     <property role="TrG5h" value="Assignment" />
+    <property role="34LRSv" value="assignment" />
+    <property role="R4oN_" value="Assignment" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXcVzp" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
@@ -143,9 +145,6 @@
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
-    </node>
-    <node concept="PrWs8" id="F52IPXcV$q" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
     <node concept="1TJgyj" id="F52IPXcV$u" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -228,6 +227,8 @@
   </node>
   <node concept="1TIwiD" id="F52IPXe02z">
     <property role="TrG5h" value="Conditional" />
+    <property role="34LRSv" value="if statement" />
+    <property role="R4oN_" value="Conditional statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXe02$" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
@@ -247,6 +248,7 @@
     <node concept="1TJgyj" id="F52IPXe06N" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="elseExpr" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
   </node>
@@ -258,7 +260,7 @@
     </node>
     <node concept="1TJgyj" id="F52IPXe08o" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="whileExpr" />
+      <property role="20kJfa" value="loopBody" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
@@ -386,6 +388,21 @@
     </node>
     <node concept="PrWs8" id="F52IPXe18T" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1q0f6kckrk3">
+    <property role="TrG5h" value="Identifier" />
+    <property role="34LRSv" value="identifier" />
+    <property role="R4oN_" value="Identifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1q0f6kckrk4" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="id" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2r1Ysa16MkR" resolve="Attribute" />
+    </node>
+    <node concept="PrWs8" id="1q0f6kckIR9" role="PzmwI">
+      <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
     </node>
   </node>
 </model>
