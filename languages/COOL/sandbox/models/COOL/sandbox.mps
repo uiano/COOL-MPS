@@ -14,6 +14,9 @@
         <reference id="2792787857731444055" name="type" index="2BQEil" />
         <child id="2792787857731444058" name="expression" index="2BQEio" />
       </concept>
+      <concept id="2792787857731429687" name="COOL.structure.Attribute" flags="ng" index="2BQHNP">
+        <reference id="776038525915627410" name="type" index="1RWJlZ" />
+      </concept>
       <concept id="2792787857731420168" name="COOL.structure.Class" flags="ng" index="2BQJBa">
         <reference id="2792787857731569979" name="inherits" index="2BRb3T" />
         <child id="2792787857731585008" name="features" index="2BR7CM" />
@@ -29,6 +32,14 @@
   <node concept="2BQJBa" id="1q0f6kchPb1">
     <property role="TrG5h" value="Main" />
     <ref role="2BRb3T" to="u94q:1q0f6kcih$K" resolve="IO" />
+    <node concept="2BQHNP" id="1q0f6kciibJ" role="2BR7CM">
+      <property role="TrG5h" value="input_string" />
+      <ref role="1RWJlZ" to="u94q:1q0f6kcih$S" resolve="String" />
+    </node>
+    <node concept="2BQHNP" id="1q0f6kcirEM" role="2BR7CM">
+      <property role="TrG5h" value="i" />
+      <ref role="1RWJlZ" to="u94q:1q0f6kcih$R" resolve="Int" />
+    </node>
     <node concept="2BQElP" id="1q0f6kchTGR" role="2BR7CM">
       <property role="TrG5h" value="main" />
       <ref role="2BQEil" to="u94q:1q0f6kcih$J" resolve="Object" />

@@ -357,5 +357,39 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1q0f6kciibO">
+    <ref role="1XX52x" to="hfyx:2r1Ysa16MkR" resolve="Attribute" />
+    <node concept="3EZMnI" id="1q0f6kciibQ" role="2wV5jI">
+      <node concept="l2Vlx" id="1q0f6kciibR" role="2iSdaV" />
+      <node concept="3F0A7n" id="1q0f6kciibT" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1q0f6kciibU" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="1iCGBv" id="1q0f6kciibV" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:F52IPXdZYi" />
+        <node concept="1sVBvm" id="1q0f6kciibY" role="1sWHZn">
+          <node concept="3F0A7n" id="1q0f6kciic0" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="1iCGBv" id="1q0f6kciifR" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:2r1Ysa16M$5" />
+        <node concept="1sVBvm" id="1q0f6kciifT" role="1sWHZn">
+          <node concept="3F0ifn" id="1q0f6kciig6" role="2wV5jI">
+            <property role="3F0ifm" value="&lt;-" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F1sOY" id="1q0f6kciic8" role="3EZMnx">
+        <ref role="1NtTu8" to="hfyx:2r1Ysa16M$5" />
+      </node>
+      <node concept="3F0ifn" id="1q0f6kciigk" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+    </node>
+  </node>
 </model>
 
