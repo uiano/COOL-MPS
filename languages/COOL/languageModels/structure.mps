@@ -11,6 +11,7 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
@@ -44,7 +45,7 @@
   </registry>
   <node concept="1TIwiD" id="2r1Ysa16K08">
     <property role="TrG5h" value="Class" />
-    <property role="34LRSv" value="Class" />
+    <property role="34LRSv" value="class" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2r1Ysa16LFt" role="PzmwI">
@@ -83,6 +84,7 @@
   </node>
   <node concept="1TIwiD" id="2r1Ysa16PMR">
     <property role="TrG5h" value="Method" />
+    <property role="R4oN_" value="Method" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="2r1Ysa16PN5" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
