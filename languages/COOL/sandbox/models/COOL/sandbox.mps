@@ -10,6 +10,15 @@
   </imports>
   <registry>
     <language id="6cf0b433-0d55-45f1-b007-8ebde24faaed" name="COOL">
+      <concept id="1621362270549423363" name="COOL.structure.Identifier" flags="ng" index="qOo_A">
+        <reference id="1621362270549423364" name="id" index="qOo_x" />
+      </concept>
+      <concept id="1621362270550485735" name="COOL.structure.ComparisonOperation" flags="ng" index="qStq2">
+        <property id="1621362270550485738" name="operator" index="qStqf" />
+        <property id="1621362270550832679" name="negated" index="qTKD2" />
+        <child id="1621362270550485740" name="expr1" index="qStq9" />
+        <child id="1621362270550485742" name="expr2" index="qStqb" />
+      </concept>
       <concept id="2792787857731443895" name="COOL.structure.Method" flags="ng" index="2BQElP">
         <reference id="2792787857731444055" name="type" index="2BQEil" />
         <child id="2792787857731444058" name="expression" index="2BQEio" />
@@ -29,7 +38,6 @@
         <reference id="776038525915347230" name="id" index="1RXFfN" />
         <child id="776038525915347199" name="expression" index="1RXF8i" />
       </concept>
-      <concept id="776038525915347158" name="COOL.structure.IExpression" flags="ng" index="1RXF8V" />
       <concept id="776038525915628161" name="COOL.structure.Block" flags="ng" index="1RZgxG">
         <child id="776038525915628216" name="expressions" index="1RZgxl" />
       </concept>
@@ -42,7 +50,7 @@
         <child id="776038525915628056" name="loopBody" index="1RZgzP" />
         <child id="776038525915628058" name="loopExpr" index="1RZgzR" />
       </concept>
-      <concept id="776038525915631747" name="COOL.structure.Operation" flags="ng" index="1RZhDI">
+      <concept id="776038525915631747" name="COOL.structure.ArithmeticOperation" flags="ng" index="1RZhDI">
         <property id="776038525915631814" name="operator" index="1RZhCF" />
         <child id="776038525915631956" name="expr1" index="1RZhIT" />
         <child id="776038525915631958" name="expr2" index="1RZhIV" />
@@ -68,28 +76,47 @@
     <node concept="2BQElP" id="1q0f6kchTGR" role="2BR7CM">
       <property role="TrG5h" value="main" />
       <ref role="2BQEil" to="u94q:1q0f6kckhTD" resolve="Object" />
-      <node concept="1RZgG8" id="1q0f6kck2pt" role="2BQEio">
-        <node concept="1RWJkZ" id="1q0f6kckbwb" role="1RZgzR" />
-        <node concept="1RZgxG" id="1q0f6kckbwx" role="1RZgzP">
-          <node concept="1RZgDe" id="1q0f6kckbye" role="1RZgxl">
-            <node concept="1RXF8S" id="1q0f6kckbyn" role="1RZgIV">
-              <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
-              <node concept="1RWJk_" id="1q0f6kckbys" role="1RXF8i">
-                <property role="1RWJkA" value="5" />
-              </node>
-            </node>
-            <node concept="1RWJkZ" id="1q0f6kckbyk" role="1RZgJ5" />
-            <node concept="1RZgxG" id="1q0f6kckbyv" role="1RZgHu">
-              <node concept="1RXF8S" id="1q0f6kckbyx" role="1RZgxl">
+      <node concept="1RZgxG" id="1q0f6kcoEXK" role="2BQEio">
+        <node concept="1RXF8S" id="1q0f6kcoEYL" role="1RZgxl">
+          <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
+          <node concept="1RWJk_" id="1q0f6kcoEZ2" role="1RXF8i">
+            <property role="1RWJkA" value="0" />
+          </node>
+        </node>
+        <node concept="1RZgG8" id="1q0f6kck2pt" role="1RZgxl">
+          <node concept="1RZgxG" id="1q0f6kckbwx" role="1RZgzP">
+            <node concept="1RZgDe" id="1q0f6kckbye" role="1RZgxl">
+              <node concept="1RXF8S" id="1q0f6kckbyn" role="1RZgIV">
                 <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
-                <node concept="1RZhDI" id="1q0f6kclvnq" role="1RXF8i">
-                  <property role="1RZhCF" value="+" />
-                  <node concept="1RWJk_" id="1q0f6kclvn$" role="1RZhIV">
-                    <property role="1RWJkA" value="5" />
-                  </node>
-                  <node concept="1RXF8V" id="1q0f6kclvnX" role="1RZhIT" />
+                <node concept="1RWJk_" id="1q0f6kckbys" role="1RXF8i">
+                  <property role="1RWJkA" value="5" />
                 </node>
               </node>
+              <node concept="1RWJkZ" id="1q0f6kckbyk" role="1RZgJ5" />
+              <node concept="1RZgxG" id="1q0f6kcnwaP" role="1RZgHu">
+                <node concept="1RXF8S" id="1q0f6kcouDu" role="1RZgxl">
+                  <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
+                  <node concept="1RZhDI" id="1q0f6kcouDB" role="1RXF8i">
+                    <property role="1RZhCF" value="+" />
+                    <node concept="1RWJk_" id="1q0f6kcouDK" role="1RZhIV">
+                      <property role="1RWJkA" value="5" />
+                    </node>
+                    <node concept="qOo_A" id="1q0f6kcouDH" role="1RZhIT">
+                      <ref role="qOo_x" node="1q0f6kcirEM" resolve="i" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="qStq2" id="1q0f6kcqcgM" role="1RZgzR">
+            <property role="qStqf" value="=" />
+            <property role="qTKD2" value="not" />
+            <node concept="qOo_A" id="1q0f6kcqcgT" role="qStq9">
+              <ref role="qOo_x" node="1q0f6kcirEM" resolve="i" />
+            </node>
+            <node concept="1RWJk_" id="1q0f6kcqcgW" role="qStqb">
+              <property role="1RWJkA" value="5" />
             </node>
           </node>
         </node>

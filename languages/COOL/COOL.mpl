@@ -2,7 +2,7 @@
 <language namespace="COOL" uuid="6cf0b433-0d55-45f1-b007-8ebde24faaed" version="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
-      <sourceRoot path="${module}/languageModels" />
+      <sourceRoot location="languageModels" />
     </modelRoot>
   </models>
   <accessoryModels />

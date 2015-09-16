@@ -555,5 +555,26 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="1q0f6kcoUFS">
+    <ref role="1M2myG" to="hfyx:1q0f6kcouFB" resolve="ComparisonOperation" />
+    <node concept="EnEH3" id="1q0f6kcqp6n" role="1MhHOB">
+      <ref role="EomxK" to="hfyx:1q0f6kcpNoB" resolve="negated" />
+      <node concept="QB0g5" id="1q0f6kcqp6p" role="QCWH9">
+        <node concept="3clFbS" id="1q0f6kcqp6q" role="2VODD2">
+          <node concept="3clFbF" id="1q0f6kcqpbl" role="3cqZAp">
+            <node concept="2OqwBi" id="1q0f6kcqpof" role="3clFbG">
+              <node concept="1Wqviy" id="1q0f6kcqpbk" role="2Oq$k0" />
+              <node concept="liA8E" id="1q0f6kcqpN4" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~String.matches(java.lang.String):boolean" resolve="matches" />
+                <node concept="Xl_RD" id="1q0f6kcqpSB" role="37wK5m">
+                  <property role="Xl_RC" value="not" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
