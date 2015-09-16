@@ -49,9 +49,6 @@
     <property role="34LRSv" value="class" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="2r1Ysa16LFt" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="2r1Ysa17k$V" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="inherits" />
@@ -62,6 +59,9 @@
       <property role="20kJfa" value="features" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="F52IPXbUXh" resolve="IFeature" />
+    </node>
+    <node concept="PrWs8" id="3IorP_ktMfQ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="2r1Ysa16MkR">
@@ -386,6 +386,44 @@
     </node>
     <node concept="PrWs8" id="F52IPXe18T" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3IorP_koi1m">
+    <property role="TrG5h" value="SingleLineComment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3IorP_kpqJv" role="PzmwI">
+      <ref role="PrY4T" node="3IorP_kpqHj" resolve="IComment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3IorP_kokNv">
+    <property role="TrG5h" value="MultiLineComment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3IorP_kpqJt" role="PzmwI">
+      <ref role="PrY4T" node="3IorP_kpqHj" resolve="IComment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3IorP_kppL9">
+    <property role="TrG5h" value="RootConcept" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3IorP_kppMr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="classes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
+    </node>
+    <node concept="1TJgyj" id="3IorP_ktNFk" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="comments" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3IorP_kpqHj" resolve="IComment" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="3IorP_kpqHj">
+    <property role="TrG5h" value="IComment" />
+    <node concept="1TJgyi" id="3IorP_kpqHk" role="1TKVEl">
+      <property role="TrG5h" value="comment" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
