@@ -7,8 +7,8 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="hfyx" ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)" implicit="true" />
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
+    <import index="hfyx" ref="r:bfcb5a05-8d9d-4937-a728-94c52389d6ee(COOL.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -310,8 +310,9 @@
     <node concept="3EZMnI" id="1q0f6kci8R_" role="2wV5jI">
       <node concept="l2Vlx" id="1q0f6kci8RA" role="2iSdaV" />
       <node concept="b$f91" id="1q0f6kci8UF" role="3EZMnx">
-        <node concept="3F2HdR" id="1q0f6kci8VW" role="b$wch">
+        <node concept="3F2HdR" id="1q0f6kciVw9" role="b$wch">
           <ref role="1NtTu8" to="hfyx:F52IPXe0aS" />
+          <node concept="2iRkQZ" id="1q0f6kciVwa" role="2czzBx" />
         </node>
       </node>
     </node>
