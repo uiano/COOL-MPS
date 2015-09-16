@@ -5,7 +5,9 @@
     <use id="6cf0b433-0d55-45f1-b007-8ebde24faaed" name="COOL" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
   </languages>
-  <imports />
+  <imports>
+    <import index="u94q" ref="r:eb9443d2-1f24-4d6f-a3e2-b17b88f77a7c(COOL.baseclasses)" />
+  </imports>
   <registry>
     <language id="6cf0b433-0d55-45f1-b007-8ebde24faaed" name="COOL">
       <concept id="2792787857731443895" name="COOL.structure.Method" flags="ng" index="2BQElP">
@@ -26,31 +28,12 @@
   </registry>
   <node concept="2BQJBa" id="1q0f6kchPb1">
     <property role="TrG5h" value="Main" />
-    <ref role="2BRb3T" node="1q0f6kci8R3" resolve="IO" />
+    <ref role="2BRb3T" to="u94q:1q0f6kcih$K" resolve="IO" />
     <node concept="2BQElP" id="1q0f6kchTGR" role="2BR7CM">
       <property role="TrG5h" value="main" />
-      <ref role="2BQEil" node="1q0f6kci8Ry" resolve="Object" />
+      <ref role="2BQEil" to="u94q:1q0f6kcih$J" resolve="Object" />
       <node concept="1RZgxG" id="1q0f6kcibA$" role="2BQEio" />
     </node>
-  </node>
-  <node concept="2BQJBa" id="1q0f6kci8PA">
-    <property role="TrG5h" value="Int" />
-    <ref role="2BRb3T" node="1q0f6kci8Ry" resolve="Object" />
-  </node>
-  <node concept="2BQJBa" id="1q0f6kci8Q5">
-    <property role="TrG5h" value="String" />
-    <ref role="2BRb3T" node="1q0f6kci8Ry" resolve="Object" />
-  </node>
-  <node concept="2BQJBa" id="1q0f6kci8Q$">
-    <property role="TrG5h" value="Bool" />
-    <ref role="2BRb3T" node="1q0f6kci8Ry" resolve="Object" />
-  </node>
-  <node concept="2BQJBa" id="1q0f6kci8R3">
-    <property role="TrG5h" value="IO" />
-    <ref role="2BRb3T" node="1q0f6kci8Ry" resolve="Object" />
-  </node>
-  <node concept="2BQJBa" id="1q0f6kci8Ry">
-    <property role="TrG5h" value="Object" />
   </node>
 </model>
 
