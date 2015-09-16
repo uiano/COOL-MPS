@@ -19,6 +19,9 @@
         <child id="1621362270550485740" name="expr1" index="qStq9" />
         <child id="1621362270550485742" name="expr2" index="qStqb" />
       </concept>
+      <concept id="1621362270551700954" name="COOL.structure.BlockExpression" flags="ng" index="qX4AZ">
+        <child id="1621362270551701156" name="expression" index="qX4F1" />
+      </concept>
       <concept id="2792787857731443895" name="COOL.structure.Method" flags="ng" index="2BQElP">
         <reference id="2792787857731444055" name="type" index="2BQEil" />
         <child id="2792787857731444058" name="expression" index="2BQEio" />
@@ -30,10 +33,12 @@
         <reference id="2792787857731569979" name="inherits" index="2BRb3T" />
         <child id="2792787857731585008" name="features" index="2BR7CM" />
       </concept>
+      <concept id="776038525915627469" name="COOL.structure.StringConst" flags="ng" index="1RWJkw">
+        <property id="776038525915627472" name="value" index="1RWJkX" />
+      </concept>
       <concept id="776038525915627464" name="COOL.structure.IntConst" flags="ng" index="1RWJk_">
         <property id="776038525915627467" name="value" index="1RWJkA" />
       </concept>
-      <concept id="776038525915627474" name="COOL.structure.BoolConst" flags="ng" index="1RWJkZ" />
       <concept id="776038525915347157" name="COOL.structure.Assignment" flags="ng" index="1RXF8S">
         <reference id="776038525915347230" name="id" index="1RXFfN" />
         <child id="776038525915347199" name="expression" index="1RXF8i" />
@@ -77,10 +82,12 @@
       <property role="TrG5h" value="main" />
       <ref role="2BQEil" to="u94q:1q0f6kckhTD" resolve="Object" />
       <node concept="1RZgxG" id="1q0f6kcoEXK" role="2BQEio">
-        <node concept="1RXF8S" id="1q0f6kcoEYL" role="1RZgxl">
-          <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
-          <node concept="1RWJk_" id="1q0f6kcoEZ2" role="1RXF8i">
-            <property role="1RWJkA" value="0" />
+        <node concept="qX4AZ" id="1q0f6kctjmo" role="1RZgxl">
+          <node concept="1RXF8S" id="1q0f6kctjmE" role="qX4F1">
+            <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
+            <node concept="1RWJk_" id="1q0f6kctjmJ" role="1RXF8i">
+              <property role="1RWJkA" value="5" />
+            </node>
           </node>
         </node>
         <node concept="1RZgG8" id="1q0f6kck2pt" role="1RZgxl">
@@ -92,7 +99,6 @@
                   <property role="1RWJkA" value="5" />
                 </node>
               </node>
-              <node concept="1RWJkZ" id="1q0f6kckbyk" role="1RZgJ5" />
               <node concept="1RZgxG" id="1q0f6kcnwaP" role="1RZgHu">
                 <node concept="1RXF8S" id="1q0f6kcouDu" role="1RZgxl">
                   <ref role="1RXFfN" node="1q0f6kcirEM" resolve="i" />
@@ -105,6 +111,15 @@
                       <ref role="qOo_x" node="1q0f6kcirEM" resolve="i" />
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="qStq2" id="1q0f6kctzlR" role="1RZgJ5">
+                <property role="qStqf" value="=" />
+                <node concept="qOo_A" id="1q0f6kctzlY" role="qStq9">
+                  <ref role="qOo_x" node="1q0f6kciibJ" resolve="input_string" />
+                </node>
+                <node concept="1RWJkw" id="1q0f6kctzm1" role="qStqb">
+                  <property role="1RWJkX" value=" " />
                 </node>
               </node>
             </node>
