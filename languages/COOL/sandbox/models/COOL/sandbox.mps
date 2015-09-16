@@ -21,7 +21,14 @@
         <reference id="2792787857731569979" name="inherits" index="2BRb3T" />
         <child id="2792787857731585008" name="features" index="2BR7CM" />
       </concept>
+      <concept id="776038525915627464" name="COOL.structure.IntConst" flags="ng" index="1RWJk_">
+        <property id="776038525915627467" name="value" index="1RWJkA" />
+      </concept>
       <concept id="776038525915628161" name="COOL.structure.Block" flags="ng" index="1RZgxG" />
+      <concept id="776038525915628005" name="COOL.structure.Loop" flags="ng" index="1RZgG8">
+        <child id="776038525915628056" name="whileExpr" index="1RZgzP" />
+        <child id="776038525915628058" name="loopExpr" index="1RZgzR" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -43,7 +50,12 @@
     <node concept="2BQElP" id="1q0f6kchTGR" role="2BR7CM">
       <property role="TrG5h" value="main" />
       <ref role="2BQEil" to="u94q:1q0f6kcih$J" resolve="Object" />
-      <node concept="1RZgxG" id="1q0f6kcibA$" role="2BQEio" />
+      <node concept="1RZgG8" id="NASnH8Vk5i" role="2BQEio">
+        <node concept="1RZgxG" id="NASnH8VMRV" role="1RZgzP" />
+        <node concept="1RWJk_" id="NASnH8VMRE" role="1RZgzR">
+          <property role="1RWJkA" value="5" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
