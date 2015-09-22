@@ -49,7 +49,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -84,7 +84,6 @@
     </language>
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="nKS2y" />
-      <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
       <concept id="1203001093456" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="in" index="osYL8" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
@@ -484,14 +483,9 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs6" id="64VH0kCRjck" role="3cqZAp">
-          <node concept="2OqwBi" id="35koj2Pn$O9" role="3cqZAk">
-            <node concept="nLn13" id="35koj2Pn$I6" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="35koj2PnJ0J" role="2OqNvi">
-              <node concept="chp4Y" id="35koj2PnJpp" role="cj9EA">
-                <ref role="cht4Q" to="hfyx:2r1Ysa16K08" resolve="Class" />
-              </node>
-            </node>
+        <node concept="3cpWs6" id="7xaucT0vyqC" role="3cqZAp">
+          <node concept="3clFbT" id="7xaucT0vy$l" role="3cqZAk">
+            <property role="3clFbU" value="true" />
           </node>
         </node>
       </node>
