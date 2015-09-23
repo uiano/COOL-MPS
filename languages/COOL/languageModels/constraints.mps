@@ -87,19 +87,16 @@
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="nKS2y" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
-      <concept id="1203001093456" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" flags="in" index="osYL8" />
       <concept id="1147467115080" name="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" flags="ng" index="EnEH3">
         <reference id="1147467295099" name="applicableProperty" index="EomxK" />
         <child id="1212097481299" name="propertyValidator" index="QCWH9" />
       </concept>
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
-      <concept id="6738154313879680265" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childNode" flags="nn" index="2H4GUG" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="1213093968558" name="jetbrains.mps.lang.constraints.structure.ConceptConstraints" flags="ng" index="1M2fIO">
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="1213098023997" name="property" index="1MhHOB" />
         <child id="1213106463729" name="canBeChild" index="1MLUbF" />
-        <child id="1213106478122" name="canBeParent" index="1MLXOK" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
@@ -686,32 +683,6 @@
         </node>
       </node>
     </node>
-    <node concept="osYL8" id="7_WrXUA$hor" role="1MLXOK">
-      <node concept="3clFbS" id="7_WrXUA$hos" role="2VODD2">
-        <node concept="3clFbF" id="7_WrXUA$hot" role="3cqZAp">
-          <node concept="3y3z36" id="7_WrXUA$hou" role="3clFbG">
-            <node concept="2OqwBi" id="7_WrXUA$hov" role="3uHU7w">
-              <node concept="1PxgMI" id="7_WrXUA$how" role="2Oq$k0">
-                <ref role="1PxNhF" to="hfyx:2r1Ysa16K08" resolve="Class" />
-                <node concept="EsrRn" id="7_WrXUA$hox" role="1PxMeX" />
-              </node>
-              <node concept="3TrcHB" id="7_WrXUA$hoy" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-            <node concept="2OqwBi" id="7_WrXUA$hoz" role="3uHU7B">
-              <node concept="1PxgMI" id="7_WrXUA$ho$" role="2Oq$k0">
-                <ref role="1PxNhF" to="hfyx:2r1Ysa16K08" resolve="Class" />
-                <node concept="2H4GUG" id="7_WrXUA$ho_" role="1PxMeX" />
-              </node>
-              <node concept="3TrcHB" id="7_WrXUA$hoA" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node concept="nKS2y" id="7_WrXUA$hAk" role="1MLUbF">
       <node concept="3clFbS" id="7_WrXUA$hAl" role="2VODD2">
         <node concept="3cpWs8" id="7_WrXUA$hAm" role="3cqZAp">
@@ -867,8 +838,8 @@
           <node concept="2OqwBi" id="7_WrXUA$hBp" role="3cqZAk">
             <node concept="nLn13" id="7_WrXUA$hBq" role="2Oq$k0" />
             <node concept="1mIQ4w" id="7_WrXUA$hBr" role="2OqNvi">
-              <node concept="chp4Y" id="7_WrXUA$hBs" role="cj9EA">
-                <ref role="cht4Q" to="hfyx:2r1Ysa16K08" resolve="Class" />
+              <node concept="chp4Y" id="7_WrXUAA9L6" role="cj9EA">
+                <ref role="cht4Q" to="hfyx:3IorP_kppL9" resolve="Program" />
               </node>
             </node>
           </node>

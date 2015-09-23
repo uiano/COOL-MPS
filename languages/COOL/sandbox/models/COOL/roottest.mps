@@ -33,7 +33,7 @@
         <reference id="2792787857731569979" name="inherits" index="2BRb3T" />
         <child id="2792787857731585008" name="features" index="2BR7CM" />
       </concept>
-      <concept id="4294304674156485705" name="COOL.structure.RootConcept" flags="ng" index="1JZvcg">
+      <concept id="4294304674156485705" name="COOL.structure.Program" flags="ng" index="1JZvcg">
         <child id="4294304674156485787" name="classes" index="1JZvf2" />
       </concept>
       <concept id="776038525915627469" name="COOL.structure.StringConst" flags="ng" index="1RWJkw">
