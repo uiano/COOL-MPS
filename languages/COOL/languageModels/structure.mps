@@ -47,7 +47,6 @@
   <node concept="1TIwiD" id="2r1Ysa16K08">
     <property role="TrG5h" value="Class" />
     <property role="34LRSv" value="class" />
-    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3IorP_ktMfQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -440,7 +439,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="3IorP_kppL9">
-    <property role="TrG5h" value="RootConcept" />
+    <property role="TrG5h" value="Program" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3IorP_kppMr" role="1TKVEi">
