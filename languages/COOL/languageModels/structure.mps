@@ -50,6 +50,7 @@
     <property role="TrG5h" value="Class" />
     <property role="34LRSv" value="class" />
     <property role="EcuMT" value="2792787857731420168" />
+    <property role="R4oN_" value="Class" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3IorP_ktMfQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -84,11 +85,11 @@
       <property role="IQ2ns" value="2792787857731430661" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
-    <node concept="1TJgyj" id="F52IPXdZYi" role="1TKVEi">
+    <node concept="1TJgyj" id="7oL2RT2Kd_B" role="1TKVEi">
+      <property role="IQ2ns" value="8516601007248038247" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="776038525915627410" />
       <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
     </node>
   </node>
@@ -127,6 +128,8 @@
     <property role="TrG5h" value="BaseAttribute" />
     <property role="R5$K7" value="false" />
     <property role="EcuMT" value="2792787857731444041" />
+    <property role="34LRSv" value="base attribute" />
+    <property role="R4oN_" value="Base Attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1pagYTMvOCD" role="1TKVEi">
       <property role="IQ2ns" value="1606170908513225257" />
@@ -134,15 +137,15 @@
       <property role="20kJfa" value="expression" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
-    <node concept="PrWs8" id="F52IPXc0F2" role="PzmwI">
-      <ref role="PrY4T" node="F52IPXbUXh" resolve="IFeature" />
-    </node>
     <node concept="1TJgyj" id="2r1Ysa16PPc" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="className" />
       <property role="20lbJX" value="1" />
       <property role="IQ2ns" value="2792787857731444044" />
       <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
+    </node>
+    <node concept="PrWs8" id="6xQtVYUKnYt" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="PlHQZ" id="F52IPXbUXh">
@@ -168,11 +171,11 @@
       <property role="IQ2ns" value="776038525915347199" />
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
-    <node concept="1TJgyj" id="F52IPXcV$u" role="1TKVEi">
+    <node concept="1TJgyj" id="7oL2RT2JZE0" role="1TKVEi">
+      <property role="IQ2ns" value="8516601007247981184" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="id" />
       <property role="20lbJX" value="1" />
-      <property role="IQ2ns" value="776038525915347230" />
       <ref role="20lvS9" node="2r1Ysa16MkR" resolve="Attribute" />
     </node>
   </node>
@@ -190,6 +193,8 @@
   <node concept="1TIwiD" id="F52IPXdZZ8">
     <property role="TrG5h" value="IntConst" />
     <property role="EcuMT" value="776038525915627464" />
+    <property role="34LRSv" value="int" />
+    <property role="R4oN_" value="Int constant" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXdZZ9" role="PzmwI">
       <ref role="PrY4T" node="F52IPXdZZ7" resolve="IConstant" />
@@ -203,6 +208,8 @@
   <node concept="1TIwiD" id="F52IPXdZZd">
     <property role="TrG5h" value="StringConst" />
     <property role="EcuMT" value="776038525915627469" />
+    <property role="34LRSv" value="string" />
+    <property role="R4oN_" value="String constant" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXdZZe" role="PzmwI">
       <ref role="PrY4T" node="F52IPXdZZ7" resolve="IConstant" />
@@ -216,6 +223,8 @@
   <node concept="1TIwiD" id="F52IPXdZZi">
     <property role="TrG5h" value="BoolConst" />
     <property role="EcuMT" value="776038525915627474" />
+    <property role="34LRSv" value="bool" />
+    <property role="R4oN_" value="Bool constant" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXdZZj" role="PzmwI">
       <ref role="PrY4T" node="F52IPXdZZ7" resolve="IConstant" />
@@ -297,6 +306,8 @@
   <node concept="1TIwiD" id="F52IPXe07_">
     <property role="TrG5h" value="Loop" />
     <property role="EcuMT" value="776038525915628005" />
+    <property role="34LRSv" value="loop" />
+    <property role="R4oN_" value="&quot;Loop&quot; expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXe07A" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
@@ -319,6 +330,8 @@
   <node concept="1TIwiD" id="F52IPXe0a1">
     <property role="TrG5h" value="Block" />
     <property role="EcuMT" value="776038525915628161" />
+    <property role="34LRSv" value="block" />
+    <property role="R4oN_" value="Block" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXe0a2" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
@@ -334,6 +347,8 @@
   <node concept="1TIwiD" id="F52IPXe0bJ">
     <property role="TrG5h" value="Let" />
     <property role="EcuMT" value="776038525915628271" />
+    <property role="34LRSv" value="let" />
+    <property role="R4oN_" value="&quot;Let&quot; expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXe0bK" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
@@ -356,6 +371,8 @@
   <node concept="1TIwiD" id="F52IPXe0cK">
     <property role="TrG5h" value="Case" />
     <property role="EcuMT" value="776038525915628336" />
+    <property role="34LRSv" value="case" />
+    <property role="R4oN_" value="Case" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="F52IPXe0cL" role="PzmwI">
       <ref role="PrY4T" node="F52IPXcVzm" resolve="IExpression" />
@@ -395,6 +412,8 @@
   <node concept="1TIwiD" id="F52IPXe0hE">
     <property role="TrG5h" value="Isvoid" />
     <property role="EcuMT" value="776038525915628650" />
+    <property role="34LRSv" value="isvoid" />
+    <property role="R4oN_" value="&quot;Is Void&quot; expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="F52IPXe0jF" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -410,6 +429,8 @@
   <node concept="1TIwiD" id="F52IPXe123">
     <property role="TrG5h" value="ArithmeticOperation" />
     <property role="EcuMT" value="776038525915631747" />
+    <property role="34LRSv" value="arithmetic" />
+    <property role="R4oN_" value="Arithmetic operation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="F52IPXe136" role="1TKVEl">
       <property role="TrG5h" value="operator" />
@@ -437,6 +458,8 @@
   <node concept="1TIwiD" id="F52IPXe16z">
     <property role="TrG5h" value="CaseExpr" />
     <property role="EcuMT" value="776038525915632035" />
+    <property role="34LRSv" value="case expression" />
+    <property role="R4oN_" value="Case Expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="F52IPXe17H" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -476,6 +499,8 @@
   <node concept="1TIwiD" id="1q0f6kcouFB">
     <property role="TrG5h" value="ComparisonOperation" />
     <property role="EcuMT" value="1621362270550485735" />
+    <property role="34LRSv" value="comparison" />
+    <property role="R4oN_" value="Comparison operation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1q0f6kcpNoB" role="1TKVEl">
       <property role="TrG5h" value="negated" />
@@ -522,7 +547,7 @@
     <node concept="1TJgyj" id="3IorP_kppMr" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="classes" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="1..n" />
       <property role="IQ2ns" value="4294304674156485787" />
       <ref role="20lvS9" node="2r1Ysa16K08" resolve="Class" />
     </node>
@@ -557,6 +582,7 @@
     <property role="TrG5h" value="BlockExpression" />
     <property role="EcuMT" value="1621362270551700954" />
     <property role="34LRSv" value="block expression" />
+    <property role="R4oN_" value="Block Expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1q0f6kct7q$" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
