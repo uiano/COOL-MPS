@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/COOL/COOL.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/COOL/sandbox/COOL.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/COOL.types/COOL.types.msd" folder="" />
     </projectModules>
   </component>
 </project>
