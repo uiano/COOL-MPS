@@ -622,10 +622,5 @@
       <ref role="20lvS9" node="F52IPXcVzm" resolve="IExpression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7mHJSy2s30f">
-    <property role="EcuMT" value="8479644266433359887" />
-    <property role="TrG5h" value="TestStructGit" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
 </model>
 
