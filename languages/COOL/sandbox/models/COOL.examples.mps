@@ -26,7 +26,8 @@
         <reference id="8516601007248038247" name="type" index="OWt8p" />
         <child id="2792787857731430661" name="expression" index="2BQH37" />
       </concept>
-      <concept id="2792787857731420168" name="COOL.structure.Class" flags="ng" index="2BQJBa">
+      <concept id="2792787857731420168" name="COOL.structure.CoolClass" flags="ng" index="2BQJBa">
+        <reference id="2792787857731569979" name="inherits" index="2BRb3T" />
         <child id="2792787857731585008" name="features" index="2BR7CM" />
       </concept>
       <concept id="4988138772887054593" name="COOL.structure.Dispatch" flags="ng" index="1_s4j8">
@@ -35,6 +36,11 @@
       </concept>
       <concept id="4294304674156485705" name="COOL.structure.Program" flags="ng" index="1JZvcg">
         <child id="4294304674156485787" name="classes" index="1JZvf2" />
+      </concept>
+      <concept id="776038525915627515" name="COOL.structure.StaticDispatch" flags="ng" index="1RWJkm">
+        <reference id="776038525915627597" name="id" index="1RZgEw" />
+        <child id="776038525915627588" name="parameter" index="1RZgED" />
+        <child id="776038525915627586" name="expression" index="1RZgEJ" />
       </concept>
       <concept id="776038525915627469" name="COOL.structure.StringConst" flags="ng" index="1RWJkw">
         <property id="776038525915627472" name="value" index="1RWJkX" />
@@ -63,6 +69,7 @@
     <property role="TrG5h" value="Example" />
     <node concept="2BQJBa" id="3G1S_$ARsU8" role="1JZvf2">
       <property role="TrG5h" value="Main" />
+      <ref role="2BRb3T" to="2ngf:5YYxVPcy45q" resolve="IO" />
       <node concept="2BQElP" id="4kTrs$wi9Th" role="2BR7CM">
         <property role="TrG5h" value="main" />
         <ref role="2BQEil" node="3G1S_$ARsU8" resolve="Main" />
@@ -109,6 +116,17 @@
               <ref role="1_s4jb" to="2ngf:5YYxVPcy45M" resolve="out_string" />
               <node concept="1RWJkw" id="1pagYTMwWzg" role="1_s3Ri">
                 <property role="1RWJkX" value="\n" />
+              </node>
+            </node>
+          </node>
+          <node concept="qX4AZ" id="5YYxVPc_BCt" role="1RZgxl">
+            <node concept="1RWJkm" id="5YYxVPc_BCL" role="qX4F1">
+              <ref role="1RZgEw" to="2ngf:5YYxVPcy45M" resolve="out_string" />
+              <node concept="1RZg$5" id="5YYxVPc_BCO" role="1RZgEJ">
+                <ref role="1RZgV4" to="2ngf:5YYxVPcy45q" resolve="IO" />
+              </node>
+              <node concept="1RWJkw" id="5YYxVPc_BCQ" role="1RZgED">
+                <property role="1RWJkX" value="hello" />
               </node>
             </node>
           </node>
