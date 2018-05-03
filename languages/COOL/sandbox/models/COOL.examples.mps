@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="6cf0b433-0d55-45f1-b007-8ebde24faaed" name="COOL" version="-1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="6" />
   </languages>
   <imports>
     <import index="2ngf" ref="r:88d8ad6c-940f-489a-829d-e1277ae736ee(COOL.types.baseclasses)" />
@@ -26,7 +26,7 @@
         <reference id="8516601007248038247" name="type" index="OWt8p" />
         <child id="2792787857731430661" name="expression" index="2BQH37" />
       </concept>
-      <concept id="2792787857731420168" name="COOL.structure.CoolClass" flags="ng" index="2BQJBa">
+      <concept id="2792787857731420168" name="COOL.structure.Class" flags="ng" index="2BQJBa">
         <reference id="2792787857731569979" name="inherits" index="2BRb3T" />
         <child id="2792787857731585008" name="features" index="2BR7CM" />
       </concept>
