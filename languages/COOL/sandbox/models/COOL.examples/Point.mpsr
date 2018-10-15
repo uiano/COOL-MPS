@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model ref="r:87fb7a5f-eb10-4b7f-8b61-3a725c5d8c33(COOL.examples)" content="root">
+  <persistence version="9" />
+  <imports>
+    <import index="2ngf" ref="r:88d8ad6c-940f-489a-829d-e1277ae736ee(COOL.types.baseclasses)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="6cf0b433-0d55-45f1-b007-8ebde24faaed" name="COOL">
+      <concept id="1621362270551700954" name="COOL.structure.BlockExpression" flags="ng" index="qX4AZ">
+        <child id="1621362270551701156" name="expression" index="qX4F1" />
+      </concept>
+      <concept id="2792787857731444041" name="COOL.structure.BaseAttribute" flags="ng" index="2BQEib">
+        <reference id="2792787857731444044" name="className" index="2BQEie" />
+      </concept>
+      <concept id="2792787857731443895" name="COOL.structure.Method" flags="ng" index="2BQElP">
+        <reference id="2792787857731444055" name="type" index="2BQEil" />
+        <child id="2792787857731444058" name="expression" index="2BQEio" />
+        <child id="2792787857731443909" name="parameters" index="2BQEk7" />
+      </concept>
+      <concept id="2792787857731429687" name="COOL.structure.Attribute" flags="ng" index="2BQHNP">
+        <reference id="8516601007248038247" name="type" index="OWt8p" />
+        <child id="2792787857731430661" name="expression" index="2BQH37" />
+      </concept>
+      <concept id="2792787857731420168" name="COOL.structure.Class" flags="ng" index="2BQJBa">
+        <child id="2792787857731585008" name="features" index="2BR7CM" />
+      </concept>
+      <concept id="4294304674156485705" name="COOL.structure.Program" flags="ng" index="1JZvcg">
+        <child id="4294304674156485787" name="classes" index="1JZvf2" />
+      </concept>
+      <concept id="776038525915627464" name="COOL.structure.IntConst" flags="ng" index="1RWJk_">
+        <property id="776038525915627467" name="value" index="1RWJkA" />
+      </concept>
+      <concept id="776038525915347157" name="COOL.structure.Assignment" flags="ng" index="1RXF8S">
+        <reference id="8516601007247981184" name="id" index="OzJ7Y" />
+        <child id="776038525915347199" name="expression" index="1RXF8i" />
+      </concept>
+      <concept id="776038525915628161" name="COOL.structure.Block" flags="ng" index="1RZgxG">
+        <child id="776038525915628216" name="expressions" index="1RZgxl" />
+      </concept>
+      <concept id="776038525915628520" name="COOL.structure.New" flags="ng" index="1RZg$5">
+        <reference id="776038525915628585" name="className" index="1RZgV4" />
+      </concept>
+    </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="1JZvcg" id="1pagYTMyNb4">
+    <property role="TrG5h" value="Point" />
+    <node concept="2BQJBa" id="1pagYTMyNb9" role="1JZvf2">
+      <property role="TrG5h" value="Point" />
+      <node concept="2BQHNP" id="7oL2RT2LwU2" role="2BR7CM">
+        <property role="TrG5h" value="x" />
+        <ref role="OWt8p" to="2ngf:5YYxVPcy40_" resolve="Int" />
+        <node concept="1RWJk_" id="7oL2RT2LwVf" role="2BQH37">
+          <property role="1RWJkA" value="0" />
+        </node>
+      </node>
+      <node concept="2BQHNP" id="7oL2RT2LwUu" role="2BR7CM">
+        <property role="TrG5h" value="y" />
+        <ref role="OWt8p" to="2ngf:5YYxVPcy40_" resolve="Int" />
+        <node concept="1RWJk_" id="7oL2RT2LwVi" role="2BQH37">
+          <property role="1RWJkA" value="0" />
+        </node>
+      </node>
+      <node concept="2BQElP" id="1pagYTMyNbe" role="2BR7CM">
+        <property role="TrG5h" value="movePoint" />
+        <ref role="2BQEil" node="1pagYTMyNb9" resolve="Point" />
+        <node concept="2BQEib" id="7oL2RT2JtMP" role="2BQEk7">
+          <property role="TrG5h" value="x" />
+          <ref role="2BQEie" to="2ngf:5YYxVPcy40_" resolve="Int" />
+        </node>
+        <node concept="1RZgxG" id="1pagYTMyNbh" role="2BQEio">
+          <node concept="qX4AZ" id="7oL2RT2LwVC" role="1RZgxl">
+            <node concept="1RXF8S" id="7oL2RT2LwVJ" role="qX4F1">
+              <ref role="OzJ7Y" node="7oL2RT2LwU2" resolve="x" />
+              <node concept="1RZg$5" id="7oL2RT2LwVO" role="1RXF8i">
+                <ref role="1RZgV4" to="2ngf:5YYxVPcy40_" resolve="Int" />
+              </node>
+            </node>
+          </node>
+          <node concept="qX4AZ" id="1pagYTM$f9w" role="1RZgxl">
+            <node concept="1RXF8S" id="7oL2RT2LwVt" role="qX4F1">
+              <ref role="OzJ7Y" node="7oL2RT2LwUu" resolve="y" />
+              <node concept="1RZg$5" id="7oL2RT2LwVy" role="1RXF8i">
+                <ref role="1RZgV4" to="2ngf:5YYxVPcy40_" resolve="Int" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+</model>
+

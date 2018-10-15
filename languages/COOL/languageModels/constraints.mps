@@ -109,6 +109,7 @@
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
       </concept>
+      <concept id="1143512015885" name="jetbrains.mps.lang.smodel.structure.Node_GetNextSiblingOperation" flags="nn" index="YCak7" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
@@ -716,6 +717,13 @@
             </node>
           </node>
           <node concept="3clFbH" id="6xQtVYUQbHZ" role="3cqZAp" />
+          <node concept="3clFbF" id="2C9oYk89Uy_" role="3cqZAp">
+            <node concept="2OqwBi" id="2C9oYk89USj" role="3clFbG">
+              <node concept="EsrRn" id="2C9oYk89Uyz" role="2Oq$k0" />
+              <node concept="YCak7" id="2C9oYk89Vom" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="2C9oYk89SO7" role="3cqZAp" />
           <node concept="3clFbF" id="7_WrXUA$h8R" role="3cqZAp">
             <node concept="1Wc70l" id="6xQtVYUQfqH" role="3clFbG">
               <node concept="1Wc70l" id="7_WrXUA$h8S" role="3uHU7B">
@@ -800,14 +808,12 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="6xQtVYUQcTo" role="3cqZAp" />
-          <node concept="3clFbH" id="6xQtVYUQdcL" role="3cqZAp" />
         </node>
       </node>
     </node>
   </node>
   <node concept="1M2fIO" id="6xQtVYUMj2s">
-    <ref role="1M2myG" to="hfyx:2r1Ysa16PP9" resolve="BaseAttribute" />
+    <ref role="1M2myG" to="hfyx:2r1Ysa16PP9" resolve="Formal" />
     <node concept="EnEH3" id="6xQtVYUMj2t" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="6xQtVYUMj2u" role="QCWH9">
