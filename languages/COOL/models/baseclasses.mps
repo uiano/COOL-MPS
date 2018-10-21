@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:5c7bbe02-7f7e-4443-b6f4-e4877b8211b1(COOL.def)">
+<model ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
@@ -13,23 +13,29 @@
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
-      <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc" />
+      <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
+        <reference id="126878559839010284" name="inherits" index="314ZUc" />
+      </concept>
     </language>
   </registry>
-  <node concept="314ZVc" id="4GgVjmx0x0c">
+  <node concept="314ZVc" id="3OgcKIjILuD">
     <property role="TrG5h" value="Int" />
+    <ref role="314ZUc" node="3OgcKIjIYmj" resolve="Object" />
   </node>
-  <node concept="314ZVc" id="4GgVjmx0x0h">
+  <node concept="314ZVc" id="3OgcKIjIYm2">
     <property role="TrG5h" value="String" />
+    <ref role="314ZUc" node="3OgcKIjIYmj" resolve="Object" />
   </node>
-  <node concept="314ZVc" id="4GgVjmx0x0m">
+  <node concept="314ZVc" id="3OgcKIjIYm7">
     <property role="TrG5h" value="Bool" />
+    <ref role="314ZUc" node="3OgcKIjIYmj" resolve="Object" />
   </node>
-  <node concept="314ZVc" id="4GgVjmx0x0r">
+  <node concept="314ZVc" id="3OgcKIjIYme">
     <property role="TrG5h" value="IO" />
+    <ref role="314ZUc" node="3OgcKIjIYmj" resolve="Object" />
   </node>
-  <node concept="314ZVc" id="4GgVjmx0x0w">
-    <property role="TrG5h" value="SELF_TYPE" />
+  <node concept="314ZVc" id="3OgcKIjIYmj">
+    <property role="TrG5h" value="Object" />
   </node>
 </model>
 

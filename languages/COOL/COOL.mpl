@@ -5,7 +5,9 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
+  </accessoryModels>
   <generators>
     <generator alias="main" namespace="COOL#01" uuid="482fb7a8-10d0-46eb-bf7d-ef7db3371ea0">
       <models>
