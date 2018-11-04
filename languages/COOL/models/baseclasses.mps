@@ -13,8 +13,12 @@
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
+      <concept id="126878559839010293" name="COOL.structure.Attribute" flags="ng" index="314ZUl">
+        <reference id="126878559839010379" name="type" index="314ZOF" />
+      </concept>
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
         <reference id="126878559839010284" name="inherits" index="314ZUc" />
+        <child id="126878559839010281" name="features" index="314ZU9" />
       </concept>
     </language>
   </registry>
@@ -36,6 +40,13 @@
   </node>
   <node concept="314ZVc" id="3OgcKIjIYmj">
     <property role="TrG5h" value="Object" />
+  </node>
+  <node concept="314ZVc" id="2QgYvTHaKV2">
+    <property role="TrG5h" value="SELF_TYPE" />
+    <node concept="314ZUl" id="2QgYvTHaKV9" role="314ZU9">
+      <property role="TrG5h" value="self" />
+      <ref role="314ZOF" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+    </node>
   </node>
 </model>
 
