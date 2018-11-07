@@ -6,7 +6,6 @@
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
     <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" implicit="true" />
   </imports>
   <registry>
@@ -160,6 +159,7 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="6QsSnQJy6l$" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="3OgcKIjIYyt" role="1YuTPh">
       <property role="TrG5h" value="assignment" />
