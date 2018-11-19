@@ -24,11 +24,6 @@
       <concept id="126878559839010973" name="COOL.structure.Block" flags="ng" index="314SfX">
         <child id="126878559839010974" name="exprs" index="314SfY" />
       </concept>
-      <concept id="126878559839010403" name="COOL.structure.ArithmeticOperation" flags="ng" index="314ZO3">
-        <property id="126878559839010407" name="operator" index="314ZO7" />
-        <child id="126878559839010410" name="left" index="314ZOa" />
-        <child id="126878559839010413" name="right" index="314ZOd" />
-      </concept>
       <concept id="126878559839010391" name="COOL.structure.Assignment" flags="ng" index="314ZOR">
         <reference id="126878559839010395" name="id" index="314ZOV" />
         <child id="3283398999502117117" name="expr" index="10CE43" />
@@ -106,16 +101,10 @@
         </node>
         <node concept="314ZOR" id="2QgYvTHcOtB" role="314SfY">
           <ref role="314ZOV" node="2QgYvTH6LFl" resolve="xcar" />
-          <node concept="314ZO3" id="2QgYvTHhmQf" role="10CE43">
-            <property role="314ZO7" value="*" />
-            <node concept="314ZPj" id="2QgYvTHhn1x" role="314ZOd">
-              <property role="314ZPn" value="1" />
-            </node>
-            <node concept="314ZOR" id="3JaU1mZZofO" role="314ZOa">
-              <ref role="314ZOV" node="2QgYvTH6LFl" resolve="xcar" />
-              <node concept="314ZPj" id="3JaU1mZZotz" role="10CE43">
-                <property role="314ZPn" value="43" />
-              </node>
+          <node concept="314ZOR" id="5tu5hNcfGz7" role="10CE43">
+            <ref role="314ZOV" node="2QgYvTH6LFl" resolve="xcar" />
+            <node concept="314ZPj" id="5tu5hNcg5V7" role="10CE43">
+              <property role="314ZPn" value="5" />
             </node>
           </node>
         </node>
