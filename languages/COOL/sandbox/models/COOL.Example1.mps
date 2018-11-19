@@ -15,25 +15,11 @@
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
-      <concept id="3283398999501640595" name="COOL.structure.StaticDispatch" flags="ng" index="10IYDH">
-        <reference id="3283398999502566499" name="type" index="10EsQt" />
-        <reference id="3283398999501640617" name="id" index="10IYDn" />
-        <child id="3283398999501640605" name="expr" index="10IYDz" />
-      </concept>
       <concept id="3283398999501739351" name="COOL.structure.Identifier" flags="ng" index="10J6MD">
         <reference id="3283398999501739358" name="id" index="10J6Mw" />
       </concept>
       <concept id="126878559839010941" name="COOL.structure.New" flags="ng" index="314Sct">
         <reference id="126878559839010963" name="type" index="314SfN" />
-      </concept>
-      <concept id="126878559839011013" name="COOL.structure.Dispatch" flags="ng" index="314Se_">
-        <reference id="126878559839011020" name="id" index="314SeG" />
-        <child id="126878559839011025" name="expr" index="314SeL" />
-      </concept>
-      <concept id="126878559839010948" name="COOL.structure.ComparisonOperation" flags="ng" index="314Sf$">
-        <property id="126878559839010952" name="operator" index="314SfC" />
-        <child id="126878559839010955" name="left" index="314SfF" />
-        <child id="126878559839010958" name="right" index="314SfI" />
       </concept>
       <concept id="126878559839010973" name="COOL.structure.Block" flags="ng" index="314SfX">
         <child id="126878559839010974" name="exprs" index="314SfY" />
@@ -53,11 +39,6 @@
       <concept id="126878559839010362" name="COOL.structure.BoolConst" flags="ng" index="314ZPq" />
       <concept id="126878559839010330" name="COOL.structure.Formal" flags="ng" index="314ZPU">
         <reference id="126878559839010343" name="type" index="314ZP7" />
-      </concept>
-      <concept id="126878559839010445" name="COOL.structure.Conditional" flags="ng" index="314ZRH">
-        <child id="126878559839010449" name="ifExpr" index="314ZRL" />
-        <child id="126878559839010452" name="thenExpr" index="314ZRO" />
-        <child id="126878559839010457" name="elseExpr" index="314ZRT" />
       </concept>
       <concept id="126878559839010289" name="COOL.structure.Method" flags="ng" index="314ZUh">
         <reference id="126878559839010309" name="returnType" index="314ZP_" />
@@ -87,34 +68,6 @@
     <node concept="314ZUl" id="4f1O$6fUlaS" role="314ZU9">
       <property role="TrG5h" value="p" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
-    </node>
-    <node concept="314ZUh" id="2QgYvTHaL7O" role="314ZU9">
-      <property role="TrG5h" value="main" />
-      <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
-      <node concept="314ZRH" id="2QgYvTHhVC1" role="314ZPE">
-        <node concept="314Sf$" id="2QgYvTHhVI2" role="314ZRL">
-          <property role="314SfC" value="==" />
-          <node concept="10J6MD" id="2QgYvTHhVJ4" role="314SfF">
-            <ref role="10J6Mw" node="2QgYvTHaL8X" resolve="c" />
-          </node>
-          <node concept="10J6MD" id="2QgYvTHhVKS" role="314SfI">
-            <ref role="10J6Mw" node="2QgYvTHaL8X" resolve="c" />
-          </node>
-        </node>
-        <node concept="10IYDH" id="2QgYvTHhVQT" role="314ZRT">
-          <ref role="10EsQt" node="2QgYvTH6LFg" resolve="List" />
-          <ref role="10IYDn" node="2QgYvTHezY9" resolve="init" />
-          <node concept="10J6MD" id="2QgYvTHhVSa" role="10IYDz">
-            <ref role="10J6Mw" node="2QgYvTHaL8X" resolve="c" />
-          </node>
-        </node>
-        <node concept="314Se_" id="2QgYvTHhVNF" role="314ZRO">
-          <ref role="314SeG" node="2QgYvTH6LIf" resolve="init" />
-          <node concept="10J6MD" id="2QgYvTHhVON" role="314SeL">
-            <ref role="10J6Mw" node="2QgYvTHaL8X" resolve="c" />
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="314ZVc" id="2QgYvTH6LFb">

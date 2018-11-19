@@ -2,8 +2,8 @@
 <model ref="r:b4dde771-32d9-4a1f-8e71-9794a92dfc00(COOL.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
-    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="-1" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -79,6 +79,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -117,6 +120,7 @@
   </node>
   <node concept="1YbPZF" id="4GgVjmwZymT">
     <property role="TrG5h" value="typeof_IntConst" />
+    <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="4GgVjmwZymU" role="18ibNy">
       <node concept="1Z5TYs" id="6UW_UGSMu$d" role="3cqZAp">
         <node concept="mw_s8" id="6UW_UGSMu$g" role="1ZfhK$">
@@ -142,6 +146,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYxK">
     <property role="TrG5h" value="typeof_StringConst" />
+    <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="3OgcKIjIYxL" role="18ibNy">
       <node concept="1Z5TYs" id="6UW_UGSMB9a" role="3cqZAp">
         <node concept="mw_s8" id="6UW_UGSMB9u" role="1ZfhKB">
@@ -167,6 +172,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYxQ">
     <property role="TrG5h" value="typeof_BoolConst" />
+    <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="3OgcKIjIYxR" role="18ibNy">
       <node concept="1Z5TYs" id="6UW_UGSMAyz" role="3cqZAp">
         <node concept="mw_s8" id="6UW_UGSMAyR" role="1ZfhKB">
@@ -192,6 +198,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYyq">
     <property role="TrG5h" value="typeof_Assignment" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYyr" role="18ibNy">
       <node concept="1Z5TYs" id="3OgcKIjJ7Is" role="3cqZAp">
         <node concept="mw_s8" id="3OgcKIjJ7IA" role="1ZfhK$">
@@ -222,6 +229,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYyA">
     <property role="TrG5h" value="typeof_Attribute" />
+    <property role="3GE5qa" value="feature" />
     <node concept="3clFbS" id="3OgcKIjIYyB" role="18ibNy">
       <node concept="1Z5TYs" id="3OgcKIjJayq" role="3cqZAp">
         <node concept="mw_s8" id="3OgcKIjJay$" role="1ZfhK$">
@@ -252,6 +260,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYyM">
     <property role="TrG5h" value="typeof_Block" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYyN" role="18ibNy">
       <node concept="1Z5TYs" id="3OgcKIjJqvI" role="3cqZAp">
         <node concept="mw_s8" id="3OgcKIjJqvV" role="1ZfhK$">
@@ -285,6 +294,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYyY">
     <property role="TrG5h" value="typeof_Case" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYyZ" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYCs" role="1YuTPh">
       <property role="TrG5h" value="caseExpr" />
@@ -293,22 +303,16 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYza">
     <property role="TrG5h" value="typeof_CaseExpr" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYzb" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYzd" role="1YuTPh">
       <property role="TrG5h" value="caseExpr" />
       <ref role="1YaFvo" to="exfx:72KQ30Ok2H" resolve="CaseExpr" />
     </node>
   </node>
-  <node concept="1YbPZF" id="3OgcKIjIYzm">
-    <property role="TrG5h" value="typeof_ComparisonOperation" />
-    <node concept="3clFbS" id="3OgcKIjIYzn" role="18ibNy" />
-    <node concept="1YaCAy" id="3OgcKIjIYzp" role="1YuTPh">
-      <property role="TrG5h" value="comparisonOperation" />
-      <ref role="1YaFvo" to="exfx:72KQ30Ok24" resolve="ComparisonOperation" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="3OgcKIjIYzy">
     <property role="TrG5h" value="typeof_Complement" />
+    <property role="3GE5qa" value="expression.unary" />
     <node concept="3clFbS" id="3OgcKIjIYzz" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYz_" role="1YuTPh">
       <property role="TrG5h" value="complement" />
@@ -317,6 +321,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYzI">
     <property role="TrG5h" value="typeof_Conditional" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYzJ" role="18ibNy">
       <node concept="3SKdUt" id="3OgcKIjJmXk" role="3cqZAp">
         <node concept="3SKdUq" id="3OgcKIjJmXl" role="3SKWNk">
@@ -373,6 +378,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYzU">
     <property role="TrG5h" value="typeof_Dispatch" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYzV" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYzX" role="1YuTPh">
       <property role="TrG5h" value="dispatch" />
@@ -411,6 +417,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY$i">
     <property role="TrG5h" value="typeof_Isvoid" />
+    <property role="3GE5qa" value="expression.unary" />
     <node concept="3clFbS" id="3OgcKIjIY$j" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY$l" role="1YuTPh">
       <property role="TrG5h" value="isvoid" />
@@ -419,6 +426,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY$u">
     <property role="TrG5h" value="typeof_Let" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIY$v" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY$x" role="1YuTPh">
       <property role="TrG5h" value="let" />
@@ -427,6 +435,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY$E">
     <property role="TrG5h" value="typeof_Method" />
+    <property role="3GE5qa" value="feature" />
     <node concept="3clFbS" id="3OgcKIjIY$F" role="18ibNy">
       <node concept="1Z5TYs" id="3OgcKIjJcDO" role="3cqZAp">
         <node concept="mw_s8" id="3OgcKIjJcIH" role="1ZfhKB">
@@ -457,6 +466,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY$Q">
     <property role="TrG5h" value="typeof_New" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIY$R" role="18ibNy">
       <node concept="1Z5TYs" id="2QgYvTH7bak" role="3cqZAp">
         <node concept="mw_s8" id="2QgYvTH7bbl" role="1ZfhKB">
@@ -487,6 +497,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY_2">
     <property role="TrG5h" value="typeof_Not" />
+    <property role="3GE5qa" value="expression.unary" />
     <node concept="3clFbS" id="3OgcKIjIY_3" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY_5" role="1YuTPh">
       <property role="TrG5h" value="not" />
@@ -495,6 +506,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY_q">
     <property role="TrG5h" value="typeof_Parenthesis" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIY_r" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY_t" role="1YuTPh">
       <property role="TrG5h" value="parenthesis" />
@@ -503,34 +515,11 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY_A">
     <property role="TrG5h" value="typeof_WhileLoop" />
+    <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIY_B" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY_D" role="1YuTPh">
       <property role="TrG5h" value="whileLoop" />
       <ref role="1YaFvo" to="exfx:72KQ30OjUw" resolve="WhileLoop" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="2QgYvTHdBvs">
-    <property role="TrG5h" value="typeof_ShortDispatch" />
-    <node concept="3clFbS" id="2QgYvTHdBvt" role="18ibNy" />
-    <node concept="1YaCAy" id="2QgYvTHdBvv" role="1YuTPh">
-      <property role="TrG5h" value="shortDispatch" />
-      <ref role="1YaFvo" to="exfx:2QgYvTHcYXH" resolve="ShortDispatch" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="2QgYvTHdBvD">
-    <property role="TrG5h" value="typeof_StaticDispatch" />
-    <node concept="3clFbS" id="2QgYvTHdBvE" role="18ibNy" />
-    <node concept="1YaCAy" id="2QgYvTHdBvG" role="1YuTPh">
-      <property role="TrG5h" value="staticDispatch" />
-      <ref role="1YaFvo" to="exfx:2QgYvTHaLej" resolve="StaticDispatch" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="3OgcKIjIYye">
-    <property role="TrG5h" value="typeof_ArithmeticOperation" />
-    <node concept="3clFbS" id="3OgcKIjIYyf" role="18ibNy" />
-    <node concept="1YaCAy" id="3OgcKIjIYyh" role="1YuTPh">
-      <property role="TrG5h" value="arithmeticOperation" />
-      <ref role="1YaFvo" to="exfx:72KQ30OjTz" resolve="ArithmeticOperation" />
     </node>
   </node>
 </model>
