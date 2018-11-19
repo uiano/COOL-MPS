@@ -717,7 +717,7 @@
   </node>
   <node concept="13MO4I" id="1PpjCWrXuOG">
     <property role="TrG5h" value="reduce_Attribute_Expr" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="feature" />
     <ref role="3gUMe" to="exfx:72KQ30OjRP" resolve="Attribute" />
     <node concept="312cEu" id="1PpjCWrXuOL" role="13RCb5">
       <property role="TrG5h" value="temp" />
@@ -768,7 +768,7 @@
   </node>
   <node concept="13MO4I" id="1PpjCWrXEKZ">
     <property role="TrG5h" value="reduce_Attribute" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="feature" />
     <ref role="3gUMe" to="exfx:72KQ30OjRP" resolve="Attribute" />
     <node concept="312cEu" id="1PpjCWrXFfx" role="13RCb5">
       <property role="TrG5h" value="temp" />
@@ -802,7 +802,7 @@
   </node>
   <node concept="13MO4I" id="7ZOpEoyoG5h">
     <property role="TrG5h" value="reduce_Method" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="feature" />
     <ref role="3gUMe" to="exfx:72KQ30OjRL" resolve="Method" />
     <node concept="312cEu" id="7ZOpEoyoG5t" role="13RCb5">
       <property role="TrG5h" value="temp" />
@@ -891,14 +891,6 @@
     <ref role="3gUMe" to="exfx:72KQ30Ok2H" resolve="CaseExpr" />
     <node concept="TZ5HA" id="4f1O$6fMg6L" role="13RCb5">
       <node concept="raruj" id="4f1O$6fMg6N" role="lGtFl" />
-    </node>
-  </node>
-  <node concept="13MO4I" id="6UW_UGSNgWv">
-    <property role="TrG5h" value="reduce_ComparisonOperation" />
-    <property role="3GE5qa" value="expression" />
-    <ref role="3gUMe" to="exfx:72KQ30Ok24" resolve="ComparisonOperation" />
-    <node concept="TZ5HA" id="4f1O$6fMg6T" role="13RCb5">
-      <node concept="raruj" id="4f1O$6fMg6V" role="lGtFl" />
     </node>
   </node>
   <node concept="13MO4I" id="6UW_UGSNiks">
@@ -990,7 +982,7 @@
   </node>
   <node concept="13MO4I" id="6UW_UGSNikB">
     <property role="TrG5h" value="reduce_Complement" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.unaryoperation" />
     <ref role="3gUMe" to="exfx:72KQ30Ok1T" resolve="Complement" />
     <node concept="TZ5HA" id="4f1O$6fMg6X" role="13RCb5">
       <node concept="raruj" id="4f1O$6fMg6Z" role="lGtFl" />
@@ -1021,7 +1013,7 @@
   </node>
   <node concept="13MO4I" id="6UW_UGSNoS$">
     <property role="TrG5h" value="reduce_Isvoid" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="unaryoperation" />
     <ref role="3gUMe" to="exfx:72KQ30OjUG" resolve="Isvoid" />
     <node concept="TZ5HA" id="4f1O$6fMg6D" role="13RCb5">
       <node concept="raruj" id="4f1O$6fMg6F" role="lGtFl" />

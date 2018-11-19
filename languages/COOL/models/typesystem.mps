@@ -109,7 +109,7 @@
   </node>
   <node concept="1YbPZF" id="4GgVjmwZymT">
     <property role="TrG5h" value="typeof_IntConst" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="4GgVjmwZymU" role="18ibNy" />
     <node concept="1YaCAy" id="4GgVjmwZymW" role="1YuTPh">
       <property role="TrG5h" value="intConst" />
@@ -118,7 +118,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYxK">
     <property role="TrG5h" value="typeof_StringConst" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="3OgcKIjIYxL" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYy5" role="1YuTPh">
       <property role="TrG5h" value="stringConst" />
@@ -127,7 +127,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYxQ">
     <property role="TrG5h" value="typeof_BoolConst" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="3OgcKIjIYxR" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYxT" role="1YuTPh">
       <property role="TrG5h" value="boolConst" />
@@ -167,7 +167,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIYyA">
     <property role="TrG5h" value="typeof_Attribute" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="feature" />
     <node concept="3clFbS" id="3OgcKIjIYyB" role="18ibNy">
       <node concept="1Z5TYs" id="3OgcKIjJayq" role="3cqZAp">
         <node concept="mw_s8" id="3OgcKIjJay$" role="1ZfhK$">
@@ -248,18 +248,9 @@
       <ref role="1YaFvo" to="exfx:72KQ30Ok2H" resolve="CaseExpr" />
     </node>
   </node>
-  <node concept="1YbPZF" id="3OgcKIjIYzm">
-    <property role="TrG5h" value="typeof_ComparisonOperation" />
-    <property role="3GE5qa" value="expression" />
-    <node concept="3clFbS" id="3OgcKIjIYzn" role="18ibNy" />
-    <node concept="1YaCAy" id="3OgcKIjIYzp" role="1YuTPh">
-      <property role="TrG5h" value="comparisonOperation" />
-      <ref role="1YaFvo" to="exfx:72KQ30Ok24" resolve="ComparisonOperation" />
-    </node>
-  </node>
   <node concept="1YbPZF" id="3OgcKIjIYzy">
     <property role="TrG5h" value="typeof_Complement" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.unary" />
     <node concept="3clFbS" id="3OgcKIjIYzz" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYz_" role="1YuTPh">
       <property role="TrG5h" value="complement" />
@@ -342,7 +333,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY$i">
     <property role="TrG5h" value="typeof_Isvoid" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.unary" />
     <node concept="3clFbS" id="3OgcKIjIY$j" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY$l" role="1YuTPh">
       <property role="TrG5h" value="isvoid" />
@@ -360,7 +351,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY$E">
     <property role="TrG5h" value="typeof_Method" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="feature" />
     <node concept="3clFbS" id="3OgcKIjIY$F" role="18ibNy">
       <node concept="1Z5TYs" id="3OgcKIjJcDO" role="3cqZAp">
         <node concept="mw_s8" id="3OgcKIjJcIH" role="1ZfhKB">
@@ -422,7 +413,7 @@
   </node>
   <node concept="1YbPZF" id="3OgcKIjIY_2">
     <property role="TrG5h" value="typeof_Not" />
-    <property role="3GE5qa" value="expression" />
+    <property role="3GE5qa" value="expression.unary" />
     <node concept="3clFbS" id="3OgcKIjIY_3" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIY_5" role="1YuTPh">
       <property role="TrG5h" value="not" />
@@ -445,15 +436,6 @@
     <node concept="1YaCAy" id="3OgcKIjIY_D" role="1YuTPh">
       <property role="TrG5h" value="whileLoop" />
       <ref role="1YaFvo" to="exfx:72KQ30OjUw" resolve="WhileLoop" />
-    </node>
-  </node>
-  <node concept="1YbPZF" id="3OgcKIjIYye">
-    <property role="TrG5h" value="typeof_ArithmeticOperation" />
-    <property role="3GE5qa" value="expression" />
-    <node concept="3clFbS" id="3OgcKIjIYyf" role="18ibNy" />
-    <node concept="1YaCAy" id="3OgcKIjIYyh" role="1YuTPh">
-      <property role="TrG5h" value="arithmeticOperation" />
-      <ref role="1YaFvo" to="exfx:72KQ30OjTz" resolve="ArithmeticOperation" />
     </node>
   </node>
 </model>
