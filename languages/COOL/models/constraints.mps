@@ -14,8 +14,14 @@
         <reference id="1213093996982" name="concept" index="1M2myG" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="1M2fIO" id="2QgYvTHdAYi">
+    <property role="3GE5qa" value="expression" />
     <ref role="1M2myG" to="exfx:72KQ30Ok35" resolve="Dispatch" />
   </node>
 </model>
