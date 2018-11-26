@@ -8,7 +8,6 @@
   </languages>
   <imports>
     <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" implicit="true" />
-    <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -37,11 +36,6 @@
       </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
-      </concept>
-    </language>
-    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
-        <child id="1196350785114" name="quotedNode" index="2c44tc" />
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
@@ -89,11 +83,6 @@
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1165595910856" name="jetbrains.mps.baseLanguage.collections.structure.GetLastOperation" flags="nn" index="1yVyf7" />
     </language>
-    <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
-      <concept id="7979419401441632277" name="COOL.structure.ClassRef" flags="ng" index="1mtnuY">
-        <reference id="7979419401441632278" name="ref" index="1mtnuX" />
-      </concept>
-    </language>
   </registry>
   <node concept="1YbPZF" id="4GgVjmwZyl2">
     <property role="TrG5h" value="typeof_Class" />
@@ -121,24 +110,7 @@
   <node concept="1YbPZF" id="4GgVjmwZymT">
     <property role="TrG5h" value="typeof_IntConst" />
     <property role="3GE5qa" value="expression.constant" />
-    <node concept="3clFbS" id="4GgVjmwZymU" role="18ibNy">
-      <node concept="1Z5TYs" id="6UW_UGSMu$d" role="3cqZAp">
-        <node concept="mw_s8" id="6UW_UGSMu$g" role="1ZfhK$">
-          <node concept="1Z2H0r" id="6UW_UGSMu0r" role="mwGJk">
-            <node concept="1YBJjd" id="6UW_UGSMu2d" role="1Z2MuG">
-              <ref role="1YBMHb" node="4GgVjmwZymW" resolve="intConst" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="6UW_UGSMuBd" role="1ZfhKB">
-          <node concept="2c44tf" id="6UW_UGSMuB9" role="mwGJk">
-            <node concept="1mtnuY" id="6UW_UGSM$SD" role="2c44tc">
-              <ref role="1mtnuX" to="67es:3OgcKIjILuD" resolve="Int" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
+    <node concept="3clFbS" id="4GgVjmwZymU" role="18ibNy" />
     <node concept="1YaCAy" id="4GgVjmwZymW" role="1YuTPh">
       <property role="TrG5h" value="intConst" />
       <ref role="1YaFvo" to="exfx:72KQ30OjSN" resolve="IntConst" />
@@ -147,24 +119,7 @@
   <node concept="1YbPZF" id="3OgcKIjIYxK">
     <property role="TrG5h" value="typeof_StringConst" />
     <property role="3GE5qa" value="expression.constant" />
-    <node concept="3clFbS" id="3OgcKIjIYxL" role="18ibNy">
-      <node concept="1Z5TYs" id="6UW_UGSMB9a" role="3cqZAp">
-        <node concept="mw_s8" id="6UW_UGSMB9u" role="1ZfhKB">
-          <node concept="2c44tf" id="6UW_UGSMB9q" role="mwGJk">
-            <node concept="1mtnuY" id="6UW_UGSMB9O" role="2c44tc">
-              <ref role="1mtnuX" to="67es:3OgcKIjIYm2" resolve="String" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="6UW_UGSMB9d" role="1ZfhK$">
-          <node concept="1Z2H0r" id="6UW_UGSMAzQ" role="mwGJk">
-            <node concept="1YBJjd" id="6UW_UGSMA_C" role="1Z2MuG">
-              <ref role="1YBMHb" node="3OgcKIjIYy5" resolve="stringConst" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
+    <node concept="3clFbS" id="3OgcKIjIYxL" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYy5" role="1YuTPh">
       <property role="TrG5h" value="stringConst" />
       <ref role="1YaFvo" to="exfx:72KQ30OjT1" resolve="StringConst" />
@@ -173,24 +128,7 @@
   <node concept="1YbPZF" id="3OgcKIjIYxQ">
     <property role="TrG5h" value="typeof_BoolConst" />
     <property role="3GE5qa" value="expression.constant" />
-    <node concept="3clFbS" id="3OgcKIjIYxR" role="18ibNy">
-      <node concept="1Z5TYs" id="6UW_UGSMAyz" role="3cqZAp">
-        <node concept="mw_s8" id="6UW_UGSMAyR" role="1ZfhKB">
-          <node concept="2c44tf" id="6UW_UGSMAyN" role="mwGJk">
-            <node concept="1mtnuY" id="6UW_UGSMAzd" role="2c44tc">
-              <ref role="1mtnuX" to="67es:3OgcKIjIYm7" resolve="Bool" />
-            </node>
-          </node>
-        </node>
-        <node concept="mw_s8" id="6UW_UGSMAyA" role="1ZfhK$">
-          <node concept="1Z2H0r" id="6UW_UGSMA6b" role="mwGJk">
-            <node concept="1YBJjd" id="6UW_UGSMA7X" role="1Z2MuG">
-              <ref role="1YBMHb" node="3OgcKIjIYxT" resolve="boolConst" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
+    <node concept="3clFbS" id="3OgcKIjIYxR" role="18ibNy" />
     <node concept="1YaCAy" id="3OgcKIjIYxT" role="1YuTPh">
       <property role="TrG5h" value="boolConst" />
       <ref role="1YaFvo" to="exfx:72KQ30OjSU" resolve="BoolConst" />

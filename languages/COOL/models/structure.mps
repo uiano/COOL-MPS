@@ -247,7 +247,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="id" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2hy8a5EkM5P" resolve="AttributeIdentifier" />
+      <ref role="20lvS9" node="2hy8a5EkM5p" resolve="IAttributeDecleration" />
     </node>
   </node>
   <node concept="1TIwiD" id="72KQ30OjUd">
@@ -655,7 +655,7 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2hy8a5EkM5p" resolve="IAttributeDecleration" />
     </node>
-    <node concept="PrWs8" id="2hy8a5EkM5S" role="PzmwI">
+    <node concept="PrWs8" id="1kz4Tuz61J$" role="PzmwI">
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
     </node>
   </node>
