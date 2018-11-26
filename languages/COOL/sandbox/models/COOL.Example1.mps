@@ -32,7 +32,6 @@
       </concept>
       <concept id="126878559839010293" name="COOL.structure.Attribute" flags="ng" index="314ZUl">
         <reference id="126878559839010379" name="type" index="314ZOF" />
-        <child id="126878559839010384" name="expr" index="314ZOK" />
       </concept>
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
         <reference id="126878559839010284" name="inherits" index="314ZUc" />
@@ -43,21 +42,6 @@
       </concept>
     </language>
   </registry>
-  <node concept="314ZVc" id="72KQ30O$eU">
-    <property role="TrG5h" value="Retard" />
-    <ref role="314ZUc" to="67es:3OgcKIjIYme" resolve="IO" />
-    <node concept="314ZUl" id="2QgYvTHaL8X" role="314ZU9">
-      <property role="TrG5h" value="c" />
-      <ref role="314ZOF" node="2QgYvTH6LFb" resolve="Cons" />
-      <node concept="314Sct" id="1PpjCWrZrQr" role="314ZOK">
-        <ref role="314SfN" node="2QgYvTH6LFb" resolve="Cons" />
-      </node>
-    </node>
-    <node concept="314ZUl" id="4f1O$6fUlaS" role="314ZU9">
-      <property role="TrG5h" value="p" />
-      <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
-    </node>
-  </node>
   <node concept="314ZVc" id="2QgYvTH6LFb">
     <property role="TrG5h" value="Cons" />
     <ref role="314ZUc" node="2QgYvTH6LFg" resolve="List" />
@@ -98,13 +82,6 @@
   </node>
   <node concept="314ZVc" id="2QgYvTH6LFg">
     <property role="TrG5h" value="List" />
-    <node concept="314ZUh" id="1kz4Tuz2sLd" role="314ZU9">
-      <property role="TrG5h" value="init" />
-      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="1ecg7k" id="1kz4Tuz6BM5" role="314ZPE">
-        <ref role="1ecg7n" to="67es:2QgYvTHaKV9" resolve="self" />
-      </node>
-    </node>
   </node>
   <node concept="314ZVc" id="2hy8a5El9uz">
     <property role="TrG5h" value="Main" />
