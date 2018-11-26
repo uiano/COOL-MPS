@@ -2,7 +2,7 @@
 <model ref="r:1e1fc43b-3eef-4de5-ae50-5fb7b025f84f(COOL.Example1)">
   <persistence version="9" />
   <languages>
-    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
+    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="-1" />
   </languages>
   <imports>
     <import index="v1bk" ref="r:a47b72b1-98f8-4825-ac17-9153da6c2fb7(COOL.sandbox)" />
@@ -83,13 +83,6 @@
   </node>
   <node concept="314ZVc" id="2QgYvTH6LFg">
     <property role="TrG5h" value="List" />
-    <node concept="314ZUh" id="1kz4Tuz2sLd" role="314ZU9">
-      <property role="TrG5h" value="init" />
-      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="1ecg7k" id="1kz4Tuz6BM5" role="314ZPE">
-        <ref role="1ecg7n" to="67es:2QgYvTHaKV9" resolve="self" />
-      </node>
-    </node>
   </node>
   <node concept="314ZVc" id="2hy8a5El9uz">
     <property role="TrG5h" value="Main" />

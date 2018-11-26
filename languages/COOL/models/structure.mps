@@ -410,21 +410,22 @@
     <property role="TrG5h" value="CaseExpr" />
     <property role="3GE5qa" value="expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="72KQ30Ok2I" role="1TKVEi">
-      <property role="IQ2ns" value="126878559839010990" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
-    </node>
     <node concept="1TJgyj" id="72KQ30Ok2L" role="1TKVEi">
       <property role="IQ2ns" value="126878559839010993" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="72KQ30OjRT" resolve="IExpression" />
     </node>
     <node concept="PrWs8" id="72KQ30Ok2Q" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="2e4OjlFp5qe" role="1TKVEi">
+      <property role="IQ2ns" value="2559400515618494094" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
     </node>
   </node>
   <node concept="1TIwiD" id="72KQ30Ok2T">
@@ -479,13 +480,13 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="methodCalled" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="2hy8a5EkM5M" resolve="MethodIdentifier" />
+      <ref role="20lvS9" node="2hy8a5EkM5w" resolve="IMethodDecleration" />
     </node>
     <node concept="1TJgyj" id="5tu5hNceduy" role="1TKVEi">
       <property role="IQ2ns" value="6295492542540076962" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="type" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
     </node>
   </node>
@@ -657,6 +658,18 @@
     </node>
     <node concept="PrWs8" id="1kz4Tuz61J$" role="PzmwI">
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4Lt0ir1NYuK">
+    <property role="EcuMT" value="5502555585688627120" />
+    <property role="TrG5h" value="ClassRef" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4Lt0ir1NYuL" role="1TKVEi">
+      <property role="IQ2ns" value="5502555585688627121" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="clRef" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
     </node>
   </node>
 </model>
