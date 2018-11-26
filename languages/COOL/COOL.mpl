@@ -38,6 +38,7 @@
         <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
         <module reference="526480f5-bacc-4675-9b15-2ee50ab219c2(COOL)" version="0" />
         <module reference="482fb7a8-10d0-46eb-bf7d-ef7db3371ea0(COOL#01)" version="0" />
+        <module reference="e1df2a8b-76e7-4177-b55c-1139d4c5be89(COOL.runtime)" version="0" />
         <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
