@@ -18,10 +18,15 @@
       <concept id="126878559839010973" name="COOL.structure.Block" flags="ng" index="314SfX">
         <child id="126878559839010974" name="exprs" index="314SfY" />
       </concept>
+      <concept id="126878559839010369" name="COOL.structure.StringConst" flags="ng" index="314ZOx">
+        <property id="126878559839010373" name="value" index="314ZO_" />
+      </concept>
       <concept id="126878559839010355" name="COOL.structure.IntConst" flags="ng" index="314ZPj">
         <property id="126878559839010359" name="value" index="314ZPn" />
       </concept>
-      <concept id="126878559839010362" name="COOL.structure.BoolConst" flags="ng" index="314ZPq" />
+      <concept id="126878559839010362" name="COOL.structure.BoolConst" flags="ng" index="314ZPq">
+        <property id="126878559839010363" name="value" index="314ZPr" />
+      </concept>
       <concept id="126878559839010330" name="COOL.structure.Formal" flags="ng" index="314ZPU">
         <reference id="126878559839010343" name="type" index="314ZP7" />
       </concept>
@@ -57,6 +62,28 @@
     <node concept="314ZUl" id="1kz4Tuz2KeM" role="314ZU9">
       <property role="TrG5h" value="audun" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
+    </node>
+    <node concept="314ZUl" id="4Px5yRL2nlZ" role="314ZU9">
+      <property role="TrG5h" value="myString" />
+      <ref role="314ZOF" to="67es:3OgcKIjIYm2" resolve="String" />
+      <node concept="314ZOx" id="4Px5yRL2nuG" role="314ZOK">
+        <property role="314ZO_" value="hello" />
+      </node>
+    </node>
+    <node concept="314ZUl" id="4Px5yRL4lQc" role="314ZU9">
+      <property role="TrG5h" value="myString2" />
+      <ref role="314ZOF" to="67es:3OgcKIjIYm2" resolve="String" />
+    </node>
+    <node concept="314ZUl" id="4Px5yRL6E6q" role="314ZU9">
+      <property role="TrG5h" value="myBool" />
+      <ref role="314ZOF" to="67es:3OgcKIjIYm7" resolve="Bool" />
+    </node>
+    <node concept="314ZUl" id="4Px5yRL6Eek" role="314ZU9">
+      <property role="TrG5h" value="myBool2" />
+      <ref role="314ZOF" to="67es:3OgcKIjIYm7" resolve="Bool" />
+      <node concept="314ZPq" id="4Px5yRL6EmC" role="314ZOK">
+        <property role="314ZPr" value="true" />
+      </node>
     </node>
     <node concept="314ZUh" id="2QgYvTH6M3u" role="314ZU9">
       <property role="TrG5h" value="isNil" />

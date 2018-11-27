@@ -3,11 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
-    <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" implicit="true" />
-    <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" implicit="true" />
+    <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" />
+    <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -122,18 +123,18 @@
     <property role="TrG5h" value="typeof_IntConst" />
     <property role="3GE5qa" value="expression.constant" />
     <node concept="3clFbS" id="4GgVjmwZymU" role="18ibNy">
-      <node concept="1Z5TYs" id="4Lt0ir1Ook1" role="3cqZAp">
-        <node concept="mw_s8" id="4Lt0ir1Ookb" role="1ZfhK$">
-          <node concept="1Z2H0r" id="4Lt0ir1Ook7" role="mwGJk">
-            <node concept="1YBJjd" id="4Lt0ir1Ooks" role="1Z2MuG">
+      <node concept="1Z5TYs" id="4Px5yRL1pA4" role="3cqZAp">
+        <node concept="mw_s8" id="4Px5yRL1pAC" role="1ZfhKB">
+          <node concept="1Z2H0r" id="4Px5yRL1pE2" role="mwGJk">
+            <node concept="1YBJjd" id="4Px5yRL1pEi" role="1Z2MuG">
               <ref role="1YBMHb" node="4GgVjmwZymW" resolve="intConst" />
             </node>
           </node>
         </node>
-        <node concept="mw_s8" id="4Lt0ir1OokY" role="1ZfhKB">
-          <node concept="2c44tf" id="4Lt0ir1OokU" role="mwGJk">
-            <node concept="2d$Iqm" id="4Lt0ir1Oolk" role="2c44tc">
-              <ref role="2d$Iqn" to="67es:3OgcKIjILuD" resolve="Int" />
+        <node concept="mw_s8" id="4Px5yRL1pA7" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4Px5yRL1oQz" role="mwGJk">
+            <node concept="1YBJjd" id="4Px5yRL1oSl" role="1Z2MuG">
+              <ref role="1YBMHb" node="4GgVjmwZymW" resolve="intConst" />
             </node>
           </node>
         </node>
