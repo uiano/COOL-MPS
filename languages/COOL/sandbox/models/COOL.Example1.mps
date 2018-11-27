@@ -85,11 +85,6 @@
         <property role="314ZPr" value="true" />
       </node>
     </node>
-    <node concept="314ZUh" id="2QgYvTH6M3u" role="314ZU9">
-      <property role="TrG5h" value="isNil" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYm7" resolve="Bool" />
-      <node concept="314ZPq" id="2QgYvTH6Mmy" role="314ZPE" />
-    </node>
     <node concept="314ZUh" id="2QgYvTH6LIf" role="314ZU9">
       <property role="TrG5h" value="init" />
       <ref role="314ZP_" node="2QgYvTH6LFb" resolve="Cons" />
