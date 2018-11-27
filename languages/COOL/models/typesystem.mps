@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -22,6 +23,9 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
+        <child id="1068581517676" name="expression" index="3cqZAk" />
+      </concept>
       <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
         <property id="6329021646629104958" name="text" index="3SKdUp" />
       </concept>
@@ -38,6 +42,10 @@
       <concept id="1185788614172" name="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" flags="ng" index="mw_s8">
         <child id="1185788644032" name="normalType" index="mwGJk" />
       </concept>
+      <concept id="1175147569072" name="jetbrains.mps.lang.typesystem.structure.AbstractSubtypingRule" flags="ig" index="2sgdUx">
+        <child id="1175147624276" name="body" index="2sgrp5" />
+      </concept>
+      <concept id="1175147670730" name="jetbrains.mps.lang.typesystem.structure.SubtypingRule" flags="ig" index="2sgARr" />
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
@@ -57,6 +65,7 @@
       </concept>
       <concept id="1174658326157" name="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" flags="nn" index="1Z5TYs" />
       <concept id="1174660718586" name="jetbrains.mps.lang.typesystem.structure.AbstractEquationStatement" flags="nn" index="1Zf1VF">
+        <property id="1206359757216" name="checkOnly" index="3wDh2S" />
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
@@ -112,6 +121,7 @@
           </node>
         </node>
       </node>
+      <node concept="3clFbH" id="6d5ZefkCq9v" role="3cqZAp" />
     </node>
     <node concept="1YaCAy" id="4GgVjmwZyl5" role="1YuTPh">
       <property role="TrG5h" value="c" />
@@ -556,6 +566,33 @@
           </node>
         </node>
       </node>
+      <node concept="1Z5TYs" id="6d5Zefk_IXz" role="3cqZAp">
+        <property role="3wDh2S" value="false" />
+        <node concept="mw_s8" id="6d5Zefk_IX_" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6d5Zefk_IXA" role="mwGJk">
+            <node concept="2OqwBi" id="6d5Zefk_IXB" role="1Z2MuG">
+              <node concept="1YBJjd" id="6d5Zefk_IXC" role="2Oq$k0">
+                <ref role="1YBMHb" node="3OgcKIjIY$H" resolve="method" />
+              </node>
+              <node concept="3TrEf2" id="6d5Zefk_IXD" role="2OqNvi">
+                <ref role="3Tt5mk" to="exfx:72KQ30OjS5" resolve="returnType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6d5Zefk_IXE" role="1ZfhKB">
+          <node concept="1Z2H0r" id="6d5Zefk_IXF" role="mwGJk">
+            <node concept="2OqwBi" id="6d5Zefk_IXG" role="1Z2MuG">
+              <node concept="1YBJjd" id="6d5Zefk_IXH" role="2Oq$k0">
+                <ref role="1YBMHb" node="3OgcKIjIY$H" resolve="method" />
+              </node>
+              <node concept="3TrEf2" id="6d5Zefk_IXI" role="2OqNvi">
+                <ref role="3Tt5mk" to="exfx:72KQ30OjSa" resolve="expr" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="1YaCAy" id="3OgcKIjIY$H" role="1YuTPh">
       <property role="TrG5h" value="method" />
@@ -687,6 +724,25 @@
     <node concept="1YaCAy" id="4Lt0ir1Ov8P" role="1YuTPh">
       <property role="TrG5h" value="checkCase" />
       <ref role="1YaFvo" to="exfx:72KQ30Ok2x" resolve="Case" />
+    </node>
+  </node>
+  <node concept="2sgARr" id="6d5ZefkCq9B">
+    <property role="TrG5h" value="subtyping_class" />
+    <node concept="3clFbS" id="6d5ZefkCq9C" role="2sgrp5">
+      <node concept="3cpWs6" id="6d5ZefkCqaR" role="3cqZAp">
+        <node concept="2OqwBi" id="6d5ZefkCqjW" role="3cqZAk">
+          <node concept="1YBJjd" id="6d5ZefkCqbl" role="2Oq$k0">
+            <ref role="1YBMHb" node="6d5ZefkCq9M" resolve="myclass" />
+          </node>
+          <node concept="3TrEf2" id="6d5ZefkCqu2" role="2OqNvi">
+            <ref role="3Tt5mk" to="exfx:72KQ30OjRG" resolve="inherits" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6d5ZefkCq9M" role="1YuTPh">
+      <property role="TrG5h" value="myclass" />
+      <ref role="1YaFvo" to="exfx:72KQ30OjQG" resolve="Class" />
     </node>
   </node>
 </model>
