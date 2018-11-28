@@ -390,6 +390,9 @@
     <node concept="PrWs8" id="72KQ30Ok2y" role="PzmwI">
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
     </node>
+    <node concept="PrWs8" id="5mL3sGO961Q" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="72KQ30Ok2_" role="1TKVEi">
       <property role="IQ2ns" value="126878559839010981" />
       <property role="20lmBu" value="aggregation" />
@@ -417,15 +420,15 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="72KQ30OjRT" resolve="IExpression" />
     </node>
-    <node concept="PrWs8" id="72KQ30Ok2Q" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="2e4OjlFp5qe" role="1TKVEi">
       <property role="IQ2ns" value="2559400515618494094" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
+    </node>
+    <node concept="PrWs8" id="5mL3sGO93ig" role="PzmwI">
+      <ref role="PrY4T" node="2hy8a5EkM5p" resolve="IAttributeDecleration" />
     </node>
   </node>
   <node concept="1TIwiD" id="72KQ30Ok2T">
@@ -450,6 +453,9 @@
     <node concept="PrWs8" id="72KQ30Ok32" role="PzmwI">
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
     </node>
+    <node concept="PrWs8" id="At5JuHL0oz" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="72KQ30Ok35">
     <property role="EcuMT" value="126878559839011013" />
@@ -458,6 +464,11 @@
     <property role="R4oN_" value="Dispatch" />
     <property role="3GE5qa" value="expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="At5JuHI$RC" role="1TKVEl">
+      <property role="IQ2nx" value="692735170712325608" />
+      <property role="TrG5h" value="showStaticTypeField" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="72KQ30Ok36" role="PzmwI">
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
     </node>
@@ -472,7 +483,7 @@
       <property role="IQ2ns" value="6295492542540076958" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expr" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="72KQ30OjRT" resolve="IExpression" />
     </node>
     <node concept="1TJgyj" id="72KQ30Ok3c" role="1TKVEi">

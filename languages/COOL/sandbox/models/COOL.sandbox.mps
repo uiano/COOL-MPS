@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
-    <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="1" />
   </languages>
   <imports>
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" implicit="true" />
@@ -96,8 +95,8 @@
       <node concept="314SfX" id="2e4OjlFrBdp" role="314ZPE">
         <node concept="314ZOR" id="2e4OjlFrBen" role="314SfY">
           <ref role="314ZOV" node="2e4OjlFrAVx" resolve="var" />
-          <node concept="1ecg7k" id="2e4OjlFrBg6" role="10CE43">
-            <ref role="1ecg7n" node="2e4OjlFrB7f" resolve="num" />
+          <node concept="1ecg7k" id="5mL3sGOdImq" role="10CE43">
+            <ref role="1ecg7n" node="2e4OjlFrAVx" resolve="var" />
           </node>
         </node>
         <node concept="1ecg7k" id="2e4OjlFrBi0" role="314SfY">
