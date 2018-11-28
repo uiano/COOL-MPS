@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="COOL.runtime" uuid="e1df2a8b-76e7-4177-b55c-1139d4c5be89" moduleVersion="0" compileInMPS="true">
+<solution name="COOL.runtime" uuid="82ded43d-ccb5-4a7e-ad32-56c0a910e31a" moduleVersion="0" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -15,7 +15,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="e1df2a8b-76e7-4177-b55c-1139d4c5be89(COOL.runtime)" version="0" />
+    <module reference="82ded43d-ccb5-4a7e-ad32-56c0a910e31a(COOL.runtime)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
   </dependencyVersions>
 </solution>
