@@ -5,7 +5,7 @@
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="-1" />
   </languages>
   <imports>
-    <import index="qw3h" ref="r:cd8976f5-4457-4259-8994-2a8a06e4b8db(COOL.runtime.baseclasses)" />
+    <import index="v1bk" ref="r:a47b72b1-98f8-4825-ac17-9153da6c2fb7(COOL.sandbox)" />
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" implicit="true" />
   </imports>
   <registry>
@@ -17,12 +17,6 @@
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
       <concept id="126878559839010941" name="COOL.structure.New" flags="ng" index="314Sct">
         <reference id="126878559839010963" name="type" index="314SfN" />
-      </concept>
-      <concept id="126878559839011013" name="COOL.structure.Dispatch" flags="ng" index="314Se_">
-        <property id="692735170712325608" name="showStaticTypeField" index="2$9PGv" />
-        <reference id="6295492542540076962" name="type" index="2rpGaY" />
-        <reference id="126878559839011020" name="methodCalled" index="314SeG" />
-        <child id="6295492542540076958" name="expr" index="2rpGa2" />
       </concept>
       <concept id="126878559839010973" name="COOL.structure.Block" flags="ng" index="314SfX">
         <child id="126878559839010974" name="exprs" index="314SfY" />
@@ -68,19 +62,9 @@
       <property role="TrG5h" value="xcdr" />
       <ref role="314ZOF" node="2QgYvTH6LFg" resolve="List" />
     </node>
-    <node concept="314ZUl" id="4Px5yRLburr" role="314ZU9">
-      <property role="TrG5h" value="xcdr2" />
-      <ref role="314ZOF" node="2QgYvTH6LFg" resolve="List" />
-      <node concept="314Sct" id="4Px5yRLbuQX" role="314ZOK">
-        <ref role="314SfN" node="2QgYvTH6LFg" resolve="List" />
-      </node>
-    </node>
     <node concept="314ZUl" id="1kz4Tuz2KeM" role="314ZU9">
       <property role="TrG5h" value="audun" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="314ZPj" id="4Px5yRLbv7r" role="314ZOK">
-        <property role="314ZPn" value="42" />
-      </node>
     </node>
     <node concept="314ZUl" id="4Px5yRL2nlZ" role="314ZU9">
       <property role="TrG5h" value="myString" />
@@ -116,45 +100,25 @@
         <ref role="314ZP7" node="2QgYvTH6LFg" resolve="List" />
       </node>
       <node concept="314SfX" id="1kz4Tuz2sJF" role="314ZPE">
-        <node concept="314Se_" id="At5JuHJ9P8" role="314SfY">
-          <property role="2$9PGv" value="true" />
-          <ref role="314SeG" node="2QgYvTH6LIf" resolve="init" />
-          <ref role="2rpGaY" node="2QgYvTH6LFb" resolve="Cons" />
-          <node concept="1ecg7k" id="At5JuHJacy" role="2rpGa2">
-            <ref role="1ecg7n" node="2QgYvTH6LGQ" resolve="xcdr" />
-          </node>
-        </node>
-        <node concept="314Sct" id="5mL3sGO9YGB" role="314SfY">
-          <ref role="314SfN" node="2QgYvTH6LFb" resolve="Cons" />
-        </node>
-        <node concept="314Se_" id="5mL3sGObnKJ" role="314SfY">
-          <ref role="314SeG" node="5mL3sGOaODG" resolve="jegkommerfralist" />
+        <node concept="1ecg7k" id="2bCA_kRvl0" role="314SfY">
+          <ref role="1ecg7n" to="67es:2QgYvTHaKV9" resolve="self" />
         </node>
       </node>
     </node>
   </node>
   <node concept="314ZVc" id="2QgYvTH6LFg">
     <property role="TrG5h" value="List" />
-    <node concept="314ZUl" id="At5JuHDoL0" role="314ZU9">
-      <property role="TrG5h" value="joel" />
-      <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
-    </node>
-    <node concept="314ZUh" id="5mL3sGOaODG" role="314ZU9">
-      <property role="TrG5h" value="jegkommerfralist" />
+    <node concept="314ZUh" id="1rTFk_7JyV7" role="314ZU9">
+      <property role="TrG5h" value="w" />
       <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="314Sct" id="5mL3sGOaOEK" role="314ZPE">
+      <node concept="314Sct" id="1rTFk_7JyXj" role="314ZPE">
         <ref role="314SfN" to="67es:3OgcKIjILuD" resolve="Int" />
       </node>
-    </node>
-    <node concept="314ZUh" id="5mL3sGOaP0P" role="314ZU9">
-      <property role="TrG5h" value="test" />
-      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="314SfX" id="5mL3sGOaP24" role="314ZPE" />
     </node>
   </node>
   <node concept="314ZVc" id="2hy8a5El9uz">
     <property role="TrG5h" value="Main" />
-    <ref role="314ZUc" to="67es:At5JuHK85F" resolve="IO" />
+    <ref role="314ZUc" to="67es:3OgcKIjIYme" resolve="IO" />
     <node concept="314ZUl" id="2hy8a5El9u$" role="314ZU9">
       <property role="TrG5h" value="audun" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -165,22 +129,15 @@
     <node concept="314ZUh" id="1kz4Tuz6BJj" role="314ZU9">
       <property role="TrG5h" value="makin" />
       <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="1ecg7k" id="At5JuHDNNU" role="314ZPE">
-        <ref role="1ecg7n" node="2hy8a5El9u$" resolve="audun" />
+      <node concept="1ecg7k" id="3wvaPjtNkHZ" role="314ZPE">
+        <ref role="1ecg7n" to="67es:2QgYvTHaKV9" resolve="self" />
       </node>
     </node>
     <node concept="314ZUh" id="2bCA_kSJmw" role="314ZU9">
       <property role="TrG5h" value="main" />
       <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="1ecg7k" id="4Px5yRLsd3i" role="314ZPE">
-        <ref role="1ecg7n" node="2hy8a5El9u$" resolve="audun" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="5mL3sGOaam1" role="314ZU9">
-      <property role="TrG5h" value="print" />
-      <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
-      <node concept="314Se_" id="5mL3sGOaanW" role="314ZPE">
-        <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
+      <node concept="1ecg7k" id="2bCA_kTnZe" role="314ZPE">
+        <ref role="1ecg7n" to="67es:2QgYvTHaKV9" resolve="self" />
       </node>
     </node>
   </node>
