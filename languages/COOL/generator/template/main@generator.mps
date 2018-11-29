@@ -32,7 +32,6 @@
         <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
-      <concept id="1070475587102" name="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" flags="nn" index="XkiVB" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
@@ -502,11 +501,7 @@
     <node concept="3clFbW" id="4Px5yRLwyPL" role="jymVt">
       <node concept="3cqZAl" id="4Px5yRLwyPN" role="3clF45" />
       <node concept="3Tm1VV" id="4Px5yRLwyPO" role="1B3o_S" />
-      <node concept="3clFbS" id="4Px5yRLwyPP" role="3clF47">
-        <node concept="XkiVB" id="4Px5yRLwXyw" role="3cqZAp">
-          <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
-        </node>
-      </node>
+      <node concept="3clFbS" id="4Px5yRLwyPP" role="3clF47" />
     </node>
     <node concept="312cEg" id="2bCA_kUVTD" role="jymVt">
       <property role="34CwA1" value="false" />

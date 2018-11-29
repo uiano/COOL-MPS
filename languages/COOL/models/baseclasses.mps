@@ -87,7 +87,7 @@
   </node>
   <node concept="314ZVc" id="2QgYvTHaKV2">
     <property role="TrG5h" value="SELF_TYPE" />
-    <node concept="314ZUl" id="31KfdbxXt04" role="314ZU9">
+    <node concept="314ZUl" id="31KfdbyeAZn" role="314ZU9">
       <property role="TrG5h" value="self" />
       <ref role="314ZOF" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
     </node>

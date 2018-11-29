@@ -5,7 +5,7 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
-    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="-1" />
+    <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -13,6 +13,7 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" />
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
+    <import index="j9x6" ref="r:b4dde771-32d9-4a1f-8e71-9794a92dfc00(COOL.typesystem)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -598,17 +599,8 @@
               </node>
               <node concept="9aQIb" id="31Kfdby3_Bu" role="9aQIa">
                 <node concept="3clFbS" id="31Kfdby3_Bv" role="9aQI4">
-                  <node concept="3SKdUt" id="31Kfdby50l2" role="3cqZAp">
-                    <node concept="3SKdUq" id="31Kfdby50l4" role="3SKWNk">
-                      <property role="3SKdUp" value="TODO" />
-                    </node>
-                  </node>
-                  <node concept="3cpWs6" id="31Kfdby4ZEq" role="3cqZAp">
-                    <node concept="2ShNRf" id="31Kfdby4ZNT" role="3cqZAk">
-                      <node concept="1pGfFk" id="31Kfdby500B" role="2ShVmc">
-                        <ref role="37wK5l" to="o8zo:7ipADkTfAzT" resolve="EmptyScope" />
-                      </node>
-                    </node>
+                  <node concept="3cpWs6" id="31KfdbyicoI" role="3cqZAp">
+                    <node concept="iy90A" id="31KfdbyiMeN" role="3cqZAk" />
                   </node>
                 </node>
               </node>

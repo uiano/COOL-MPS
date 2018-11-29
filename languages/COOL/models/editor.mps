@@ -1223,9 +1223,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="5mL3sGOijSi" role="3EZMnx">
-        <property role="3F0ifm" value="attrRef" />
-      </node>
       <node concept="PMmxH" id="2e4OjlFnKmf" role="3EZMnx">
         <ref role="PMmxG" node="3JaU1mZYmGr" resolve="ExprTerminator" />
       </node>
