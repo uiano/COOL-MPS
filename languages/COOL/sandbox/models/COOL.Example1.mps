@@ -18,12 +18,6 @@
       <concept id="126878559839010941" name="COOL.structure.New" flags="ng" index="314Sct">
         <reference id="126878559839010963" name="type" index="314SfN" />
       </concept>
-      <concept id="126878559839011013" name="COOL.structure.Dispatch" flags="ng" index="314Se_">
-        <property id="692735170712325608" name="showStaticTypeField" index="2$9PGv" />
-        <reference id="6295492542540076962" name="type" index="2rpGaY" />
-        <reference id="126878559839011020" name="methodCalled" index="314SeG" />
-        <child id="6295492542540076958" name="expr" index="2rpGa2" />
-      </concept>
       <concept id="126878559839010973" name="COOL.structure.Block" flags="ng" index="314SfX">
         <child id="126878559839010974" name="exprs" index="314SfY" />
       </concept>
@@ -116,25 +110,15 @@
         <ref role="314ZP7" node="2QgYvTH6LFg" resolve="List" />
       </node>
       <node concept="314SfX" id="1kz4Tuz2sJF" role="314ZPE">
-        <node concept="314Se_" id="At5JuHJ9P8" role="314SfY">
-          <property role="2$9PGv" value="true" />
-          <ref role="314SeG" node="2QgYvTH6LIf" resolve="init" />
-          <ref role="2rpGaY" node="2QgYvTH6LFb" resolve="Cons" />
-          <node concept="1ecg7k" id="At5JuHJacy" role="2rpGa2">
-            <ref role="1ecg7n" node="2QgYvTH6LGQ" resolve="xcdr" />
-          </node>
-        </node>
-        <node concept="314Sct" id="5mL3sGO9YGB" role="314SfY">
+        <node concept="314Sct" id="5mL3sGOoCB1" role="314SfY">
           <ref role="314SfN" node="2QgYvTH6LFb" resolve="Cons" />
-        </node>
-        <node concept="314Se_" id="5mL3sGObnKJ" role="314SfY">
-          <ref role="314SeG" node="5mL3sGOaODG" resolve="jegkommerfralist" />
         </node>
       </node>
     </node>
   </node>
   <node concept="314ZVc" id="2QgYvTH6LFg">
     <property role="TrG5h" value="List" />
+    <ref role="314ZUc" node="2hy8a5El9uz" resolve="Main" />
     <node concept="314ZUl" id="At5JuHDoL0" role="314ZU9">
       <property role="TrG5h" value="joel" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -149,12 +133,13 @@
     <node concept="314ZUh" id="5mL3sGOaP0P" role="314ZU9">
       <property role="TrG5h" value="test" />
       <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="314SfX" id="5mL3sGOaP24" role="314ZPE" />
+      <node concept="314Sct" id="5mL3sGOeYCl" role="314ZPE">
+        <ref role="314SfN" to="67es:3OgcKIjILuD" resolve="Int" />
+      </node>
     </node>
   </node>
   <node concept="314ZVc" id="2hy8a5El9uz">
     <property role="TrG5h" value="Main" />
-    <ref role="314ZUc" to="67es:At5JuHK85F" resolve="IO" />
     <node concept="314ZUl" id="2hy8a5El9u$" role="314ZU9">
       <property role="TrG5h" value="audun" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -179,8 +164,8 @@
     <node concept="314ZUh" id="5mL3sGOaam1" role="314ZU9">
       <property role="TrG5h" value="print" />
       <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
-      <node concept="314Se_" id="5mL3sGOaanW" role="314ZPE">
-        <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
+      <node concept="314Sct" id="31Kfdby4PgI" role="314ZPE">
+        <ref role="314SfN" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>
     </node>
   </node>

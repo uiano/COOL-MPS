@@ -23,6 +23,9 @@
         <reference id="126878559839010309" name="returnType" index="314ZP_" />
         <child id="126878559839010314" name="expr" index="314ZPE" />
       </concept>
+      <concept id="126878559839010293" name="COOL.structure.Attribute" flags="ng" index="314ZUl">
+        <reference id="126878559839010379" name="type" index="314ZOF" />
+      </concept>
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
         <child id="126878559839010281" name="features" index="314ZU9" />
       </concept>
@@ -84,6 +87,10 @@
   </node>
   <node concept="314ZVc" id="2QgYvTHaKV2">
     <property role="TrG5h" value="SELF_TYPE" />
+    <node concept="314ZUl" id="31KfdbxXt04" role="314ZU9">
+      <property role="TrG5h" value="self" />
+      <ref role="314ZOF" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+    </node>
   </node>
   <node concept="314ZVc" id="At5JuHK85F">
     <property role="TrG5h" value="IO" />
