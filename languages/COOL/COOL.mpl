@@ -96,6 +96,7 @@
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">82ded43d-ccb5-4a7e-ad32-56c0a910e31a(COOL.runtime)</dependency>
+    <dependency reexport="false">e1df2a8b-76e7-4177-b55c-1139d4c5be89(COOL.runtime)</dependency>
   </runtime>
   <extendedLanguages />
 </language>
