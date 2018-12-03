@@ -12,6 +12,9 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
@@ -1583,25 +1586,36 @@
         </node>
         <node concept="3Tm1VV" id="4Px5yRLp7_l" role="1B3o_S" />
         <node concept="3clFbS" id="4Px5yRLp7_m" role="3clF47">
-          <node concept="3cpWs6" id="4Px5yRLvtlW" role="3cqZAp">
-            <node concept="37vLTw" id="4Px5yRLvtmb" role="3cqZAk">
-              <ref role="3cqZAo" node="4Px5yRLpZN8" resolve="x" />
-            </node>
-            <node concept="raruj" id="4Px5yRLvzGv" role="lGtFl" />
-            <node concept="2b32R4" id="4Px5yRLvzGx" role="lGtFl">
-              <node concept="3JmXsc" id="4Px5yRLvzG$" role="2P8S$">
-                <node concept="3clFbS" id="4Px5yRLvzG_" role="2VODD2">
-                  <node concept="3clFbF" id="4Px5yRLvzGF" role="3cqZAp">
-                    <node concept="2OqwBi" id="4Px5yRLvzGA" role="3clFbG">
-                      <node concept="3Tsc0h" id="4Px5yRLvzGD" role="2OqNvi">
-                        <ref role="3TtcxE" to="exfx:72KQ30Ok2u" resolve="exprs" />
+          <node concept="9aQIb" id="2HXkW3aZz8A" role="3cqZAp">
+            <node concept="3clFbS" id="2HXkW3aZz8B" role="9aQI4">
+              <node concept="3cpWs6" id="2HXkW3aZDx8" role="3cqZAp">
+                <node concept="37vLTI" id="2HXkW3aZDx9" role="3cqZAk">
+                  <node concept="2ShNRf" id="2HXkW3aZDxa" role="37vLTx">
+                    <node concept="HV5vD" id="2HXkW3aZDxb" role="2ShVmc">
+                      <ref role="HV5vE" node="2bCA_kVyP_" resolve="Temp" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="2HXkW3aZDxc" role="37vLTJ">
+                    <ref role="3cqZAo" node="4Px5yRLpZN8" resolve="x" />
+                  </node>
+                </node>
+                <node concept="2b32R4" id="2HXkW3aZDyA" role="lGtFl">
+                  <node concept="3JmXsc" id="2HXkW3aZDyD" role="2P8S$">
+                    <node concept="3clFbS" id="2HXkW3aZDyE" role="2VODD2">
+                      <node concept="3clFbF" id="2HXkW3aZDyK" role="3cqZAp">
+                        <node concept="2OqwBi" id="2HXkW3aZDyF" role="3clFbG">
+                          <node concept="3Tsc0h" id="2HXkW3aZDyI" role="2OqNvi">
+                            <ref role="3TtcxE" to="exfx:72KQ30Ok2u" resolve="exprs" />
+                          </node>
+                          <node concept="30H73N" id="2HXkW3aZDyJ" role="2Oq$k0" />
+                        </node>
                       </node>
-                      <node concept="30H73N" id="4Px5yRLvzGE" role="2Oq$k0" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
+            <node concept="raruj" id="2HXkW3aZz92" role="lGtFl" />
           </node>
         </node>
       </node>
