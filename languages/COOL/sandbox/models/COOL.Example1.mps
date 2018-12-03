@@ -5,7 +5,6 @@
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
   </languages>
   <imports>
-    <import index="v1bk" ref="r:a47b72b1-98f8-4825-ac17-9153da6c2fb7(COOL.sandbox)" />
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" implicit="true" />
   </imports>
   <registry>
@@ -15,10 +14,6 @@
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
-      <concept id="6295492542540361863" name="COOL.structure.IUnaryOperation" flags="ng" index="2roMmr">
-        <child id="6295492542540361864" name="expr" index="2roMmk" />
-      </concept>
-      <concept id="126878559839010937" name="COOL.structure.Complement" flags="ng" index="314Scp" />
       <concept id="126878559839010941" name="COOL.structure.New" flags="ng" index="314Sct">
         <reference id="126878559839010963" name="type" index="314SfN" />
       </concept>
@@ -27,10 +22,6 @@
       </concept>
       <concept id="126878559839010369" name="COOL.structure.StringConst" flags="ng" index="314ZOx">
         <property id="126878559839010373" name="value" index="314ZO_" />
-      </concept>
-      <concept id="126878559839010391" name="COOL.structure.Assignment" flags="ng" index="314ZOR">
-        <reference id="6174731730509191032" name="id" index="1xT5EN" />
-        <child id="3283398999502117117" name="expr" index="10CE43" />
       </concept>
       <concept id="126878559839010355" name="COOL.structure.IntConst" flags="ng" index="314ZPj">
         <property id="126878559839010359" name="value" index="314ZPn" />
@@ -161,39 +152,9 @@
         <ref role="314ZP7" node="2QgYvTH6LFg" resolve="List" />
       </node>
       <node concept="314SfX" id="1kz4Tuz2sJF" role="314ZPE">
-        <node concept="314ZOR" id="2HXkW3bZu5B" role="314SfY">
-          <ref role="1xT5EN" node="4Px5yRL6E6q" resolve="myBool" />
-          <node concept="1ecg7k" id="2HXkW3bZufp" role="10CE43">
-            <ref role="1ecg7n" node="4Px5yRL6Eek" resolve="myBool2" />
-          </node>
-        </node>
-        <node concept="314Scp" id="2HXkW3cD0jy" role="314SfY">
-          <node concept="314Sct" id="2HXkW3cD0jF" role="2roMmk">
-            <ref role="314SfN" node="2QgYvTH6LFg" resolve="List" />
-          </node>
-        </node>
-        <node concept="314Sct" id="4Lt0ir22K4k" role="314SfY">
+        <node concept="314Sct" id="2HXkW3d$Iij" role="314SfY">
           <ref role="314SfN" node="2QgYvTH6LFb" resolve="Cons" />
         </node>
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir22wS8" role="314ZU9">
-      <property role="TrG5h" value="klk" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYm7" resolve="Bool" />
-      <node concept="314ZPq" id="4Lt0ir22$cP" role="314ZPE" />
-    </node>
-    <node concept="314ZUh" id="4Lt0ir22_cf" role="314ZU9">
-      <property role="TrG5h" value="kokok" />
-      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="314ZPj" id="4Lt0ir22AHR" role="314ZPE">
-        <property role="314ZPn" value="55" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir24wTY" role="314ZU9">
-      <property role="TrG5h" value="asd" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYm2" resolve="String" />
-      <node concept="314ZOx" id="4Lt0ir24yLK" role="314ZPE">
-        <property role="314ZO_" value="QWDEQWE" />
       </node>
     </node>
   </node>
@@ -248,6 +209,16 @@
       <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
       <node concept="314Sct" id="31Kfdby4PgI" role="314ZPE">
         <ref role="314SfN" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
+      </node>
+    </node>
+  </node>
+  <node concept="314ZVc" id="2HXkW3cMfbv">
+    <property role="TrG5h" value="Hidden" />
+    <node concept="314ZUh" id="2HXkW3cMfbA" role="314ZU9">
+      <property role="TrG5h" value="imhidden" />
+      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
+      <node concept="314Sct" id="2HXkW3cMfci" role="314ZPE">
+        <ref role="314SfN" to="67es:3OgcKIjILuD" resolve="Int" />
       </node>
     </node>
   </node>
