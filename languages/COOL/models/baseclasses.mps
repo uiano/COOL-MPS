@@ -19,9 +19,13 @@
       <concept id="126878559839010355" name="COOL.structure.IntConst" flags="ng" index="314ZPj">
         <property id="126878559839010359" name="value" index="314ZPn" />
       </concept>
+      <concept id="126878559839010330" name="COOL.structure.Formal" flags="ng" index="314ZPU">
+        <reference id="126878559839010343" name="type" index="314ZP7" />
+      </concept>
       <concept id="126878559839010289" name="COOL.structure.Method" flags="ng" index="314ZUh">
         <reference id="126878559839010309" name="returnType" index="314ZP_" />
         <child id="126878559839010314" name="expr" index="314ZPE" />
+        <child id="126878559839010321" name="parameters" index="314ZPL" />
       </concept>
       <concept id="126878559839010293" name="COOL.structure.Attribute" flags="ng" index="314ZUl">
         <reference id="126878559839010379" name="type" index="314ZOF" />
@@ -79,15 +83,15 @@
     </node>
     <node concept="314ZUh" id="4Px5yRLjWz9" role="314ZU9">
       <property role="TrG5h" value="copy" />
-      <ref role="314ZP_" node="3OgcKIjIYmj" resolve="Object" />
+      <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       <node concept="314Sct" id="5mL3sGOd5Kv" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjIYmj" resolve="Object" />
+        <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>
     </node>
   </node>
   <node concept="314ZVc" id="2QgYvTHaKV2">
     <property role="TrG5h" value="SELF_TYPE" />
-    <node concept="314ZUl" id="31KfdbyeAZn" role="314ZU9">
+    <node concept="314ZUl" id="6C2AeZr3vC8" role="314ZU9">
       <property role="TrG5h" value="self" />
       <ref role="314ZOF" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
     </node>
@@ -96,30 +100,38 @@
     <property role="TrG5h" value="IO" />
     <node concept="314ZUh" id="At5JuHK86n" role="314ZU9">
       <property role="TrG5h" value="out_string" />
-      <ref role="314ZP_" node="3OgcKIjIYm2" resolve="String" />
-      <node concept="314Sct" id="At5JuHK8a6" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjIYm2" resolve="String" />
+      <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <node concept="314ZPU" id="6C2AeZqTHpF" role="314ZPL">
+        <property role="TrG5h" value="outStr" />
+        <ref role="314ZP7" node="3OgcKIjIYm2" resolve="String" />
+      </node>
+      <node concept="314Sct" id="6C2AeZr3uZt" role="314ZPE">
+        <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>
     </node>
     <node concept="314ZUh" id="At5JuHK8dq" role="314ZU9">
       <property role="TrG5h" value="out_int" />
-      <ref role="314ZP_" node="3OgcKIjILuD" resolve="Int" />
-      <node concept="314Sct" id="At5JuHK8fr" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjILuD" resolve="Int" />
+      <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <node concept="314ZPU" id="6C2AeZqTHv8" role="314ZPL">
+        <property role="TrG5h" value="outInt" />
+        <ref role="314ZP7" node="3OgcKIjILuD" resolve="Int" />
+      </node>
+      <node concept="314Sct" id="6C2AeZr3v2G" role="314ZPE">
+        <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>
     </node>
     <node concept="314ZUh" id="At5JuHK8jb" role="314ZU9">
       <property role="TrG5h" value="in_string" />
-      <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
-      <node concept="314Sct" id="At5JuHK8lM" role="314ZPE">
-        <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <ref role="314ZP_" node="3OgcKIjIYm2" resolve="String" />
+      <node concept="314Sct" id="6C2AeZr3v6F" role="314ZPE">
+        <ref role="314SfN" node="3OgcKIjIYm2" resolve="String" />
       </node>
     </node>
     <node concept="314ZUh" id="At5JuHK8pY" role="314ZU9">
       <property role="TrG5h" value="in_int" />
-      <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <ref role="314ZP_" node="3OgcKIjILuD" resolve="Int" />
       <node concept="314Sct" id="At5JuHK8t5" role="314ZPE">
-        <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
+        <ref role="314SfN" node="3OgcKIjILuD" resolve="Int" />
       </node>
     </node>
   </node>

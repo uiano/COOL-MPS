@@ -137,7 +137,6 @@
       </concept>
       <concept id="1202776937179" name="jetbrains.mps.lang.generator.structure.AbandonInput_RuleConsequence" flags="lg" index="b5Tf3" />
       <concept id="1095416546421" name="jetbrains.mps.lang.generator.structure.MappingConfiguration" flags="ig" index="bUwia">
-        <child id="1200911492601" name="mappingLabel" index="2rTMjI" />
         <child id="1167328349397" name="reductionMappingRule" index="3acgRq" />
         <child id="1167514678247" name="rootMappingRule" index="3lj3bC" />
       </concept>
@@ -149,10 +148,6 @@
         <reference id="1168619429071" name="applicableConcept" index="n9lRv" />
       </concept>
       <concept id="1095672379244" name="jetbrains.mps.lang.generator.structure.TemplateFragment" flags="ng" index="raruj" />
-      <concept id="1200911316486" name="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" flags="lg" index="2rT7sh">
-        <reference id="1200911342686" name="sourceConcept" index="2rTdP9" />
-        <reference id="1200913004646" name="targetConcept" index="2rZz_L" />
-      </concept>
       <concept id="1722980698497626400" name="jetbrains.mps.lang.generator.structure.ITemplateCall" flags="ng" index="v9R3L">
         <reference id="1722980698497626483" name="template" index="v9R2y" />
       </concept>
@@ -238,11 +233,6 @@
   </registry>
   <node concept="bUwia" id="2bCA_kTnZL">
     <property role="TrG5h" value="main" />
-    <node concept="2rT7sh" id="4Px5yRLc_BE" role="2rTMjI">
-      <property role="TrG5h" value="inherits" />
-      <ref role="2rTdP9" to="exfx:72KQ30OjQG" resolve="Class" />
-      <ref role="2rZz_L" to="exfx:72KQ30OjQG" resolve="Class" />
-    </node>
     <node concept="3aamgX" id="2bCA_kUBZj" role="3acgRq">
       <ref role="30HIoZ" to="exfx:72KQ30OjRP" resolve="Attribute" />
       <node concept="j$656" id="4Px5yRKVC$X" role="1lVwrX">
@@ -565,8 +555,8 @@
               <node concept="2OqwBi" id="4Px5yRLekg4" role="3clFbw">
                 <node concept="2OqwBi" id="4Px5yRLejHA" role="2Oq$k0">
                   <node concept="30H73N" id="4Px5yRLejyb" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="4Px5yRLejV0" role="2OqNvi">
-                    <ref role="3Tt5mk" to="exfx:72KQ30OjRG" resolve="inherits" />
+                  <node concept="3TrEf2" id="6C2AeZqNXiS" role="2OqNvi">
+                    <ref role="3Tt5mk" to="exfx:6C2AeZqNafu" resolve="inherits" />
                   </node>
                 </node>
                 <node concept="3w_OXm" id="4Px5yRLekvh" role="2OqNvi" />
@@ -574,10 +564,15 @@
             </node>
             <node concept="3cpWs6" id="4Px5yRLem2x" role="3cqZAp">
               <node concept="2OqwBi" id="4Px5yRLenS_" role="3cqZAk">
-                <node concept="2OqwBi" id="4Px5yRLemO4" role="2Oq$k0">
-                  <node concept="30H73N" id="4Px5yRLem6O" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="4Px5yRLen1G" role="2OqNvi">
-                    <ref role="3Tt5mk" to="exfx:72KQ30OjRG" resolve="inherits" />
+                <node concept="2OqwBi" id="6C2AeZqNXYI" role="2Oq$k0">
+                  <node concept="2OqwBi" id="4Px5yRLemO4" role="2Oq$k0">
+                    <node concept="30H73N" id="4Px5yRLem6O" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6C2AeZqNXC4" role="2OqNvi">
+                      <ref role="3Tt5mk" to="exfx:6C2AeZqNafu" resolve="inherits" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="6C2AeZqNYeo" role="2OqNvi">
+                    <ref role="3Tt5mk" to="exfx:4Lt0ir1NYuL" resolve="clRef" />
                   </node>
                 </node>
                 <node concept="3TrcHB" id="4Px5yRLeo80" role="2OqNvi">

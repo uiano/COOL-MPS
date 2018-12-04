@@ -14,6 +14,9 @@
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
+      <concept id="5502555585688627120" name="COOL.structure.ClassRef" flags="ng" index="2d$Iqm">
+        <reference id="5502555585688627121" name="clRef" index="2d$Iqn" />
+      </concept>
       <concept id="126878559839010941" name="COOL.structure.New" flags="ng" index="314Sct">
         <reference id="126878559839010963" name="type" index="314SfN" />
       </concept>
@@ -42,7 +45,7 @@
         <child id="126878559839010384" name="expr" index="314ZOK" />
       </concept>
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
-        <reference id="126878559839010284" name="inherits" index="314ZUc" />
+        <child id="7638836073909232606" name="inherits" index="2KNzGL" />
         <child id="126878559839010281" name="features" index="314ZU9" />
       </concept>
       <concept id="2621693810728706421" name="COOL.structure.AttributeIdentifier" flags="ng" index="1ecg7k">
@@ -52,7 +55,6 @@
   </registry>
   <node concept="314ZVc" id="2QgYvTH6LFb">
     <property role="TrG5h" value="Cons" />
-    <ref role="314ZUc" node="2QgYvTH6LFg" resolve="List" />
     <node concept="314ZUl" id="2HXkW3csmYV" role="314ZU9">
       <property role="TrG5h" value="xcar" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -157,10 +159,12 @@
         </node>
       </node>
     </node>
+    <node concept="2d$Iqm" id="6C2AeZrd74h" role="2KNzGL">
+      <ref role="2d$Iqn" node="2QgYvTH6LFg" resolve="List" />
+    </node>
   </node>
   <node concept="314ZVc" id="2QgYvTH6LFg">
     <property role="TrG5h" value="List" />
-    <ref role="314ZUc" node="2hy8a5El9uz" resolve="Main" />
     <node concept="314ZUl" id="At5JuHDoL0" role="314ZU9">
       <property role="TrG5h" value="joel" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -179,10 +183,12 @@
         <ref role="314SfN" to="67es:3OgcKIjILuD" resolve="Int" />
       </node>
     </node>
+    <node concept="2d$Iqm" id="6C2AeZrd7e9" role="2KNzGL">
+      <ref role="2d$Iqn" node="2hy8a5El9uz" resolve="Main" />
+    </node>
   </node>
   <node concept="314ZVc" id="2hy8a5El9uz">
     <property role="TrG5h" value="Main" />
-    <ref role="314ZUc" to="67es:At5JuHK85F" resolve="IO" />
     <node concept="314ZUl" id="2hy8a5El9u$" role="314ZU9">
       <property role="TrG5h" value="audun" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -206,7 +212,7 @@
     </node>
     <node concept="314ZUh" id="5mL3sGOaam1" role="314ZU9">
       <property role="TrG5h" value="print" />
-      <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
       <node concept="314Sct" id="31Kfdby4PgI" role="314ZPE">
         <ref role="314SfN" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>

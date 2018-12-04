@@ -359,10 +359,20 @@
                     <node concept="liA8E" id="5mL3sGOnh72" role="2OqNvi">
                       <ref role="37wK5l" to="o8zo:7ipADkTevN6" resolve="addScope" />
                       <node concept="2OqwBi" id="5mL3sGOnhTA" role="37wK5m">
-                        <node concept="2OqwBi" id="5mL3sGOnhl5" role="2Oq$k0">
-                          <node concept="13iPFW" id="5mL3sGOnh8Y" role="2Oq$k0" />
-                          <node concept="3TrEf2" id="5mL3sGOnhyn" role="2OqNvi">
-                            <ref role="3Tt5mk" to="exfx:72KQ30OjRG" resolve="inherits" />
+                        <node concept="1PxgMI" id="6C2AeZqNqGS" role="2Oq$k0">
+                          <node concept="chp4Y" id="6C2AeZqNqNL" role="3oSUPX">
+                            <ref role="cht4Q" to="exfx:72KQ30OjQG" resolve="Class" />
+                          </node>
+                          <node concept="2OqwBi" id="6C2AeZqNpHp" role="1m5AlR">
+                            <node concept="2OqwBi" id="5mL3sGOnhl5" role="2Oq$k0">
+                              <node concept="13iPFW" id="5mL3sGOnh8Y" role="2Oq$k0" />
+                              <node concept="3TrEf2" id="6C2AeZqNoVN" role="2OqNvi">
+                                <ref role="3Tt5mk" to="exfx:6C2AeZqNafu" resolve="inherits" />
+                              </node>
+                            </node>
+                            <node concept="3TrEf2" id="6C2AeZqNqaN" role="2OqNvi">
+                              <ref role="3Tt5mk" to="exfx:4Lt0ir1NYuL" resolve="clRef" />
+                            </node>
                           </node>
                         </node>
                         <node concept="2qgKlT" id="5mL3sGOniaQ" role="2OqNvi">
@@ -387,8 +397,8 @@
               <node concept="2OqwBi" id="5mL3sGOnesl" role="3clFbw">
                 <node concept="2OqwBi" id="5mL3sGOndUy" role="2Oq$k0">
                   <node concept="13iPFW" id="5mL3sGOndJu" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5mL3sGOne5k" role="2OqNvi">
-                    <ref role="3Tt5mk" to="exfx:72KQ30OjRG" resolve="inherits" />
+                  <node concept="3TrEf2" id="6C2AeZqNo_G" role="2OqNvi">
+                    <ref role="3Tt5mk" to="exfx:6C2AeZqNafu" resolve="inherits" />
                   </node>
                 </node>
                 <node concept="3x8VRR" id="5mL3sGOneF5" role="2OqNvi" />

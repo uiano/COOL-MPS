@@ -67,11 +67,11 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="72KQ30OjRy" resolve="IFeature" />
     </node>
-    <node concept="1TJgyj" id="72KQ30OjRG" role="1TKVEi">
-      <property role="IQ2ns" value="126878559839010284" />
-      <property role="20lmBu" value="reference" />
+    <node concept="1TJgyj" id="6C2AeZqNafu" role="1TKVEi">
+      <property role="IQ2ns" value="7638836073909232606" />
+      <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="inherits" />
-      <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
+      <ref role="20lvS9" node="4Lt0ir1NYuK" resolve="ClassRef" />
     </node>
   </node>
   <node concept="PlHQZ" id="72KQ30OjRy">
