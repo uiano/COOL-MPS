@@ -35,6 +35,7 @@
       </concept>
       <concept id="126878559839011013" name="COOL.structure.Dispatch" flags="ng" index="314Se_">
         <reference id="126878559839011020" name="methodCalled" index="314SeG" />
+        <child id="6295492542540076958" name="expr" index="2rpGa2" />
         <child id="126878559839011017" name="parameters" index="314SeD" />
       </concept>
       <concept id="126878559839010966" name="COOL.structure.Parenthesis" flags="ng" index="314SfQ">
@@ -234,6 +235,18 @@
       <property role="TrG5h" value="metode" />
       <ref role="314ZP_" node="3DDygeSxU6N" resolve="Awesome" />
       <node concept="314SfX" id="3DDygeSxU70" role="314ZPE">
+        <node concept="314Se_" id="5ypFgBWkgZE" role="314SfY">
+          <ref role="314SeG" to="67es:6C2AeZs79Uc" resolve="substr" />
+          <node concept="1ecg7k" id="5ypFgBWkgZF" role="2rpGa2">
+            <ref role="1ecg7n" node="3DDygeSxU7c" resolve="ting" />
+          </node>
+          <node concept="314ZPj" id="5ypFgBWkjvH" role="314SeD">
+            <property role="314ZPn" value="0" />
+          </node>
+          <node concept="314ZPj" id="5ypFgBWkk6m" role="314SeD">
+            <property role="314ZPn" value="1" />
+          </node>
+        </node>
         <node concept="314ZOR" id="3DDygeSxU8v" role="314SfY">
           <ref role="1xT5EN" node="3DDygeSxU7c" resolve="ting" />
           <node concept="314ZOx" id="3DDygeSxU92" role="10CE43">
