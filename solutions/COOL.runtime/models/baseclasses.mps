@@ -257,6 +257,7 @@
       <node concept="3Tm1VV" id="4Px5yRLjrqB" role="1B3o_S" />
       <node concept="10Oyi0" id="4Px5yRLjrr1" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="5ypFgBWo7I8" role="jymVt" />
     <node concept="2tJIrI" id="4Px5yRLjror" role="jymVt" />
     <node concept="3Tm1VV" id="4Px5yRLhMBJ" role="1B3o_S" />
     <node concept="3uibUv" id="At5JuHJGrQ" role="1zkMxy">
@@ -331,6 +332,32 @@
       <node concept="3Tm1VV" id="4Px5yRLjwvX" role="1B3o_S" />
       <node concept="3uibUv" id="4Px5yRLjwwR" role="3clF45">
         <ref role="3uigEE" node="4Px5yRLjv54" resolve="CoolObject" />
+      </node>
+    </node>
+    <node concept="3clFb_" id="5ypFgBWkAm0" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="type_name" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="5ypFgBWkAm3" role="3clF47">
+        <node concept="3cpWs6" id="5ypFgBWkAP3" role="3cqZAp">
+          <node concept="2OqwBi" id="5ypFgBWkB6h" role="3cqZAk">
+            <node concept="2OqwBi" id="5ypFgBWkAUL" role="2Oq$k0">
+              <node concept="Xjq3P" id="5ypFgBWkARf" role="2Oq$k0" />
+              <node concept="liA8E" id="5ypFgBWkAYI" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+              </node>
+            </node>
+            <node concept="liA8E" id="5ypFgBWkBiO" role="2OqNvi">
+              <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5ypFgBWkAkI" role="1B3o_S" />
+      <node concept="3uibUv" id="5ypFgBWkAlT" role="3clF45">
+        <ref role="3uigEE" to="wyt6:~String" resolve="String" />
       </node>
     </node>
     <node concept="3Tm1VV" id="4Px5yRLjv55" role="1B3o_S" />
