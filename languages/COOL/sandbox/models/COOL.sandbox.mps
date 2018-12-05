@@ -53,15 +53,8 @@
       <concept id="126878559839010355" name="COOL.structure.IntConst" flags="ng" index="314ZPj">
         <property id="126878559839010359" name="value" index="314ZPn" />
       </concept>
-      <concept id="126878559839010362" name="COOL.structure.BoolConst" flags="ng" index="314ZPq">
-        <property id="126878559839010363" name="value" index="314ZPr" />
-      </concept>
       <concept id="126878559839010330" name="COOL.structure.Formal" flags="ng" index="314ZPU">
         <reference id="126878559839010343" name="type" index="314ZP7" />
-      </concept>
-      <concept id="126878559839010464" name="COOL.structure.WhileLoop" flags="ng" index="314ZR0">
-        <child id="126878559839010468" name="loopExpr" index="314ZR4" />
-        <child id="126878559839010471" name="loopBody" index="314ZR7" />
       </concept>
       <concept id="126878559839010476" name="COOL.structure.Isvoid" flags="ng" index="314ZRc" />
       <concept id="126878559839010445" name="COOL.structure.Conditional" flags="ng" index="314ZRH">
@@ -116,6 +109,17 @@
       <property role="TrG5h" value="petter" />
       <ref role="314ZOF" to="67es:6C2AeZs79T5" resolve="String" />
     </node>
+    <node concept="314ZUl" id="5ypFgBWfEZD" role="314ZU9">
+      <property role="TrG5h" value="awesome" />
+      <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
+      <node concept="314ZPj" id="5ypFgBWfH7m" role="314ZOK">
+        <property role="314ZPn" value="55" />
+      </node>
+    </node>
+    <node concept="314ZUl" id="5ypFgBWfIzc" role="314ZU9">
+      <property role="TrG5h" value="awesome2" />
+      <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
+    </node>
     <node concept="314ZUh" id="iS3NtwbQ8C" role="314ZU9">
       <property role="TrG5h" value="imCons" />
       <ref role="314ZP_" to="67es:6C2AeZs79T5" resolve="String" />
@@ -131,27 +135,7 @@
             <ref role="1ecg7n" node="iS3NtwhLbq" resolve="petter" />
           </node>
         </node>
-        <node concept="314ZR0" id="3DDygeSnSpp" role="314SfY">
-          <node concept="2roMmo" id="3DDygeSnSt9" role="314ZR4">
-            <node concept="314ZPq" id="3DDygeSnSta" role="2roMlw">
-              <property role="314ZPr" value="true" />
-            </node>
-            <node concept="314ZPq" id="3DDygeSnSv8" role="2roMly" />
-          </node>
-          <node concept="314ZOR" id="3DDygeSnS_q" role="314ZR7">
-            <ref role="1xT5EN" node="iS3NtwhLbq" resolve="petter" />
-            <node concept="314ZOx" id="3DDygeSnSD$" role="10CE43">
-              <property role="314ZO_" value="audun" />
-            </node>
-          </node>
-        </node>
         <node concept="314ZRH" id="3DDygeSuMyK" role="314SfY">
-          <node concept="314Sct" id="3DDygeSuMyL" role="314ZRO">
-            <ref role="314SfN" node="iS3NtvVvXw" resolve="Cons" />
-          </node>
-          <node concept="314Sct" id="3DDygeSuMyM" role="314ZRT">
-            <ref role="314SfN" node="iS3NtvVvXw" resolve="Cons" />
-          </node>
           <node concept="2roMmo" id="3DDygeSuMyN" role="314ZRL">
             <node concept="314SfQ" id="3DDygeSuMyO" role="2roMlw">
               <node concept="2roMnO" id="3DDygeSuMyP" role="314SfR">
@@ -171,6 +155,12 @@
             <node concept="314ZPj" id="3DDygeSuMD4" role="2roMly">
               <property role="314ZPn" value="4" />
             </node>
+          </node>
+          <node concept="1ecg7k" id="5ypFgBW1XWZ" role="314ZRO">
+            <ref role="1ecg7n" node="iS3NtwhLbq" resolve="petter" />
+          </node>
+          <node concept="1ecg7k" id="5ypFgBW1ZCE" role="314ZRT">
+            <ref role="1ecg7n" node="iS3NtwhLbq" resolve="petter" />
           </node>
         </node>
       </node>
