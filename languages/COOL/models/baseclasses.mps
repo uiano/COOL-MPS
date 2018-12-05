@@ -16,9 +16,6 @@
       <concept id="126878559839010941" name="COOL.structure.New" flags="ng" index="314Sct">
         <reference id="126878559839010963" name="type" index="314SfN" />
       </concept>
-      <concept id="126878559839010355" name="COOL.structure.IntConst" flags="ng" index="314ZPj">
-        <property id="126878559839010359" name="value" index="314ZPn" />
-      </concept>
       <concept id="126878559839010330" name="COOL.structure.Formal" flags="ng" index="314ZPU">
         <reference id="126878559839010343" name="type" index="314ZP7" />
       </concept>
@@ -38,30 +35,6 @@
   <node concept="314ZVc" id="3OgcKIjILuD">
     <property role="TrG5h" value="Int" />
   </node>
-  <node concept="314ZVc" id="3OgcKIjIYm2">
-    <property role="TrG5h" value="String" />
-    <node concept="314ZUh" id="4Px5yRLjvHf" role="314ZU9">
-      <property role="TrG5h" value="length" />
-      <ref role="314ZP_" node="3OgcKIjILuD" resolve="Int" />
-      <node concept="314ZPj" id="4Px5yRLjvHW" role="314ZPE">
-        <property role="314ZPn" value="42" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Px5yRLjvJ0" role="314ZU9">
-      <property role="TrG5h" value="concat" />
-      <ref role="314ZP_" node="3OgcKIjIYm2" resolve="String" />
-      <node concept="314Sct" id="5mL3sGOd5OG" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjIYm2" resolve="String" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Px5yRLjvTe" role="314ZU9">
-      <property role="TrG5h" value="substr" />
-      <ref role="314ZP_" node="3OgcKIjIYm2" resolve="String" />
-      <node concept="314Sct" id="5mL3sGOd5QL" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjIYm2" resolve="String" />
-      </node>
-    </node>
-  </node>
   <node concept="314ZVc" id="3OgcKIjIYm7">
     <property role="TrG5h" value="Bool" />
   </node>
@@ -76,9 +49,9 @@
     </node>
     <node concept="314ZUh" id="4Px5yRLjWjU" role="314ZU9">
       <property role="TrG5h" value="type_name" />
-      <ref role="314ZP_" node="3OgcKIjIYm2" resolve="String" />
+      <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
       <node concept="314Sct" id="5mL3sGOd5F$" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjIYm2" resolve="String" />
+        <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
       </node>
     </node>
     <node concept="314ZUh" id="4Px5yRLjWz9" role="314ZU9">
@@ -103,7 +76,7 @@
       <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       <node concept="314ZPU" id="6C2AeZqTHpF" role="314ZPL">
         <property role="TrG5h" value="outStr" />
-        <ref role="314ZP7" node="3OgcKIjIYm2" resolve="String" />
+        <ref role="314ZP7" node="6C2AeZs79T5" resolve="String" />
       </node>
       <node concept="314Sct" id="6C2AeZr3uZt" role="314ZPE">
         <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
@@ -122,9 +95,9 @@
     </node>
     <node concept="314ZUh" id="At5JuHK8jb" role="314ZU9">
       <property role="TrG5h" value="in_string" />
-      <ref role="314ZP_" node="3OgcKIjIYm2" resolve="String" />
+      <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
       <node concept="314Sct" id="6C2AeZr3v6F" role="314ZPE">
-        <ref role="314SfN" node="3OgcKIjIYm2" resolve="String" />
+        <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
       </node>
     </node>
     <node concept="314ZUh" id="At5JuHK8pY" role="314ZU9">
@@ -132,6 +105,30 @@
       <ref role="314ZP_" node="3OgcKIjILuD" resolve="Int" />
       <node concept="314Sct" id="At5JuHK8t5" role="314ZPE">
         <ref role="314SfN" node="3OgcKIjILuD" resolve="Int" />
+      </node>
+    </node>
+  </node>
+  <node concept="314ZVc" id="6C2AeZs79T5">
+    <property role="TrG5h" value="String" />
+    <node concept="314ZUh" id="6C2AeZs79Te" role="314ZU9">
+      <property role="TrG5h" value="length" />
+      <ref role="314ZP_" node="3OgcKIjILuD" resolve="Int" />
+      <node concept="314Sct" id="6C2AeZs79Tp" role="314ZPE">
+        <ref role="314SfN" node="3OgcKIjILuD" resolve="Int" />
+      </node>
+    </node>
+    <node concept="314ZUh" id="6C2AeZs79TH" role="314ZU9">
+      <property role="TrG5h" value="concat" />
+      <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
+      <node concept="314Sct" id="6C2AeZs79TS" role="314ZPE">
+        <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
+      </node>
+    </node>
+    <node concept="314ZUh" id="6C2AeZs79Uc" role="314ZU9">
+      <property role="TrG5h" value="substr" />
+      <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
+      <node concept="314Sct" id="6C2AeZs79Uv" role="314ZPE">
+        <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
       </node>
     </node>
   </node>

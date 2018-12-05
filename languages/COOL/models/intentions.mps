@@ -81,7 +81,7 @@
       <node concept="3clFbS" id="mtjG6tTCSZ" role="2VODD2">
         <node concept="3clFbF" id="mtjG6tTDiU" role="3cqZAp">
           <node concept="Xl_RD" id="mtjG6tTDiT" role="3clFbG">
-            <property role="Xl_RC" value="Add parameter" />
+            <property role="Xl_RC" value="Add Parameter" />
           </node>
         </node>
       </node>
@@ -110,7 +110,7 @@
       <node concept="3clFbS" id="At5JuHGbcZ" role="2VODD2">
         <node concept="3clFbF" id="At5JuHGd52" role="3cqZAp">
           <node concept="Xl_RD" id="At5JuHGd51" role="3clFbG">
-            <property role="Xl_RC" value="Specify class" />
+            <property role="Xl_RC" value="Specify Class" />
           </node>
         </node>
       </node>
@@ -139,7 +139,7 @@
       <node concept="3clFbS" id="At5JuHH5Yf" role="2VODD2">
         <node concept="3clFbF" id="At5JuHH5Yg" role="3cqZAp">
           <node concept="Xl_RD" id="At5JuHH5Yh" role="3clFbG">
-            <property role="Xl_RC" value="Specify parent class" />
+            <property role="Xl_RC" value="Specify Parent Class" />
           </node>
         </node>
       </node>
