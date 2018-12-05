@@ -131,15 +131,23 @@
                   <property role="314ZPn" value="1" />
                 </node>
               </node>
-              <node concept="314Se_" id="7tR$2bQmmkJ" role="2roMly">
+              <node concept="314Se_" id="7tR$2bQmQ_B" role="2roMly">
                 <ref role="314SeG" to="67es:6C2AeZs79Uc" resolve="substr" />
-                <node concept="1ecg7k" id="7tR$2bQmmkK" role="2rpGa2">
+                <node concept="1ecg7k" id="7tR$2bQmQ_C" role="2rpGa2">
                   <ref role="1ecg7n" node="7tR$2bQmjtv" resolve="s" />
                 </node>
-                <node concept="314ZPj" id="7tR$2bQmmRu" role="314SeD">
-                  <property role="314ZPn" value="-1" />
+                <node concept="2roMnG" id="7tR$2bQmSJ3" role="314SeD">
+                  <node concept="314Se_" id="7tR$2bQmT6N" role="2roMnR">
+                    <ref role="314SeG" to="67es:6C2AeZs79Te" resolve="length" />
+                    <node concept="1ecg7k" id="7tR$2bQmT6O" role="2rpGa2">
+                      <ref role="1ecg7n" node="7tR$2bQmjtv" resolve="s" />
+                    </node>
+                  </node>
+                  <node concept="314ZPj" id="7tR$2bQmTRX" role="2roMnL">
+                    <property role="314ZPn" value="1" />
+                  </node>
                 </node>
-                <node concept="314ZPj" id="7tR$2bQmnrA" role="314SeD">
+                <node concept="314ZPj" id="7tR$2bQmUDn" role="314SeD">
                   <property role="314ZPn" value="1" />
                 </node>
               </node>
