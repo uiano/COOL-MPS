@@ -257,8 +257,6 @@
       <node concept="3Tm1VV" id="4Px5yRLjrqB" role="1B3o_S" />
       <node concept="10Oyi0" id="4Px5yRLjrr1" role="3clF45" />
     </node>
-    <node concept="2tJIrI" id="5ypFgBWo7I8" role="jymVt" />
-    <node concept="2tJIrI" id="4Px5yRLjror" role="jymVt" />
     <node concept="3Tm1VV" id="4Px5yRLhMBJ" role="1B3o_S" />
     <node concept="3uibUv" id="At5JuHJGrQ" role="1zkMxy">
       <ref role="3uigEE" node="4Px5yRLjv54" resolve="CoolObject" />

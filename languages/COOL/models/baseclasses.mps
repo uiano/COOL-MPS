@@ -123,6 +123,10 @@
       <node concept="314Sct" id="6C2AeZs79TS" role="314ZPE">
         <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
       </node>
+      <node concept="314ZPU" id="7oR$v0Sp8Dl" role="314ZPL">
+        <property role="TrG5h" value="str" />
+        <ref role="314ZP7" node="6C2AeZs79T5" resolve="String" />
+      </node>
     </node>
     <node concept="314ZUh" id="6C2AeZs79Uc" role="314ZU9">
       <property role="TrG5h" value="substr" />
