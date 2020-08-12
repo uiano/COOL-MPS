@@ -1,0 +1,11 @@
+TODO for COOL
+- move project to github
+- fix errors
+- Improve documentation (also README)
+- create unit tests for the editor and the code generation
+- improve editor for expressions
+- improve user interface - replace the standard texts for empty and not available
+- improve editors such that you can type the verbatim text
+- improve typechecking
+- build standalone version
+- add meaningful intentions for refactoring
