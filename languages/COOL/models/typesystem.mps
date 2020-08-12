@@ -2,8 +2,9 @@
 <model ref="r:b4dde771-32d9-4a1f-8e71-9794a92dfc00(COOL.typesystem)">
   <persistence version="9" />
   <languages>
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <devkit ref="00000000-0000-4000-0000-1de82b3a4936(jetbrains.mps.devkit.aspect.typesystem)" />
   </languages>
   <imports>
@@ -91,11 +92,8 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -114,13 +112,13 @@
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
-      <concept id="1227096774658" name="jetbrains.mps.lang.typesystem.structure.MessageStatement" flags="ng" index="2OEH$v">
-        <child id="1227096802790" name="nodeToReport" index="2OEOjV" />
-      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
       <concept id="1195214364922" name="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" flags="ig" index="18kY7G" />
+      <concept id="3937244445246642777" name="jetbrains.mps.lang.typesystem.structure.AbstractReportStatement" flags="ng" index="1urrMJ">
+        <child id="3937244445246642781" name="nodeToReport" index="1urrMF" />
+      </concept>
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
@@ -172,6 +170,14 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -579,8 +585,22 @@
     <property role="3GE5qa" value="expression" />
     <node concept="3clFbS" id="3OgcKIjIYzJ" role="18ibNy">
       <node concept="3SKdUt" id="3OgcKIjJmXk" role="3cqZAp">
-        <node concept="3SKdUq" id="3OgcKIjJmXl" role="3SKWNk">
-          <property role="3SKdUp" value="Set first expr to bool" />
+        <node concept="1PaTwC" id="285h6zCc$ij" role="1aUNEU">
+          <node concept="3oM_SD" id="285h6zCc$ik" role="1PaTwD">
+            <property role="3oM_SC" value="Set" />
+          </node>
+          <node concept="3oM_SD" id="285h6zCc$il" role="1PaTwD">
+            <property role="3oM_SC" value="first" />
+          </node>
+          <node concept="3oM_SD" id="285h6zCc$im" role="1PaTwD">
+            <property role="3oM_SC" value="expr" />
+          </node>
+          <node concept="3oM_SD" id="285h6zCc$in" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="285h6zCc$io" role="1PaTwD">
+            <property role="3oM_SC" value="bool" />
+          </node>
         </node>
       </node>
       <node concept="1Z5TYs" id="4Lt0ir1OBe4" role="3cqZAp">
@@ -774,7 +794,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="4Lt0ir27pAp" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                          <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                           <node concept="37vLTw" id="4Lt0ir27q5U" role="37wK5m">
                             <ref role="3cqZAo" node="4Lt0ir1YFRW" resolve="i" />
                           </node>
@@ -799,7 +819,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="4Lt0ir1Z5fT" role="2OqNvi">
-                          <ref role="37wK5l" to="33ny:~List.get(int):java.lang.Object" resolve="get" />
+                          <ref role="37wK5l" to="33ny:~List.get(int)" resolve="get" />
                           <node concept="37vLTw" id="4Lt0ir27fAG" role="37wK5m">
                             <ref role="3cqZAo" node="4Lt0ir1YFRW" resolve="i" />
                           </node>
@@ -828,7 +848,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4Lt0ir1YMB_" role="2OqNvi">
-                  <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                  <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                 </node>
               </node>
               <node concept="37vLTw" id="4Lt0ir1YZ$w" role="3uHU7B">
@@ -863,7 +883,7 @@
               </node>
             </node>
             <node concept="liA8E" id="4Lt0ir27K6t" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
             </node>
           </node>
           <node concept="2OqwBi" id="4Lt0ir27vy8" role="3uHU7B">
@@ -876,7 +896,7 @@
               </node>
             </node>
             <node concept="liA8E" id="4Lt0ir27wQB" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
             </node>
           </node>
         </node>
@@ -1319,7 +1339,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="6C2AeZrwyok" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="6C2AeZrwyol" role="37wK5m">
                       <property role="Xl_RC" value="Object" />
                     </node>
@@ -1710,12 +1730,12 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="4Lt0ir1YyTj" role="2OqNvi">
-                    <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+                    <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="1YBJjd" id="4Lt0ir1Y7YC" role="2OEOjV">
+            <node concept="1YBJjd" id="4Lt0ir1Y7YC" role="1urrMF">
               <ref role="1YBMHb" node="4Lt0ir1V2aG" resolve="dispatch" />
             </node>
           </node>
@@ -1731,7 +1751,7 @@
               </node>
             </node>
             <node concept="liA8E" id="4Lt0ir1XEg7" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
             </node>
           </node>
           <node concept="2OqwBi" id="4Lt0ir1Yiql" role="3uHU7w">
@@ -1754,7 +1774,7 @@
               </node>
             </node>
             <node concept="liA8E" id="4Lt0ir1Ykl5" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~List.size():int" resolve="size" />
+              <ref role="37wK5l" to="33ny:~List.size()" resolve="size" />
             </node>
           </node>
         </node>

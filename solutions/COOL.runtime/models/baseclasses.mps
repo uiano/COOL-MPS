@@ -2,7 +2,7 @@
 <model ref="r:cd8976f5-4457-4259-8994-2a8a06e4b8db(COOL.runtime.baseclasses)">
   <persistence version="9" />
   <languages>
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
   </languages>
   <imports>
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" />
@@ -120,7 +120,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="4Px5yRLjrE2" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(java.lang.String)" resolve="println" />
               <node concept="37vLTw" id="4Px5yRLjrGt" role="37wK5m">
                 <ref role="3cqZAo" node="4Px5yRLjrrS" resolve="x" />
               </node>
@@ -157,7 +157,7 @@
               <ref role="1PxDUh" to="wyt6:~System" resolve="System" />
             </node>
             <node concept="liA8E" id="4Px5yRLjs3C" role="2OqNvi">
-              <ref role="37wK5l" to="guwi:~PrintStream.println(int):void" resolve="println" />
+              <ref role="37wK5l" to="guwi:~PrintStream.println(int)" resolve="println" />
               <node concept="37vLTw" id="4Px5yRLjsbD" role="37wK5m">
                 <ref role="3cqZAo" node="4Px5yRLjrsq" resolve="x" />
               </node>
@@ -208,7 +208,7 @@
               <ref role="3cqZAo" node="4Px5yRLjsVW" resolve="sc" />
             </node>
             <node concept="liA8E" id="4Px5yRLjtl2" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Scanner.nextLine():java.lang.String" resolve="nextLine" />
+              <ref role="37wK5l" to="33ny:~Scanner.nextLine()" resolve="nextLine" />
             </node>
           </node>
         </node>
@@ -249,7 +249,7 @@
               <ref role="3cqZAo" node="4Px5yRLjtuM" resolve="sc" />
             </node>
             <node concept="liA8E" id="4Px5yRLjtWp" role="2OqNvi">
-              <ref role="37wK5l" to="33ny:~Scanner.nextInt():int" resolve="nextInt" />
+              <ref role="37wK5l" to="33ny:~Scanner.nextInt()" resolve="nextInt" />
             </node>
           </node>
         </node>
@@ -300,7 +300,7 @@
       <node concept="3clFbS" id="4Px5yRLjwrt" role="3clF47">
         <node concept="3clFbF" id="4Px5yRLjwsz" role="3cqZAp">
           <node concept="2YIFZM" id="4Px5yRLjwsW" role="3clFbG">
-            <ref role="37wK5l" to="wyt6:~System.exit(int):void" resolve="exit" />
+            <ref role="37wK5l" to="wyt6:~System.exit(int)" resolve="exit" />
             <ref role="1Pybhc" to="wyt6:~System" resolve="System" />
             <node concept="3cmrfG" id="4Px5yRLjwtq" role="37wK5m">
               <property role="3cmrfH" value="0" />
@@ -344,11 +344,11 @@
             <node concept="2OqwBi" id="5ypFgBWkAUL" role="2Oq$k0">
               <node concept="Xjq3P" id="5ypFgBWkARf" role="2Oq$k0" />
               <node concept="liA8E" id="5ypFgBWkAYI" role="2OqNvi">
-                <ref role="37wK5l" to="wyt6:~Object.getClass():java.lang.Class" resolve="getClass" />
+                <ref role="37wK5l" to="wyt6:~Object.getClass()" resolve="getClass" />
               </node>
             </node>
             <node concept="liA8E" id="5ypFgBWkBiO" role="2OqNvi">
-              <ref role="37wK5l" to="wyt6:~Class.getName():java.lang.String" resolve="getName" />
+              <ref role="37wK5l" to="wyt6:~Class.getName()" resolve="getName" />
             </node>
           </node>
         </node>

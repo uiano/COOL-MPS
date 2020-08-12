@@ -3,10 +3,10 @@
   <persistence version="9" />
   <languages>
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="8" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="11" />
     <use id="d8f591ec-4d86-4af2-9f92-a9e93c803ffa" name="jetbrains.mps.lang.scopes" version="-1" />
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="1" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -105,11 +105,8 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
-        <property id="6329021646629104958" name="text" index="3SKdUp" />
-      </concept>
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
-        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+        <child id="8356039341262087992" name="line" index="1aUNEU" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
     </language>
@@ -176,6 +173,14 @@
         <child id="3078666699043039389" name="commentedNode" index="8Wnug" />
       </concept>
     </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
+      </concept>
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
@@ -220,8 +225,28 @@
               </node>
             </node>
             <node concept="3SKdUt" id="31KfdbxXtJs" role="3cqZAp">
-              <node concept="3SKdUq" id="31KfdbxXtJu" role="3SKWNk">
-                <property role="3SKdUp" value="Add the self attribute to every class" />
+              <node concept="1PaTwC" id="285h6zCc$f5" role="1aUNEU">
+                <node concept="3oM_SD" id="285h6zCc$f6" role="1PaTwD">
+                  <property role="3oM_SC" value="Add" />
+                </node>
+                <node concept="3oM_SD" id="285h6zCc$f7" role="1PaTwD">
+                  <property role="3oM_SC" value="the" />
+                </node>
+                <node concept="3oM_SD" id="285h6zCc$f8" role="1PaTwD">
+                  <property role="3oM_SC" value="self" />
+                </node>
+                <node concept="3oM_SD" id="285h6zCc$f9" role="1PaTwD">
+                  <property role="3oM_SC" value="attribute" />
+                </node>
+                <node concept="3oM_SD" id="285h6zCc$fa" role="1PaTwD">
+                  <property role="3oM_SC" value="to" />
+                </node>
+                <node concept="3oM_SD" id="285h6zCc$fb" role="1PaTwD">
+                  <property role="3oM_SC" value="every" />
+                </node>
+                <node concept="3oM_SD" id="285h6zCc$fc" role="1PaTwD">
+                  <property role="3oM_SC" value="class" />
+                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="31KfdbxWlQB" role="3cqZAp">
@@ -267,7 +292,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="31KfdbxWnPy" role="2OqNvi">
-                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                     <node concept="Xl_RD" id="31KfdbxWnPz" role="37wK5m">
                       <property role="Xl_RC" value="SELF_TYPE" />
                     </node>
@@ -316,8 +341,28 @@
             <node concept="3clFbJ" id="5mL3sGOndns" role="3cqZAp">
               <node concept="3clFbS" id="5mL3sGOndnu" role="3clFbx">
                 <node concept="3SKdUt" id="5mL3sGOnjmb" role="3cqZAp">
-                  <node concept="3SKdUq" id="5mL3sGOnjmd" role="3SKWNk">
-                    <property role="3SKdUp" value="Include the methods of the inherited class" />
+                  <node concept="1PaTwC" id="285h6zCc$fd" role="1aUNEU">
+                    <node concept="3oM_SD" id="285h6zCc$fe" role="1PaTwD">
+                      <property role="3oM_SC" value="Include" />
+                    </node>
+                    <node concept="3oM_SD" id="285h6zCc$ff" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="285h6zCc$fg" role="1PaTwD">
+                      <property role="3oM_SC" value="methods" />
+                    </node>
+                    <node concept="3oM_SD" id="285h6zCc$fh" role="1PaTwD">
+                      <property role="3oM_SC" value="of" />
+                    </node>
+                    <node concept="3oM_SD" id="285h6zCc$fi" role="1PaTwD">
+                      <property role="3oM_SC" value="the" />
+                    </node>
+                    <node concept="3oM_SD" id="285h6zCc$fj" role="1PaTwD">
+                      <property role="3oM_SC" value="inherited" />
+                    </node>
+                    <node concept="3oM_SD" id="285h6zCc$fk" role="1PaTwD">
+                      <property role="3oM_SC" value="class" />
+                    </node>
                   </node>
                 </node>
                 <node concept="3cpWs8" id="5mL3sGOnfRo" role="3cqZAp">
@@ -439,8 +484,31 @@
                     </node>
                   </node>
                   <node concept="3SKdUt" id="31KfdbxXwTH" role="3cqZAp">
-                    <node concept="3SKdUq" id="31KfdbxXwTJ" role="3SKWNk">
-                      <property role="3SKdUp" value="All classes must have access to Object's methods" />
+                    <node concept="1PaTwC" id="285h6zCc$fl" role="1aUNEU">
+                      <node concept="3oM_SD" id="285h6zCc$fm" role="1PaTwD">
+                        <property role="3oM_SC" value="All" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$fn" role="1PaTwD">
+                        <property role="3oM_SC" value="classes" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$fo" role="1PaTwD">
+                        <property role="3oM_SC" value="must" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$fp" role="1PaTwD">
+                        <property role="3oM_SC" value="have" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$fq" role="1PaTwD">
+                        <property role="3oM_SC" value="access" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$fr" role="1PaTwD">
+                        <property role="3oM_SC" value="to" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$fs" role="1PaTwD">
+                        <property role="3oM_SC" value="Object's" />
+                      </node>
+                      <node concept="3oM_SD" id="285h6zCc$ft" role="1PaTwD">
+                        <property role="3oM_SC" value="methods" />
+                      </node>
                     </node>
                   </node>
                   <node concept="3clFbJ" id="31KfdbxXulL" role="3cqZAp">
@@ -486,7 +554,7 @@
                           </node>
                         </node>
                         <node concept="liA8E" id="31KfdbxXwc2" role="2OqNvi">
-                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                          <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object)" resolve="equals" />
                           <node concept="Xl_RD" id="31KfdbxXwc3" role="37wK5m">
                             <property role="Xl_RC" value="Object" />
                           </node>
