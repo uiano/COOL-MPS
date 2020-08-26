@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:8f5c7008-c239-45f1-8686-401bc4cd5988(COOL.List)">
+<model ref="r:2adc2113-d84c-48fb-8812-766470af058c(ListProblemIsExpressionVersusStatement)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
   </languages>
   <imports>
-    <import index="qw3h" ref="r:cd8976f5-4457-4259-8994-2a8a06e4b8db(COOL.runtime.baseclasses)" />
-    <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" implicit="true" />
+    <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -75,6 +74,124 @@
       </concept>
     </language>
   </registry>
+  <node concept="314ZVc" id="4Lt0ir2enY9">
+    <property role="TrG5h" value="Cons" />
+    <node concept="314ZUl" id="4Lt0ir2enYg" role="314ZU9">
+      <property role="TrG5h" value="car" />
+      <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
+    </node>
+    <node concept="314ZUl" id="4Lt0ir2enYG" role="314ZU9">
+      <property role="TrG5h" value="cdr" />
+      <ref role="314ZOF" node="4Lt0ir2emXZ" resolve="List" />
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2eoaS" role="314ZU9">
+      <property role="TrG5h" value="isNil" />
+      <ref role="314ZP_" to="67es:3OgcKIjIYm7" resolve="Bool" />
+      <node concept="314ZPq" id="4Lt0ir2eobm" role="314ZPE">
+        <property role="314ZPr" value="false" />
+      </node>
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2eonN" role="314ZU9">
+      <property role="TrG5h" value="head" />
+      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
+      <node concept="1ecg7k" id="4Lt0ir2eooz" role="314ZPE">
+        <ref role="1ecg7n" node="4Lt0ir2enYg" resolve="car" />
+      </node>
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2eo_b" role="314ZU9">
+      <property role="TrG5h" value="tail" />
+      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
+      <node concept="1ecg7k" id="4Lt0ir2eoB5" role="314ZPE">
+        <ref role="1ecg7n" node="4Lt0ir2enYG" resolve="cdr" />
+      </node>
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2eoPF" role="314ZU9">
+      <property role="TrG5h" value="init" />
+      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
+      <node concept="314SfX" id="4Lt0ir2epS5" role="314ZPE">
+        <node concept="314ZOR" id="4Lt0ir2erwc" role="314SfY">
+          <ref role="1xT5EN" node="4Lt0ir2enYg" resolve="car" />
+          <node concept="1ecg7k" id="4Lt0ir2es3T" role="10CE43">
+            <ref role="1ecg7n" node="4Lt0ir2eq8L" resolve="i" />
+          </node>
+        </node>
+        <node concept="314ZOR" id="4Lt0ir2esTU" role="314SfY">
+          <ref role="1xT5EN" node="4Lt0ir2enYG" resolve="cdr" />
+          <node concept="1ecg7k" id="4Lt0ir2etbW" role="10CE43">
+            <ref role="1ecg7n" node="4Lt0ir2eqF3" resolve="rest" />
+          </node>
+        </node>
+        <node concept="1ecg7k" id="4Lt0ir2eu52" role="314SfY">
+          <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
+        </node>
+      </node>
+      <node concept="314ZPU" id="4Lt0ir2eq8L" role="314ZPL">
+        <property role="TrG5h" value="i" />
+        <ref role="314ZP7" to="67es:3OgcKIjILuD" resolve="Int" />
+      </node>
+      <node concept="314ZPU" id="4Lt0ir2eqF3" role="314ZPL">
+        <property role="TrG5h" value="rest" />
+        <ref role="314ZP7" node="4Lt0ir2emXZ" resolve="List" />
+      </node>
+    </node>
+    <node concept="2d$Iqm" id="4Lt0ir2gpMH" role="2KNzGL">
+      <ref role="2d$Iqn" node="4Lt0ir2emXZ" resolve="List" />
+    </node>
+  </node>
+  <node concept="314ZVc" id="4Lt0ir2emXZ">
+    <property role="TrG5h" value="List" />
+    <node concept="314ZUh" id="4Lt0ir2emY4" role="314ZU9">
+      <property role="TrG5h" value="isNil" />
+      <ref role="314ZP_" to="67es:3OgcKIjIYm7" resolve="Bool" />
+      <node concept="314ZPq" id="4Lt0ir2emZN" role="314ZPE">
+        <property role="314ZPr" value="true" />
+      </node>
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2en0u" role="314ZU9">
+      <property role="TrG5h" value="head" />
+      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
+      <node concept="314SfX" id="4Lt0ir2en1e" role="314ZPE">
+        <node concept="314Se_" id="4Lt0ir2en1V" role="314SfY">
+          <ref role="314SeG" to="67es:4Px5yRLjWhN" resolve="abort" />
+        </node>
+        <node concept="314ZPj" id="4Lt0ir2eneI" role="314SfY">
+          <property role="314ZPn" value="0" />
+        </node>
+      </node>
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2enmk" role="314ZU9">
+      <property role="TrG5h" value="tail" />
+      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
+      <node concept="314SfX" id="4Lt0ir2enol" role="314ZPE">
+        <node concept="314Se_" id="4Lt0ir2enrt" role="314SfY">
+          <ref role="314SeG" to="67es:4Px5yRLjWhN" resolve="abort" />
+        </node>
+        <node concept="1ecg7k" id="4Lt0ir2enNf" role="314SfY">
+          <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
+        </node>
+      </node>
+    </node>
+    <node concept="314ZUh" id="4Lt0ir2euAE" role="314ZU9">
+      <property role="TrG5h" value="cons" />
+      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
+      <node concept="314ZPU" id="4Lt0ir2euXS" role="314ZPL">
+        <property role="TrG5h" value="i" />
+        <ref role="314ZP7" to="67es:3OgcKIjILuD" resolve="Int" />
+      </node>
+      <node concept="314Se_" id="4Lt0ir2evW0" role="314ZPE">
+        <ref role="314SeG" node="4Lt0ir2eoPF" resolve="init" />
+        <node concept="314Sct" id="4Lt0ir2evW1" role="2rpGa2">
+          <ref role="314SfN" node="4Lt0ir2enY9" resolve="Cons" />
+        </node>
+        <node concept="1ecg7k" id="4Lt0ir2eyd3" role="314SeD">
+          <ref role="1ecg7n" node="4Lt0ir2euXS" resolve="i" />
+        </node>
+        <node concept="1ecg7k" id="4Lt0ir2eyIq" role="314SeD">
+          <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="314ZVc" id="4Lt0ir2emu_">
     <property role="TrG5h" value="Main" />
     <node concept="314ZUl" id="4Lt0ir2ezj1" role="314ZU9">
@@ -200,124 +317,6 @@
     </node>
     <node concept="2d$Iqm" id="4Lt0ir2emJh" role="2KNzGL">
       <ref role="2d$Iqn" to="67es:At5JuHK85F" resolve="IO" />
-    </node>
-  </node>
-  <node concept="314ZVc" id="4Lt0ir2emXZ">
-    <property role="TrG5h" value="List" />
-    <node concept="314ZUh" id="4Lt0ir2emY4" role="314ZU9">
-      <property role="TrG5h" value="isNil" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYm7" resolve="Bool" />
-      <node concept="314ZPq" id="4Lt0ir2emZN" role="314ZPE">
-        <property role="314ZPr" value="true" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2en0u" role="314ZU9">
-      <property role="TrG5h" value="head" />
-      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="314SfX" id="4Lt0ir2en1e" role="314ZPE">
-        <node concept="314Se_" id="4Lt0ir2en1V" role="314SfY">
-          <ref role="314SeG" to="67es:4Px5yRLjWhN" resolve="abort" />
-        </node>
-        <node concept="314ZPj" id="4Lt0ir2eneI" role="314SfY">
-          <property role="314ZPn" value="0" />
-        </node>
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2enmk" role="314ZU9">
-      <property role="TrG5h" value="tail" />
-      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
-      <node concept="314SfX" id="4Lt0ir2enol" role="314ZPE">
-        <node concept="314Se_" id="4Lt0ir2enrt" role="314SfY">
-          <ref role="314SeG" to="67es:4Px5yRLjWhN" resolve="abort" />
-        </node>
-        <node concept="1ecg7k" id="4Lt0ir2enNf" role="314SfY">
-          <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
-        </node>
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2euAE" role="314ZU9">
-      <property role="TrG5h" value="cons" />
-      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
-      <node concept="314ZPU" id="4Lt0ir2euXS" role="314ZPL">
-        <property role="TrG5h" value="i" />
-        <ref role="314ZP7" to="67es:3OgcKIjILuD" resolve="Int" />
-      </node>
-      <node concept="314Se_" id="4Lt0ir2evW0" role="314ZPE">
-        <ref role="314SeG" node="4Lt0ir2eoPF" resolve="init" />
-        <node concept="314Sct" id="4Lt0ir2evW1" role="2rpGa2">
-          <ref role="314SfN" node="4Lt0ir2enY9" resolve="Cons" />
-        </node>
-        <node concept="1ecg7k" id="4Lt0ir2eyd3" role="314SeD">
-          <ref role="1ecg7n" node="4Lt0ir2euXS" resolve="i" />
-        </node>
-        <node concept="1ecg7k" id="4Lt0ir2eyIq" role="314SeD">
-          <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="314ZVc" id="4Lt0ir2enY9">
-    <property role="TrG5h" value="Cons" />
-    <node concept="314ZUl" id="4Lt0ir2enYg" role="314ZU9">
-      <property role="TrG5h" value="car" />
-      <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
-    </node>
-    <node concept="314ZUl" id="4Lt0ir2enYG" role="314ZU9">
-      <property role="TrG5h" value="cdr" />
-      <ref role="314ZOF" node="4Lt0ir2emXZ" resolve="List" />
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2eoaS" role="314ZU9">
-      <property role="TrG5h" value="isNil" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYm7" resolve="Bool" />
-      <node concept="314ZPq" id="4Lt0ir2eobm" role="314ZPE">
-        <property role="314ZPr" value="false" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2eonN" role="314ZU9">
-      <property role="TrG5h" value="head" />
-      <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
-      <node concept="1ecg7k" id="4Lt0ir2eooz" role="314ZPE">
-        <ref role="1ecg7n" node="4Lt0ir2enYg" resolve="car" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2eo_b" role="314ZU9">
-      <property role="TrG5h" value="tail" />
-      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
-      <node concept="1ecg7k" id="4Lt0ir2eoB5" role="314ZPE">
-        <ref role="1ecg7n" node="4Lt0ir2enYG" resolve="cdr" />
-      </node>
-    </node>
-    <node concept="314ZUh" id="4Lt0ir2eoPF" role="314ZU9">
-      <property role="TrG5h" value="init" />
-      <ref role="314ZP_" node="4Lt0ir2emXZ" resolve="List" />
-      <node concept="314SfX" id="4Lt0ir2epS5" role="314ZPE">
-        <node concept="314ZOR" id="4Lt0ir2erwc" role="314SfY">
-          <ref role="1xT5EN" node="4Lt0ir2enYg" resolve="car" />
-          <node concept="1ecg7k" id="4Lt0ir2es3T" role="10CE43">
-            <ref role="1ecg7n" node="4Lt0ir2eq8L" resolve="i" />
-          </node>
-        </node>
-        <node concept="314ZOR" id="4Lt0ir2esTU" role="314SfY">
-          <ref role="1xT5EN" node="4Lt0ir2enYG" resolve="cdr" />
-          <node concept="1ecg7k" id="4Lt0ir2etbW" role="10CE43">
-            <ref role="1ecg7n" node="4Lt0ir2eqF3" resolve="rest" />
-          </node>
-        </node>
-        <node concept="1ecg7k" id="4Lt0ir2eu52" role="314SfY">
-          <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
-        </node>
-      </node>
-      <node concept="314ZPU" id="4Lt0ir2eq8L" role="314ZPL">
-        <property role="TrG5h" value="i" />
-        <ref role="314ZP7" to="67es:3OgcKIjILuD" resolve="Int" />
-      </node>
-      <node concept="314ZPU" id="4Lt0ir2eqF3" role="314ZPL">
-        <property role="TrG5h" value="rest" />
-        <ref role="314ZP7" node="4Lt0ir2emXZ" resolve="List" />
-      </node>
-    </node>
-    <node concept="2d$Iqm" id="4Lt0ir2gpMH" role="2KNzGL">
-      <ref role="2d$Iqn" node="4Lt0ir2emXZ" resolve="List" />
     </node>
   </node>
 </model>

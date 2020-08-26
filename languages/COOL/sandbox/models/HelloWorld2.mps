@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:690cdf18-8d87-4153-8f6a-8c4f65173115(COOL.HelloWorld2)">
+<model ref="r:15b5e69a-5ff6-420f-b0af-c80f942d3738(HelloWorld2)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
   </languages>
@@ -50,63 +51,63 @@
       </concept>
     </language>
   </registry>
-  <node concept="314ZVc" id="7oR$v0Sp1BF">
+  <node concept="314ZVc" id="64QC5GX0dsA">
     <property role="TrG5h" value="Main" />
-    <node concept="314ZUl" id="7oR$v0Sp1GD" role="314ZU9">
+    <node concept="314ZUl" id="64QC5GX0dsB" role="314ZU9">
       <property role="TrG5h" value="hello" />
       <ref role="314ZOF" to="67es:6C2AeZs79T5" resolve="String" />
-      <node concept="314ZOx" id="7oR$v0Sp1Ng" role="314ZOK">
+      <node concept="314ZOx" id="64QC5GX0dsG" role="314ZOK">
         <property role="314ZO_" value="Hello, " />
       </node>
     </node>
-    <node concept="314ZUl" id="7oR$v0Sp1I0" role="314ZU9">
+    <node concept="314ZUl" id="64QC5GX0dsC" role="314ZU9">
       <property role="TrG5h" value="name" />
       <ref role="314ZOF" to="67es:6C2AeZs79T5" resolve="String" />
     </node>
-    <node concept="314ZUl" id="7oR$v0Sp21Y" role="314ZU9">
+    <node concept="314ZUl" id="64QC5GX0dsD" role="314ZU9">
       <property role="TrG5h" value="ending" />
       <ref role="314ZOF" to="67es:6C2AeZs79T5" resolve="String" />
-      <node concept="314ZOx" id="7oR$v0Sp28S" role="314ZOK">
+      <node concept="314ZOx" id="64QC5GX0dsH" role="314ZOK">
         <property role="314ZO_" value="!\n" />
       </node>
     </node>
-    <node concept="314ZUh" id="7oR$v0Sp1BI" role="314ZU9">
+    <node concept="314ZUh" id="64QC5GX0dsE" role="314ZU9">
       <property role="TrG5h" value="main" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
-      <node concept="314SfX" id="7oR$v0Sp2r1" role="314ZPE">
-        <node concept="314Se_" id="7oR$v0Sp2sI" role="314SfY">
+      <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <node concept="314SfX" id="64QC5GX0dsI" role="314ZPE">
+        <node concept="314Se_" id="64QC5GX0dsJ" role="314SfY">
           <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
-          <node concept="314ZOx" id="7oR$v0Sp2Dc" role="314SeD">
+          <node concept="314ZOx" id="64QC5GX0dsM" role="314SeD">
             <property role="314ZO_" value="Please enter you name:\n" />
           </node>
         </node>
-        <node concept="314ZOR" id="7oR$v0Sp451" role="314SfY">
-          <ref role="1xT5EN" node="7oR$v0Sp1I0" resolve="name" />
-          <node concept="314Se_" id="7oR$v0Sp4sE" role="10CE43">
+        <node concept="314ZOR" id="64QC5GX0dsK" role="314SfY">
+          <ref role="1xT5EN" node="64QC5GX0dsC" resolve="name" />
+          <node concept="314Se_" id="64QC5GX0dsN" role="10CE43">
             <ref role="314SeG" to="67es:At5JuHK8jb" resolve="in_string" />
           </node>
         </node>
-        <node concept="314Se_" id="7oR$v0Sp55g" role="314SfY">
+        <node concept="314Se_" id="64QC5GX0dsL" role="314SfY">
           <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
-          <node concept="314Se_" id="7oR$v0Sp677" role="314SeD">
+          <node concept="314Se_" id="64QC5GX0dsO" role="314SeD">
             <ref role="314SeG" to="67es:6C2AeZs79TH" resolve="concat" />
-            <node concept="1ecg7k" id="7oR$v0Sp678" role="2rpGa2">
-              <ref role="1ecg7n" node="7oR$v0Sp1GD" resolve="hello" />
+            <node concept="1ecg7k" id="64QC5GX0dsP" role="2rpGa2">
+              <ref role="1ecg7n" node="64QC5GX0dsB" resolve="hello" />
             </node>
-            <node concept="314Se_" id="7oR$v0Sp7gY" role="314SeD">
+            <node concept="314Se_" id="64QC5GX0dsQ" role="314SeD">
               <ref role="314SeG" to="67es:6C2AeZs79TH" resolve="concat" />
-              <node concept="1ecg7k" id="7oR$v0Sp7gZ" role="2rpGa2">
-                <ref role="1ecg7n" node="7oR$v0Sp1I0" resolve="name" />
+              <node concept="1ecg7k" id="64QC5GX0dsR" role="2rpGa2">
+                <ref role="1ecg7n" node="64QC5GX0dsC" resolve="name" />
               </node>
-              <node concept="1ecg7k" id="7oR$v0Sp8c7" role="314SeD">
-                <ref role="1ecg7n" node="7oR$v0Sp21Y" resolve="ending" />
+              <node concept="1ecg7k" id="64QC5GX0dsS" role="314SeD">
+                <ref role="1ecg7n" node="64QC5GX0dsD" resolve="ending" />
               </node>
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node concept="2d$Iqm" id="7oR$v0Sp2xF" role="2KNzGL">
+    <node concept="2d$Iqm" id="64QC5GX0dsF" role="2KNzGL">
       <ref role="2d$Iqn" to="67es:At5JuHK85F" resolve="IO" />
     </node>
   </node>

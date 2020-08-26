@@ -1,6 +1,11 @@
 TODO for COOL
 - move project to github
+- fix handling of SELF_TYPE
+- fix substring
 - fix errors
+- fix equality of strings
+- comments
+- empty lines
 - Improve documentation (also README)
 - create unit tests for the editor and the code generation
 - improve editor for expressions
@@ -9,3 +14,4 @@ TODO for COOL
 - improve typechecking
 - build standalone version
 - add meaningful intentions for refactoring
+- avoid explicit dependency to runtime in the module for programs

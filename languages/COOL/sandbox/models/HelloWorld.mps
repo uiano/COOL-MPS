@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:c7660693-6bf1-4360-8d06-e2e847a02534(COOL.HelloWorld)">
+<model ref="r:a1d4a043-3260-4678-bdb1-f32efab91199(HelloWorld)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
   </languages>
@@ -35,19 +36,19 @@
       </concept>
     </language>
   </registry>
-  <node concept="314ZVc" id="4bbJlPs$v00">
+  <node concept="314ZVc" id="64QC5GX0dsT">
     <property role="TrG5h" value="Main" />
-    <node concept="314ZUh" id="6C2AeZs1Wvs" role="314ZU9">
+    <node concept="314ZUh" id="64QC5GX0dsU" role="314ZU9">
       <property role="TrG5h" value="main" />
-      <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
-      <node concept="314Se_" id="6C2AeZs5qqK" role="314ZPE">
+      <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
+      <node concept="314Se_" id="64QC5GX0dsW" role="314ZPE">
         <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
-        <node concept="314ZOx" id="6C2AeZs5rco" role="314SeD">
+        <node concept="314ZOx" id="64QC5GX0dsX" role="314SeD">
           <property role="314ZO_" value="Hello, world.\n" />
         </node>
       </node>
     </node>
-    <node concept="2d$Iqm" id="6C2AeZqQeQc" role="2KNzGL">
+    <node concept="2d$Iqm" id="64QC5GX0dsV" role="2KNzGL">
       <ref role="2d$Iqn" to="67es:At5JuHK85F" resolve="IO" />
     </node>
   </node>
