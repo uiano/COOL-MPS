@@ -6,6 +6,8 @@
 - The name of the Main class should use a checking rule instead of a constraint on the name itself.
 - Using the comma key may not be the best interaction method.
   The dispatch option should be directly in the context menu. 
+- Should add something like _ICoolName_ which inherits from _INamedConcept_.
+  Keyword constraints can be added to this concept instead of individual concepts. 
 - Fix errors
 - Fix equality of strings
 - Add comments
