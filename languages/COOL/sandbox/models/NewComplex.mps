@@ -39,6 +39,9 @@
         <child id="126878559839011002" name="attri" index="314Sfq" />
         <child id="126878559839011005" name="expr" index="314Sft" />
       </concept>
+      <concept id="126878559839010966" name="COOL.structure.Parenthesis" flags="ng" index="314SfQ">
+        <child id="126878559839010967" name="expr" index="314SfR" />
+      </concept>
       <concept id="126878559839010973" name="COOL.structure.Block" flags="ng" index="314SfX">
         <child id="126878559839010974" name="exprs" index="314SfY" />
       </concept>
@@ -106,8 +109,18 @@
         <node concept="314SfX" id="42UWjFrcXE7" role="314Sft">
           <node concept="314ZRH" id="42UWjFrd1px" role="314SfY">
             <node concept="2roMmo" id="42UWjFrd70X" role="314ZRL">
-              <node concept="314Se_" id="42UWjFrd8TB" role="2roMlw" />
-              <node concept="314Se_" id="42UWjFrdaMd" role="2roMly" />
+              <node concept="314Se_" id="55IH85y84_M" role="2roMlw">
+                <ref role="314SeG" node="42UWjFrbKjW" resolve="reflect_X" />
+                <node concept="1ecg7k" id="55IH85y84_N" role="2rpGa2">
+                  <ref role="1ecg7n" node="42UWjFrcJBJ" resolve="c" />
+                </node>
+              </node>
+              <node concept="314Se_" id="55IH85y8b57" role="2roMly">
+                <ref role="314SeG" node="42UWjFrbDbH" resolve="reflect_0" />
+                <node concept="1ecg7k" id="55IH85y8b58" role="2rpGa2">
+                  <ref role="1ecg7n" node="42UWjFrcJBJ" resolve="c" />
+                </node>
+              </node>
             </node>
             <node concept="314Se_" id="42UWjFrdcEN" role="314ZRO">
               <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
@@ -135,7 +148,28 @@
                 <property role="314ZO_" value="failed\n" />
               </node>
             </node>
-            <node concept="314Se_" id="42UWjFrdVmg" role="314ZRL" />
+            <node concept="314Se_" id="55IH85y8Xi6" role="314ZRL">
+              <ref role="314SeG" node="42UWjFrc0MT" resolve="equal" />
+              <node concept="314SfQ" id="55IH85y8Xi7" role="2rpGa2">
+                <node concept="314Se_" id="55IH85y8Xi8" role="314SfR">
+                  <ref role="314SeG" node="42UWjFrbRH1" resolve="reflect_Y" />
+                  <node concept="314SfQ" id="55IH85y8Xi9" role="2rpGa2">
+                    <node concept="314Se_" id="55IH85y8Xia" role="314SfR">
+                      <ref role="314SeG" node="42UWjFrbKjW" resolve="reflect_X" />
+                      <node concept="1ecg7k" id="55IH85y8Xib" role="2rpGa2">
+                        <ref role="1ecg7n" node="42UWjFrcJBJ" resolve="c" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="314Se_" id="55IH85y96jw" role="314SeD">
+                <ref role="314SeG" node="42UWjFrbDbH" resolve="reflect_0" />
+                <node concept="1ecg7k" id="55IH85y96jx" role="2rpGa2">
+                  <ref role="1ecg7n" node="42UWjFrcJBJ" resolve="c" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

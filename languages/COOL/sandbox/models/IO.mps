@@ -122,9 +122,9 @@
     <node concept="314ZUh" id="42UWjFr80Zf" role="314ZU9">
       <property role="TrG5h" value="out_b" />
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
-      <node concept="314Se_" id="42UWjFr81bU" role="314ZPE">
-        <node concept="314ZOx" id="42UWjFr81iE" role="314SeD">
-          <property role="314ZO_" value="B: Hello world\n" />
+      <node concept="314Se_" id="55IH85y9evl" role="314ZPE">
+        <node concept="314ZOx" id="55IH85y9eyW" role="314SeD">
+          <property role="314ZO_" value="B: Hello world!\n" />
         </node>
       </node>
     </node>
