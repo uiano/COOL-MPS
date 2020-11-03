@@ -64,7 +64,6 @@
         <reference id="126878559839010379" name="type" index="314ZOF" />
         <child id="126878559839010384" name="expr" index="314ZOK" />
       </concept>
-      <concept id="126878559839010297" name="COOL.structure.IExpression" flags="ng" index="314ZUp" />
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
         <child id="7638836073909232606" name="inherits" index="2KNzGL" />
         <child id="126878559839010281" name="features" index="314ZU9" />
@@ -96,7 +95,9 @@
           </node>
           <node concept="314ZRH" id="42UWjFr5wqK" role="314Sft">
             <node concept="2roMlI" id="42UWjFr5x9F" role="314ZRL">
-              <node concept="314ZUp" id="42UWjFr5x9G" role="2roMlw" />
+              <node concept="1ecg7k" id="42UWjFr8lzj" role="2roMlw">
+                <ref role="1ecg7n" node="42UWjFr8kCE" resolve="hello" />
+              </node>
               <node concept="314ZPj" id="42UWjFr5xpU" role="2roMly">
                 <property role="314ZPn" value="0" />
               </node>
