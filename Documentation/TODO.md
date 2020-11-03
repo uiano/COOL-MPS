@@ -10,8 +10,8 @@
   Keyword constraints can be added to this concept instead of individual concepts. 
 - Fix errors
 - Fix equality of strings
-- Add comments
-- Empty lines
+- Add possibility for comments
+- Add possibility for empty lines
 - Improve documentation
 - Create unit tests for the editor and the code generation
 - Improve editor for expressions

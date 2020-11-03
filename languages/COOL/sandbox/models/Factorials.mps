@@ -94,14 +94,6 @@
             </node>
           </node>
           <node concept="314ZRH" id="42UWjFr5wqK" role="314Sft">
-            <node concept="2roMlI" id="42UWjFr5x9F" role="314ZRL">
-              <node concept="1ecg7k" id="42UWjFr8lzj" role="2roMlw">
-                <ref role="1ecg7n" node="42UWjFr8kCE" resolve="hello" />
-              </node>
-              <node concept="314ZPj" id="42UWjFr5xpU" role="2roMly">
-                <property role="314ZPn" value="0" />
-              </node>
-            </node>
             <node concept="314Se_" id="42UWjFr5xE5" role="314ZRO">
               <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
               <node concept="314ZOx" id="42UWjFr5ys5" role="314SeD">
@@ -115,10 +107,25 @@
                   <property role="314ZO_" value="The factorial of " />
                 </node>
               </node>
+              <node concept="314Se_" id="42UWjFrof8n" role="314SfY">
+                <ref role="314SeG" to="67es:At5JuHK8dq" resolve="out_int" />
+                <node concept="1ecg7k" id="55IH85y5m1o" role="314SeD">
+                  <ref role="1ecg7n" node="42UWjFr5vg0" resolve="input" />
+                </node>
+              </node>
               <node concept="314Se_" id="42UWjFr5CRp" role="314SfY">
                 <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
                 <node concept="314ZOx" id="42UWjFr5DMi" role="314SeD">
                   <property role="314ZO_" value=" is " />
+                </node>
+              </node>
+              <node concept="314Se_" id="42UWjFrogEI" role="314SfY">
+                <ref role="314SeG" to="67es:At5JuHK8dq" resolve="out_int" />
+                <node concept="314Se_" id="42UWjFrohQ4" role="314SeD">
+                  <ref role="314SeG" node="42UWjFr5H3A" resolve="factorial" />
+                  <node concept="1ecg7k" id="55IH85y5mr0" role="314SeD">
+                    <ref role="1ecg7n" node="42UWjFr5vg0" resolve="input" />
+                  </node>
                 </node>
               </node>
               <node concept="314Se_" id="42UWjFr5FFM" role="314SfY">
@@ -126,6 +133,14 @@
                 <node concept="314ZOx" id="42UWjFr5GkX" role="314SeD">
                   <property role="314ZO_" value="\n" />
                 </node>
+              </node>
+            </node>
+            <node concept="2roMlI" id="55IH85y2fdZ" role="314ZRL">
+              <node concept="1ecg7k" id="55IH85y5lBL" role="2roMlw">
+                <ref role="1ecg7n" node="42UWjFr5vg0" resolve="input" />
+              </node>
+              <node concept="314ZPj" id="55IH85y2fD5" role="2roMly">
+                <property role="314ZPn" value="0" />
               </node>
             </node>
           </node>

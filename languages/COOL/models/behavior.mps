@@ -174,10 +174,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -926,6 +926,63 @@
       <node concept="3uibUv" id="31KfdbxY_Sp" role="3clF45">
         <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="55IH85y2RwG">
+    <property role="3GE5qa" value="expression" />
+    <ref role="13h7C2" to="exfx:72KQ30Ok2T" resolve="Let" />
+    <node concept="13i0hz" id="55IH85y2Ry2" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getScope" />
+      <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
+      <node concept="3Tm1VV" id="55IH85y2Ry3" role="1B3o_S" />
+      <node concept="3clFbS" id="55IH85y2Ry4" role="3clF47">
+        <node concept="3clFbJ" id="55IH85y2Ry5" role="3cqZAp">
+          <node concept="3clFbS" id="55IH85y2Ry6" role="3clFbx">
+            <node concept="3cpWs6" id="55IH85y2Ry7" role="3cqZAp">
+              <node concept="iyS6D" id="55IH85y2Ry8" role="3cqZAk">
+                <node concept="2YIFZM" id="55IH85y2Ry9" role="iy797">
+                  <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
+                  <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
+                  <node concept="13iPFW" id="55IH85y2Rya" role="37wK5m" />
+                  <node concept="359W_D" id="55IH85y2Ryb" role="37wK5m">
+                    <ref role="359W_E" to="exfx:72KQ30Ok2T" resolve="Let" />
+                    <ref role="359W_F" to="exfx:72KQ30Ok2U" resolve="attri" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="55IH85y2Ryc" role="3clFbw">
+            <node concept="37vLTw" id="55IH85y2Ryd" role="2Oq$k0">
+              <ref role="3cqZAo" node="55IH85y2Ryi" resolve="kind" />
+            </node>
+            <node concept="2Zo12i" id="55IH85y2Rye" role="2OqNvi">
+              <node concept="chp4Y" id="55IH85y2Ryf" role="2Zo12j">
+                <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="55IH85y2Ryg" role="3cqZAp">
+          <node concept="iy90A" id="55IH85y2Ryh" role="3cqZAk" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="55IH85y2Ryi" role="3clF46">
+        <property role="TrG5h" value="kind" />
+        <node concept="3bZ5Sz" id="55IH85y2Ryj" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="55IH85y2Ryk" role="3clF46">
+        <property role="TrG5h" value="child" />
+        <node concept="3Tqbb2" id="55IH85y2Ryl" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="55IH85y2Rym" role="3clF45">
+        <ref role="3uigEE" to="o8zo:3fifI_xCtN$" resolve="Scope" />
+      </node>
+    </node>
+    <node concept="13hLZK" id="55IH85y2RwH" role="13h7CW">
+      <node concept="3clFbS" id="55IH85y2RwI" role="2VODD2" />
     </node>
   </node>
 </model>
