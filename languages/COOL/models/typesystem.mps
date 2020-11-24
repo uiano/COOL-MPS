@@ -1854,5 +1854,14 @@
       <ref role="1YaFvo" to="exfx:2hy8a5EkM5P" resolve="AttributeIdentifier" />
     </node>
   </node>
+  <node concept="1YbPZF" id="7mf_WqtVYGG">
+    <property role="3GE5qa" value="expression" />
+    <property role="TrG5h" value="typeof_IExpression" />
+    <node concept="3clFbS" id="7mf_WqtVYGH" role="18ibNy" />
+    <node concept="1YaCAy" id="7mf_WqtVYGJ" role="1YuTPh">
+      <property role="TrG5h" value="expr" />
+      <ref role="1YaFvo" to="exfx:72KQ30OjRT" resolve="IExpression" />
+    </node>
+  </node>
 </model>
 

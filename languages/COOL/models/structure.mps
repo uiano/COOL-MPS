@@ -276,6 +276,9 @@
     <node concept="PrWs8" id="72KQ30OjUx" role="PzmwI">
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
     </node>
+    <node concept="PrWs8" id="7mf_Wqu1PmP" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
     <node concept="1TJgyj" id="72KQ30OjU$" role="1TKVEi">
       <property role="IQ2ns" value="126878559839010468" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
