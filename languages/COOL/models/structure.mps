@@ -662,5 +662,18 @@
       <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
     </node>
   </node>
+  <node concept="1TIwiD" id="24GNCTqJSgC">
+    <property role="EcuMT" value="2390512613030069288" />
+    <property role="TrG5h" value="Comment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="24GNCTqJShv" role="1TKVEl">
+      <property role="IQ2nx" value="2390512613030069343" />
+      <property role="TrG5h" value="body" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="24GNCTqWDz2" role="PzmwI">
+      <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
+    </node>
+  </node>
 </model>
 

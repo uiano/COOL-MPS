@@ -61,9 +61,9 @@
             <ref role="314SfN" node="42UWjFr7YlQ" resolve="A" />
           </node>
         </node>
-        <node concept="314Se_" id="42UWjFr87K1" role="314SfY">
-          <ref role="314SeG" node="42UWjFr80Zf" resolve="out_b" />
-          <node concept="314Sct" id="42UWjFr87K2" role="2rpGa2">
+        <node concept="314Se_" id="24GNCTqJN$c" role="314SfY">
+          <ref role="314SeG" node="24GNCTqJCqZ" resolve="out_b" />
+          <node concept="314Sct" id="24GNCTqJN$d" role="2rpGa2">
             <ref role="314SfN" node="42UWjFr80YT" resolve="B" />
           </node>
         </node>
@@ -116,18 +116,28 @@
   </node>
   <node concept="314ZVc" id="42UWjFr80YT">
     <property role="TrG5h" value="B" />
-    <node concept="2d$Iqm" id="42UWjFr80Z7" role="2KNzGL">
-      <ref role="2d$Iqn" node="42UWjFr7YlQ" resolve="A" />
+    <node concept="314ZUl" id="24GNCTqJAWl" role="314ZU9">
+      <property role="TrG5h" value="io" />
+      <ref role="314ZOF" to="67es:At5JuHK85F" resolve="IO" />
+      <node concept="314Sct" id="24GNCTqJC2k" role="314ZOK">
+        <ref role="314SfN" to="67es:At5JuHK85F" resolve="IO" />
+      </node>
     </node>
-    <node concept="314ZUh" id="42UWjFr80Zf" role="314ZU9">
+    <node concept="314ZUh" id="24GNCTqJCqZ" role="314ZU9">
       <property role="TrG5h" value="out_b" />
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
-      <node concept="314Se_" id="55IH85y9evl" role="314ZPE">
-        <ref role="314SeG" node="42UWjFr7YAo" resolve="out_a" />
-        <node concept="314ZOx" id="55IH85y9eyW" role="314SeD">
+      <node concept="314Se_" id="24GNCTqJCR4" role="314ZPE">
+        <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
+        <node concept="1ecg7k" id="24GNCTqJCR5" role="2rpGa2">
+          <ref role="1ecg7n" node="24GNCTqJAWl" resolve="io" />
+        </node>
+        <node concept="314ZOx" id="24GNCTqJDFG" role="314SeD">
           <property role="314ZO_" value="B: Hello world!\n" />
         </node>
       </node>
+    </node>
+    <node concept="2d$Iqm" id="42UWjFr80Z7" role="2KNzGL">
+      <ref role="2d$Iqn" node="42UWjFr7YlQ" resolve="A" />
     </node>
   </node>
   <node concept="314ZVc" id="42UWjFr83EO">
