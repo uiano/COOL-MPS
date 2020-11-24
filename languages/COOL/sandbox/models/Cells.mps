@@ -79,7 +79,6 @@
         <reference id="126878559839010379" name="type" index="314ZOF" />
         <child id="126878559839010384" name="expr" index="314ZOK" />
       </concept>
-      <concept id="126878559839010297" name="COOL.structure.IExpression" flags="ng" index="314ZUp" />
       <concept id="126878559839010220" name="COOL.structure.Class" flags="ng" index="314ZVc">
         <child id="7638836073909232606" name="inherits" index="2KNzGL" />
         <child id="126878559839010281" name="features" index="314ZU9" />
@@ -437,6 +436,9 @@
                 <node concept="314ZR0" id="42UWjFr9AMA" role="314SfY">
                   <node concept="314ZOR" id="42UWjFr9BHb" role="314ZR4">
                     <ref role="1xT5EN" node="42UWjFr9uol" resolve="position" />
+                    <node concept="1ecg7k" id="7mf_WqtNnYw" role="10CE43">
+                      <ref role="1ecg7n" node="42UWjFr9wD5" resolve="num" />
+                    </node>
                   </node>
                   <node concept="314SfX" id="42UWjFr9Dyd" role="314ZR7">
                     <node concept="314ZOR" id="42UWjFr9EsJ" role="314SfY">
@@ -444,14 +446,18 @@
                       <node concept="314Se_" id="42UWjFr9EXc" role="10CE43">
                         <node concept="314Se_" id="42UWjFr9GRJ" role="314SeD">
                           <ref role="314SeG" node="42UWjFr8NWG" resolve="cell_at_next_evolution" />
-                          <node concept="314ZUp" id="42UWjFr9HPQ" role="314SeD" />
+                          <node concept="1ecg7k" id="7mf_WqtNoMw" role="314SeD">
+                            <ref role="1ecg7n" node="42UWjFr9uol" resolve="position" />
+                          </node>
                         </node>
                       </node>
                     </node>
                     <node concept="314ZOR" id="42UWjFr9JMF" role="314SfY">
                       <ref role="1xT5EN" node="42UWjFr9uol" resolve="position" />
                       <node concept="2roMnO" id="42UWjFr9LJ7" role="10CE43">
-                        <node concept="314ZUp" id="42UWjFr9LJ8" role="2roMnR" />
+                        <node concept="1ecg7k" id="7mf_WqtNpAw" role="2roMnR">
+                          <ref role="1ecg7n" node="42UWjFr9uol" resolve="position" />
+                        </node>
                         <node concept="314ZPj" id="42UWjFr9MID" role="2roMnL">
                           <property role="314ZPn" value="1" />
                         </node>
@@ -461,6 +467,9 @@
                 </node>
                 <node concept="314ZOR" id="42UWjFr9PHz" role="314SfY">
                   <ref role="1xT5EN" node="42UWjFr8ulD" resolve="population_map" />
+                  <node concept="1ecg7k" id="7mf_WqtNqqv" role="10CE43">
+                    <ref role="1ecg7n" node="42UWjFr9$sP" resolve="temp" />
+                  </node>
                 </node>
                 <node concept="1ecg7k" id="42UWjFr9SA8" role="314SfY">
                   <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
