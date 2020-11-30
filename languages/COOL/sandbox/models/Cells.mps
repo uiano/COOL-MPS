@@ -10,8 +10,16 @@
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
@@ -93,6 +101,10 @@
     <node concept="314ZUl" id="42UWjFr9UZr" role="314ZU9">
       <property role="TrG5h" value="cells" />
       <ref role="314ZOF" node="42UWjFr8ulb" resolve="CellularAutomaton" />
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHHSc" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr8uk5" role="314ZU9">
       <property role="TrG5h" value="main" />
@@ -176,6 +188,10 @@
       <property role="TrG5h" value="population_map" />
       <ref role="314ZOF" to="67es:6C2AeZs79T5" resolve="String" />
     </node>
+    <node concept="3DQ70j" id="7bBGCzxHJ06" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFr8utn" role="314ZU9">
       <property role="TrG5h" value="init" />
       <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
@@ -194,6 +210,10 @@
           <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHJmu" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr8vby" role="314ZU9">
       <property role="TrG5h" value="print" />
@@ -216,6 +236,10 @@
         </node>
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxHJGU" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFr8xfK" role="314ZU9">
       <property role="TrG5h" value="num_cells" />
       <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
@@ -225,6 +249,10 @@
           <ref role="1ecg7n" node="42UWjFr8ulD" resolve="population_map" />
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHK3q" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr8y4F" role="314ZU9">
       <property role="TrG5h" value="cell" />
@@ -245,6 +273,10 @@
           <property role="314ZPn" value="1" />
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHKpY" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr8$gw" role="314ZU9">
       <property role="TrG5h" value="cell_left_neighbor" />
@@ -286,6 +318,10 @@
         </node>
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxHKKA" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFr8Fv9" role="314ZU9">
       <property role="TrG5h" value="cell_right_neighbor" />
       <ref role="314ZP_" to="67es:6C2AeZs79T5" resolve="String" />
@@ -325,6 +361,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHL7i" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr8NWG" role="314ZU9">
       <property role="TrG5h" value="cell_at_next_evolution" />
@@ -409,6 +449,10 @@
           <property role="314ZO_" value="." />
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHLu2" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr9srv" role="314ZU9">
       <property role="TrG5h" value="evolve" />

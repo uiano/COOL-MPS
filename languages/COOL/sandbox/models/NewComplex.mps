@@ -10,8 +10,16 @@
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
@@ -135,6 +143,10 @@
               </node>
             </node>
           </node>
+          <node concept="3DQ70j" id="7bBGCzxH5XM" role="lGtFl">
+            <property role="3V$3am" value="exprs" />
+            <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010973/126878559839010974" />
+          </node>
           <node concept="314ZRH" id="42UWjFrdxSs" role="314SfY">
             <node concept="314Se_" id="42UWjFrd_KA" role="314ZRO">
               <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
@@ -191,6 +203,10 @@
       <property role="TrG5h" value="y" />
       <ref role="314ZOF" to="67es:3OgcKIjILuD" resolve="Int" />
     </node>
+    <node concept="3DQ70j" id="7bBGCzxGJhX" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFrb$8m" role="314ZU9">
       <property role="TrG5h" value="init" />
       <ref role="314ZP_" node="42UWjFrb$6u" resolve="Complex" />
@@ -220,6 +236,10 @@
         </node>
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxGKP9" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFrb_rm" role="314ZU9">
       <property role="TrG5h" value="print" />
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
@@ -246,6 +266,10 @@
         </node>
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxGMoU" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFrbDbH" role="314ZU9">
       <property role="TrG5h" value="reflect_0" />
       <ref role="314ZP_" node="42UWjFrb$6u" resolve="Complex" />
@@ -271,6 +295,10 @@
         </node>
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxGNXg" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFrbKjW" role="314ZU9">
       <property role="TrG5h" value="reflect_X" />
       <ref role="314ZP_" node="42UWjFrb$6u" resolve="Complex" />
@@ -290,6 +318,10 @@
         </node>
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxGPyb" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFrbRH1" role="314ZU9">
       <property role="TrG5h" value="reflect_Y" />
       <ref role="314ZP_" node="42UWjFrb$6u" resolve="Complex" />
@@ -306,6 +338,10 @@
           <ref role="1ecg7n" to="67es:6C2AeZr3vC8" resolve="self" />
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxGR7F" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFrc0MT" role="314ZU9">
       <property role="TrG5h" value="equal" />
@@ -346,12 +382,20 @@
         <node concept="314ZPq" id="42UWjFrcp9W" role="314ZRT" />
       </node>
     </node>
+    <node concept="3DQ70j" id="7bBGCzxGSHK" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="42UWjFrcs8_" role="314ZU9">
       <property role="TrG5h" value="x_value" />
       <ref role="314ZP_" to="67es:3OgcKIjILuD" resolve="Int" />
       <node concept="1ecg7k" id="42UWjFrcv7P" role="314ZPE">
         <ref role="1ecg7n" node="42UWjFrb$6O" resolve="x" />
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxGUkq" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFrcy9H" role="314ZU9">
       <property role="TrG5h" value="y_value" />

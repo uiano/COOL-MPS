@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
   </languages>
   <imports>
     <import index="qw3h" ref="r:cd8976f5-4457-4259-8994-2a8a06e4b8db(COOL.runtime.baseclasses)" />
@@ -10,8 +11,29 @@
   </imports>
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j">
+        <child id="3717301156197626301" name="content" index="3DQ709" />
+      </concept>
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
+      </concept>
+    </language>
+    <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
+        <property id="155656958578482949" name="value" index="3oM_SC" />
+      </concept>
+      <concept id="2535923850359206929" name="jetbrains.mps.lang.text.structure.Text" flags="nn" index="1Pa9Pv">
+        <child id="2535923850359210936" name="lines" index="1PaQFQ" />
+      </concept>
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
+        <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
@@ -75,6 +97,126 @@
   </registry>
   <node concept="314ZVc" id="42UWjFr5te6">
     <property role="TrG5h" value="Main" />
+    <node concept="3DQ70j" id="7bBGCzxI05p" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+      <node concept="1Pa9Pv" id="7bBGCzxI0cp" role="3DQ709">
+        <node concept="1PaTwC" id="7bBGCzxI0cq" role="1PaQFQ">
+          <node concept="3oM_SD" id="7bBGCzxI0j0" role="1PaTwD">
+            <property role="3oM_SC" value="This" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI0j2" role="1PaTwD">
+            <property role="3oM_SC" value="Model" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI0pU" role="1PaTwD">
+            <property role="3oM_SC" value="is" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI0pY" role="1PaTwD">
+            <property role="3oM_SC" value="based" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI0q3" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI0q9" role="1PaTwD">
+            <property role="3oM_SC" value="the" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI0D2" role="1PaTwD">
+            <property role="3oM_SC" value="Factorials" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI17i" role="1PaTwD">
+            <property role="3oM_SC" value="example" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI17r" role="1PaTwD">
+            <property role="3oM_SC" value="from" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxI17_" role="1PaTwD">
+            <property role="3oM_SC" value="Wikipedia." />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="32fDSESjuY7" role="1PaQFQ">
+          <node concept="3oM_SD" id="32fDSESjuY6" role="1PaTwD">
+            <property role="3oM_SC" value="Press" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjvvO" role="1PaTwD">
+            <property role="3oM_SC" value="ctrl" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjvOH" role="1PaTwD">
+            <property role="3oM_SC" value="+" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjvOL" role="1PaTwD">
+            <property role="3oM_SC" value="enter" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjvOQ" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjvZM" role="1PaTwD">
+            <property role="3oM_SC" value="insert" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjvZT" role="1PaTwD">
+            <property role="3oM_SC" value="empty" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjw01" role="1PaTwD">
+            <property role="3oM_SC" value="lines" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjwbr" role="1PaTwD">
+            <property role="3oM_SC" value="in" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjwmZ" role="1PaTwD">
+            <property role="3oM_SC" value="MPS." />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjwyH" role="1PaTwD">
+            <property role="3oM_SC" value="" />
+          </node>
+        </node>
+        <node concept="1PaTwC" id="7bBGCzxJuGf" role="1PaQFQ">
+          <node concept="3oM_SD" id="32fDSESjwJx" role="1PaTwD">
+            <property role="3oM_SC" value="Include" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjwJO" role="1PaTwD">
+            <property role="3oM_SC" value="jetbrains.mps.lang.text" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxJvUv" role="1PaTwD">
+            <property role="3oM_SC" value="then" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxJvUD" role="1PaTwD">
+            <property role="3oM_SC" value="type" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjx6K" role="1PaTwD">
+            <property role="3oM_SC" value="[" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjyzg" role="1PaTwD">
+            <property role="3oM_SC" value="on" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjxNU" role="1PaTwD">
+            <property role="3oM_SC" value="a" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjxO5" role="1PaTwD">
+            <property role="3oM_SC" value="empty" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjxOh" role="1PaTwD">
+            <property role="3oM_SC" value="line" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxJwe5" role="1PaTwD">
+            <property role="3oM_SC" value="to" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxJwo2" role="1PaTwD">
+            <property role="3oM_SC" value="add" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxJwy9" role="1PaTwD">
+            <property role="3oM_SC" value="MPS" />
+          </node>
+          <node concept="3oM_SD" id="7bBGCzxJwyo" role="1PaTwD">
+            <property role="3oM_SC" value="comments" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjxZS" role="1PaTwD">
+            <property role="3oM_SC" value="(like" />
+          </node>
+          <node concept="3oM_SD" id="32fDSESjybD" role="1PaTwD">
+            <property role="3oM_SC" value="these)." />
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="314ZUh" id="42UWjFr5te9" role="314ZU9">
       <property role="TrG5h" value="main" />
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
@@ -146,6 +288,10 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3DQ70j" id="7bBGCzxHxKy" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="42UWjFr5H3A" role="314ZU9">
       <property role="TrG5h" value="factorial" />
