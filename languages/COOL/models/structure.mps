@@ -675,5 +675,16 @@
       <ref role="PrY4T" node="72KQ30OjRT" resolve="IExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="U9OHbyG6RY">
+    <property role="EcuMT" value="1047600191528529406" />
+    <property role="TrG5h" value="ClassType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="U9OHbyG6S5" role="1TKVEi">
+      <property role="IQ2ns" value="1047600191528529413" />
+      <property role="20kJfa" value="cls" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
+    </node>
+  </node>
 </model>
 

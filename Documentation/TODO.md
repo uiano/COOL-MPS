@@ -18,8 +18,6 @@
 - Using the comma key may not be the best interaction method.
   The dispatch option should be directly in the context menu.
 - Replace the standard texts for empty and not available.
-- Add possibility for comments.
-- Add possibility for empty lines.
 - Improve editors such that you can type the verbatim text.
 - Add meaningful intentions for refactoring.
 
@@ -34,5 +32,5 @@
 - Avoid explicit dependency to runtime in the module for programs.
 
 ## Documentation Issues
-- Improve documentation.
-- Class diagrams should be in vector format (such as SVG).
+- Improve readme file to explain how to navigate, use and modify the COOL-MPS project. 
+  How to use MPS should be explained. 

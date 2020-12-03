@@ -9,8 +9,16 @@
   <imports />
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="role_DebugInfo" index="3V$3am" />
       </concept>
     </language>
     <language id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL">
@@ -48,12 +56,20 @@
         <ref role="314SfN" node="3OgcKIjIYmj" resolve="Object" />
       </node>
     </node>
+    <node concept="3DQ70j" id="U9OHbyIL8Z" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="4Px5yRLjWjU" role="314ZU9">
       <property role="TrG5h" value="type_name" />
       <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
       <node concept="314Sct" id="5mL3sGOd5F$" role="314ZPE">
         <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
       </node>
+    </node>
+    <node concept="3DQ70j" id="U9OHbyIL9g" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="4Px5yRLjWz9" role="314ZU9">
       <property role="TrG5h" value="copy" />
@@ -83,6 +99,10 @@
         <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>
     </node>
+    <node concept="3DQ70j" id="U9OHbyILa$" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="At5JuHK8dq" role="314ZU9">
       <property role="TrG5h" value="out_int" />
       <ref role="314ZP_" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
@@ -94,12 +114,20 @@
         <ref role="314SfN" node="2QgYvTHaKV2" resolve="SELF_TYPE" />
       </node>
     </node>
+    <node concept="3DQ70j" id="U9OHbyILaN" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="At5JuHK8jb" role="314ZU9">
       <property role="TrG5h" value="in_string" />
       <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
       <node concept="314Sct" id="6C2AeZr3v6F" role="314ZPE">
         <ref role="314SfN" node="6C2AeZs79T5" resolve="String" />
       </node>
+    </node>
+    <node concept="3DQ70j" id="U9OHbyILb3" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="At5JuHK8pY" role="314ZU9">
       <property role="TrG5h" value="in_int" />
@@ -118,6 +146,10 @@
         <ref role="314SfN" node="3OgcKIjILuD" resolve="Int" />
       </node>
     </node>
+    <node concept="3DQ70j" id="U9OHbyIL7e" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
+    </node>
     <node concept="314ZUh" id="6C2AeZs79TH" role="314ZU9">
       <property role="TrG5h" value="concat" />
       <ref role="314ZP_" node="6C2AeZs79T5" resolve="String" />
@@ -128,6 +160,10 @@
         <property role="TrG5h" value="str" />
         <ref role="314ZP7" node="6C2AeZs79T5" resolve="String" />
       </node>
+    </node>
+    <node concept="3DQ70j" id="U9OHbyIL7E" role="lGtFl">
+      <property role="3V$3am" value="features" />
+      <property role="3V$3ak" value="526480f5-bacc-4675-9b15-2ee50ab219c2/126878559839010220/126878559839010281" />
     </node>
     <node concept="314ZUh" id="6C2AeZs79Uc" role="314ZU9">
       <property role="TrG5h" value="substr" />
