@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:2adc2113-d84c-48fb-8812-766470af058c(ListProblemIsExpressionVersusStatement)">
+<model ref="r:d0b95358-5a70-4925-bfcd-6e0f3a795e2c(List)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
   </languages>
   <imports>
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />

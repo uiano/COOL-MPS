@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:e8ca297b-d3c7-4e08-bfa6-147f35ef89ab(ObjectProblem)">
+<model ref="r:e8ca297b-d3c7-4e08-bfa6-147f35ef89ab(HelloWorld)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
   </languages>
   <imports>
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />

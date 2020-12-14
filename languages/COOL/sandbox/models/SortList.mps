@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
   </languages>
   <imports>
     <import index="qw3h" ref="r:cd8976f5-4457-4259-8994-2a8a06e4b8db(COOL.runtime.baseclasses)" />

@@ -15,6 +15,7 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">82ded43d-ccb5-4a7e-ad32-56c0a910e31a(COOL.runtime)</dependency>
     <dependency reexport="false">526480f5-bacc-4675-9b15-2ee50ab219c2(COOL)</dependency>
+    <dependency reexport="false">e8f7225e-b475-4b51-99a3-7fc2d54063f3(COOL.Errors)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:526480f5-bacc-4675-9b15-2ee50ab219c2:COOL" version="0" />
@@ -25,6 +26,7 @@
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
     <module reference="526480f5-bacc-4675-9b15-2ee50ab219c2(COOL)" version="0" />
+    <module reference="e8f7225e-b475-4b51-99a3-7fc2d54063f3(COOL.Errors)" version="0" />
     <module reference="e1df2a8b-76e7-4177-b55c-1139d4c5be89(COOL.runtime)" version="0" />
     <module reference="82ded43d-ccb5-4a7e-ad32-56c0a910e31a(COOL.runtime)" version="0" />
     <module reference="dd350056-462c-45c3-a234-9044583fdcba(COOL.sandbox)" version="0" />
