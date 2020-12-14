@@ -6,6 +6,7 @@
       <modulePath path="$PROJECT_DIR$/languages/COOL/sandbox/COOL.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/COOL.Errors/COOL.Errors.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/COOL.runtime/COOL.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/COOL.tests/COOL.tests.msd" folder="" />
     </projectModules>
   </component>
 </project>

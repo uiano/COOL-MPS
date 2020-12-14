@@ -189,10 +189,10 @@
       </concept>
     </language>
     <language id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text">
-      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="ng" index="3oM_SD">
+      <concept id="155656958578482948" name="jetbrains.mps.lang.text.structure.Word" flags="nn" index="3oM_SD">
         <property id="155656958578482949" name="value" index="3oM_SC" />
       </concept>
-      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="ng" index="1PaTwC">
+      <concept id="2535923850359271782" name="jetbrains.mps.lang.text.structure.Line" flags="nn" index="1PaTwC">
         <child id="2535923850359271783" name="elements" index="1PaTwD" />
       </concept>
     </language>
@@ -1053,7 +1053,7 @@
     <node concept="1N5Pfh" id="At5JuHClBg" role="1Mr941">
       <ref role="1N5Vy1" to="exfx:2hy8a5EkM5Q" resolve="attr" />
       <node concept="1dDu$B" id="At5JuHClBk" role="1N6uqs">
-        <ref role="1dDu$A" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+        <ref role="1dDu$A" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
       </node>
     </node>
   </node>
@@ -1079,7 +1079,7 @@
   </node>
   <node concept="1M2fIO" id="1rTFk_7C7cB">
     <property role="3GE5qa" value="expression" />
-    <ref role="1M2myG" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+    <ref role="1M2myG" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
     <node concept="EnEH3" id="1rTFk_7C7cC" role="1MhHOB">
       <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
       <node concept="QB0g5" id="1rTFk_7C7mI" role="QCWH9">
@@ -1455,7 +1455,7 @@
                     </node>
                     <node concept="v3k3i" id="2HXkW3cTq27" role="2OqNvi">
                       <node concept="chp4Y" id="2HXkW3cTqC_" role="v3oSu">
-                        <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+                        <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
                       </node>
                     </node>
                   </node>
@@ -1468,7 +1468,7 @@
                               <node concept="2OqwBi" id="2HXkW3cTq2f" role="2Oq$k0">
                                 <node concept="1PxgMI" id="2HXkW3cTq2g" role="2Oq$k0">
                                   <node concept="chp4Y" id="2HXkW3cTscO" role="3oSUPX">
-                                    <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+                                    <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
                                   </node>
                                   <node concept="37vLTw" id="2HXkW3cTq2i" role="1m5AlR">
                                     <ref role="3cqZAo" node="2HXkW3cTq2t" resolve="it" />
@@ -1487,7 +1487,7 @@
                               <node concept="2OqwBi" id="2HXkW3cTq2n" role="3uHU7B">
                                 <node concept="1PxgMI" id="2HXkW3cTq2o" role="2Oq$k0">
                                   <node concept="chp4Y" id="2HXkW3cTr3d" role="3oSUPX">
-                                    <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+                                    <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
                                   </node>
                                   <node concept="37vLTw" id="2HXkW3cTq2q" role="1m5AlR">
                                     <ref role="3cqZAo" node="2HXkW3cTq2t" resolve="it" />

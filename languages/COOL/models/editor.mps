@@ -2432,7 +2432,7 @@
                 <node concept="2oxUTD" id="iS3Ntwd0Ba" role="2OqNvi">
                   <node concept="1PxgMI" id="iS3Ntwd0Bb" role="2oxUTC">
                     <node concept="chp4Y" id="iS3Ntwd0Bc" role="3oSUPX">
-                      <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+                      <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
                     </node>
                     <node concept="2OqwBi" id="iS3Ntwd0Bd" role="1m5AlR">
                       <node concept="2OqwBi" id="iS3Ntwd0Be" role="2Oq$k0">
@@ -3112,7 +3112,7 @@
               <node concept="2oxUTD" id="2HXkW3bUokg" role="2OqNvi">
                 <node concept="1PxgMI" id="2HXkW3bUHNF" role="2oxUTC">
                   <node concept="chp4Y" id="2HXkW3bUImx" role="3oSUPX">
-                    <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDecleration" />
+                    <ref role="cht4Q" to="exfx:2hy8a5EkM5p" resolve="IAttributeDeclaration" />
                   </node>
                   <node concept="2OqwBi" id="2HXkW3bUrW7" role="1m5AlR">
                     <node concept="2OqwBi" id="2HXkW3bUqtC" role="2Oq$k0">
