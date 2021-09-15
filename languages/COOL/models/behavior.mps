@@ -136,7 +136,7 @@
       <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
       <concept id="1171310072040" name="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" flags="nn" index="2Rxl7S" />
       <concept id="1171315804604" name="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" flags="nn" index="2RRcyG">
-        <reference id="1171315804605" name="concept" index="2RRcyH" />
+        <child id="6750920497477046361" name="conceptArgument" index="3MHsoP" />
       </concept>
       <concept id="1180031783296" name="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" flags="nn" index="2Zo12i">
         <child id="1180031783297" name="conceptArgument" index="2Zo12j" />
@@ -761,7 +761,9 @@
                         <node concept="I4A8Y" id="2HXkW3cLpTL" role="2OqNvi" />
                       </node>
                       <node concept="2RRcyG" id="2HXkW3cLqp_" role="2OqNvi">
-                        <ref role="2RRcyH" to="exfx:72KQ30OjQG" resolve="Class" />
+                        <node concept="chp4Y" id="7aZpBkgXXIX" role="3MHsoP">
+                          <ref role="cht4Q" to="exfx:72KQ30OjQG" resolve="Class" />
+                        </node>
                       </node>
                     </node>
                     <node concept="3clFbS" id="2HXkW3cLprl" role="2LFqv$">
