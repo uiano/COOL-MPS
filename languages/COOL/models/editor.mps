@@ -9,6 +9,7 @@
   <imports>
     <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" />
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
+    <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -111,6 +112,9 @@
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1236262245656" name="jetbrains.mps.lang.editor.structure.MatchingLabelStyleClassItem" flags="ln" index="3mYdg7">
         <property id="1238091709220" name="labelName" index="1413C4" />
@@ -332,15 +336,18 @@
       <node concept="l2Vlx" id="2QgYvTH5Da0" role="2iSdaV" />
       <node concept="3F0ifn" id="2QgYvTH5Da1" role="3EZMnx">
         <property role="3F0ifm" value="class" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
       <node concept="3F0A7n" id="2QgYvTH5Da2" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" to="tpen:hFIVf2f" resolve="ClassName" />
       </node>
       <node concept="3EZMnI" id="2HXkW3bq48m" role="3EZMnx">
         <ref role="1ERwB7" node="6C2AeZqOOP7" resolve="deleteInherits" />
         <node concept="l2Vlx" id="2HXkW3bq48n" role="2iSdaV" />
         <node concept="3F0ifn" id="2QgYvTH5Da3" role="3EZMnx">
           <property role="3F0ifm" value="inherits" />
+          <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         </node>
         <node concept="1iCGBv" id="6C2AeZqNrkw" role="3EZMnx">
           <ref role="1NtTu8" to="exfx:6C2AeZqNafu" resolve="inherits" />
@@ -351,6 +358,7 @@
                 <node concept="3F0A7n" id="6C2AeZqNrkP" role="2wV5jI">
                   <property role="1Intyy" value="true" />
                   <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+                  <ref role="1k5W1q" to="tpen:hFIVf2f" resolve="ClassName" />
                 </node>
               </node>
             </node>
@@ -423,6 +431,7 @@
     <node concept="3EZMnI" id="2QgYvTH5Omn" role="2wV5jI">
       <node concept="3F0A7n" id="2QgYvTH5Omx" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
       </node>
       <node concept="3F0ifn" id="2QgYvTH5OmE" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -433,6 +442,7 @@
           <node concept="3F0A7n" id="2QgYvTH5On7" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
           </node>
         </node>
       </node>
@@ -499,6 +509,7 @@
         <node concept="2iRfu4" id="2QgYvTH6Ha2" role="2iSdaV" />
         <node concept="3F0A7n" id="2QgYvTH6Hai" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" to="tpen:hFD2Y0y" resolve="MethodName" />
         </node>
         <node concept="3F0ifn" id="2QgYvTH6HaI" role="3EZMnx">
           <property role="3F0ifm" value="(" />
@@ -551,6 +562,7 @@
             <node concept="3F0A7n" id="2QgYvTH6Hcz" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+              <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
             </node>
           </node>
         </node>
@@ -585,6 +597,7 @@
       <node concept="l2Vlx" id="2e4OjlFnKkW" role="2iSdaV" />
       <node concept="3F0A7n" id="2QgYvTH7kuU" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30OjSV" resolve="value" />
+        <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
       </node>
       <node concept="PMmxH" id="2e4OjlFnKl4" role="3EZMnx">
         <ref role="PMmxG" node="3JaU1mZYmGr" resolve="ExprTerminator" />
@@ -646,6 +659,7 @@
           <node concept="3F0A7n" id="5mL3sGOlsVd" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
           </node>
         </node>
       </node>
@@ -666,6 +680,7 @@
       <node concept="l2Vlx" id="2QgYvTH8MC1" role="2iSdaV" />
       <node concept="3F0A7n" id="2QgYvTH8MCa" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" to="tpen:hshT2l5" resolve="Parameter" />
       </node>
       <node concept="3F0ifn" id="2QgYvTH8MCi" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -676,6 +691,7 @@
           <node concept="3F0A7n" id="2QgYvTH8MCJ" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="tpen:hshT4rC" resolve="NumericLiteral" />
           </node>
         </node>
       </node>
@@ -789,6 +805,7 @@
           <node concept="3F0A7n" id="2e4OjlFsWzl" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="tpen:6H7j4iMM5Cm" resolve="MPSMethodCall" />
           </node>
         </node>
       </node>
@@ -852,15 +869,18 @@
       <node concept="l2Vlx" id="2e4OjlFnKlk" role="2iSdaV" />
       <node concept="3F0ifn" id="6d5Zefkzi0i" role="3EZMnx">
         <property role="3F0ifm" value="&quot;" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
         <node concept="11LMrY" id="6d5Zefkzi0y" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
       <node concept="3F0A7n" id="2QgYvTHcnGJ" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30OjT5" resolve="value" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
       </node>
       <node concept="3F0ifn" id="6d5Zefkzi0s" role="3EZMnx">
         <property role="3F0ifm" value="&quot;" />
+        <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
         <node concept="11L4FC" id="6d5Zefkzi0$" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -879,6 +899,7 @@
         <node concept="l2Vlx" id="2QgYvTHeNrW" role="2iSdaV" />
         <node concept="3F0ifn" id="2QgYvTHeNzA" role="3EZMnx">
           <property role="3F0ifm" value="if" />
+          <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
         <node concept="3F1sOY" id="2QgYvTHeNzJ" role="3EZMnx">
           <ref role="1NtTu8" to="exfx:72KQ30OjUh" resolve="ifExpr" />
@@ -888,6 +909,7 @@
         <node concept="l2Vlx" id="2QgYvTHeN$c" role="2iSdaV" />
         <node concept="3F0ifn" id="2QgYvTHeN$0" role="3EZMnx">
           <property role="3F0ifm" value="then" />
+          <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
         <node concept="3F1sOY" id="2QgYvTHeN$y" role="3EZMnx">
           <ref role="1NtTu8" to="exfx:72KQ30OjUk" resolve="thenExpr" />
@@ -897,6 +919,7 @@
         <node concept="l2Vlx" id="2QgYvTHeN$W" role="2iSdaV" />
         <node concept="3F0ifn" id="2QgYvTHeN_l" role="3EZMnx">
           <property role="3F0ifm" value="else" />
+          <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
         <node concept="3F1sOY" id="2QgYvTHeN_u" role="3EZMnx">
           <ref role="1NtTu8" to="exfx:72KQ30OjUp" resolve="elseExpr" />
@@ -906,6 +929,7 @@
         <node concept="l2Vlx" id="2QgYvTHeNAb" role="2iSdaV" />
         <node concept="3F0ifn" id="2QgYvTHeN_J" role="3EZMnx">
           <property role="3F0ifm" value="fi" />
+          <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         </node>
         <node concept="PMmxH" id="2e4OjlFra_S" role="3EZMnx">
           <ref role="PMmxG" node="3JaU1mZYmGr" resolve="ExprTerminator" />
@@ -920,6 +944,7 @@
       <node concept="l2Vlx" id="2QgYvTHg3pA" role="2iSdaV" />
       <node concept="3F0ifn" id="2QgYvTHg3px" role="3EZMnx">
         <property role="3F0ifm" value="new" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="1iCGBv" id="2QgYvTHg3pO" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30Ok2j" resolve="type" />
@@ -927,6 +952,7 @@
           <node concept="3F0A7n" id="2QgYvTHg3q8" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" to="tpen:hFIVf2f" resolve="ClassName" />
           </node>
         </node>
       </node>
@@ -1147,6 +1173,7 @@
       <node concept="l2Vlx" id="2QgYvTHg$9G" role="2iSdaV" />
       <node concept="3F0ifn" id="2QgYvTHg$9P" role="3EZMnx">
         <property role="3F0ifm" value="isvoid" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="3F1sOY" id="2QgYvTHg$9Y" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:5tu5hNcfj28" resolve="expr" />
@@ -1182,12 +1209,14 @@
       <node concept="l2Vlx" id="3JaU1mZPaQQ" role="2iSdaV" />
       <node concept="3F0ifn" id="3JaU1mZPaQZ" role="3EZMnx">
         <property role="3F0ifm" value="while" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="3F1sOY" id="_JZljY6F1q" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30OjU$" resolve="loopExpr" />
       </node>
       <node concept="3F0ifn" id="_JZljY6F1y" role="3EZMnx">
         <property role="3F0ifm" value="loop" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="3F1sOY" id="_JZljY6F1M" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30OjUB" resolve="loopBody" />
@@ -1200,6 +1229,7 @@
       </node>
       <node concept="3F0ifn" id="_JZljY6F1Y" role="3EZMnx">
         <property role="3F0ifm" value="pool" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         <node concept="pVoyu" id="_JZljY6F27" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1427,6 +1457,7 @@
       <node concept="l2Vlx" id="_JZljY6EGf" role="2iSdaV" />
       <node concept="3F0ifn" id="_JZljY6EGk" role="3EZMnx">
         <property role="3F0ifm" value="case" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="3F1sOY" id="_JZljY6EGq" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30Ok2_" resolve="mainExpr" />
@@ -1449,6 +1480,7 @@
       </node>
       <node concept="3F0ifn" id="_JZljY6EHf" role="3EZMnx">
         <property role="3F0ifm" value="esac" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
         <node concept="pVoyu" id="_JZljY6EHo" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -1465,6 +1497,7 @@
       <node concept="l2Vlx" id="_JZljY6F0k" role="2iSdaV" />
       <node concept="3F0ifn" id="_JZljY6F0p" role="3EZMnx">
         <property role="3F0ifm" value="let" />
+        <ref role="1k5W1q" to="tpen:hshT0O9" resolve="LocalVariable" />
       </node>
       <node concept="3F2HdR" id="_JZljY6F0B" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30Ok2U" resolve="attri" />
@@ -1472,6 +1505,7 @@
       </node>
       <node concept="3F0ifn" id="_JZljY6F0O" role="3EZMnx">
         <property role="3F0ifm" value="in" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="3EZMnI" id="2e4OjlFssgf" role="3EZMnx">
         <node concept="l2Vlx" id="2e4OjlFssgg" role="2iSdaV" />
@@ -1499,6 +1533,7 @@
     <node concept="3EZMnI" id="1kz4Tuz2tPd" role="2wV5jI">
       <node concept="1iCGBv" id="1kz4Tuz2tPk" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:2hy8a5EkM5Q" resolve="attr" />
+        <ref role="1k5W1q" to="tpen:hFD0yD_" resolve="VariableName" />
         <node concept="1sVBvm" id="1kz4Tuz2tPm" role="1sWHZn">
           <node concept="3F0A7n" id="1kz4Tuz2tPt" role="2wV5jI">
             <property role="1Intyy" value="true" />
