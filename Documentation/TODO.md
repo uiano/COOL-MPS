@@ -7,11 +7,6 @@
 
 ### Constraints
 - The name of the Main class should use a checking rule instead of a constraint on the name itself.
-- Something like _ICoolName_ which inherits from _INamedConcept_ should be added.
-  Keyword constraints can be added to this concept instead of individual concepts.
-
-### Structure
-- Fix substring.
 
 ### Editor
 - Improve editor for expressions.
@@ -30,7 +25,6 @@
 
 ### Other
 - Create unit tests for the editor and the code generation.
-- Fix equality of strings.
 - Build standalone version.
 - Avoid explicit dependency to runtime in the module for programs.
 
