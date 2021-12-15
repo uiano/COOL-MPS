@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:156a2a7e-aba1-4bc1-8451-1811bc5f9280(IO)">
+<model ref="r:156a2a7e-aba1-4bc1-8451-1811bc5f9280(Classes.IO)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />

@@ -56,7 +56,7 @@
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="72KQ30OjRv" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="4mMp1b3KdW2" resolve="ICoolName" />
     </node>
     <node concept="PrWs8" id="mtjG6tTlfQ" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -83,7 +83,7 @@
     <property role="TrG5h" value="IFeature" />
     <property role="3GE5qa" value="feature" />
     <node concept="PrWs8" id="5mL3sGOnQ6J" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="4mMp1b3KdW2" resolve="ICoolName" />
     </node>
   </node>
   <node concept="1TIwiD" id="72KQ30OjRL">
@@ -613,7 +613,7 @@
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="IAttributeDeclaration" />
     <node concept="PrWs8" id="2hy8a5EkM5u" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="4mMp1b3KdW2" resolve="ICoolName" />
     </node>
   </node>
   <node concept="PlHQZ" id="2hy8a5EkM5w">
@@ -621,7 +621,7 @@
     <property role="3GE5qa" value="expression" />
     <property role="TrG5h" value="IMethodDecleration" />
     <node concept="PrWs8" id="2hy8a5EkM5x" role="PrDN$">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+      <ref role="PrY4T" node="4mMp1b3KdW2" resolve="ICoolName" />
     </node>
   </node>
   <node concept="1TIwiD" id="2hy8a5EkM5M">
@@ -684,6 +684,13 @@
       <property role="20kJfa" value="cls" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="72KQ30OjQG" resolve="Class" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="4mMp1b3KdW2">
+    <property role="EcuMT" value="5022186566227910402" />
+    <property role="TrG5h" value="ICoolName" />
+    <node concept="PrWs8" id="4mMp1b3KdW3" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>

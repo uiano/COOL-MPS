@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b23e5154-af58-4bb1-8680-cd6889ec3eec(Cool)">
+<model ref="r:b23e5154-af58-4bb1-8680-cd6889ec3eec(Advanced.Cool)">
   <persistence version="9" />
   <attribute name="doNotGenerate" value="false" />
   <languages>

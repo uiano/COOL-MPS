@@ -106,6 +106,7 @@
       </concept>
       <concept id="1139535280617" name="jetbrains.mps.lang.editor.structure.CellActionMapItem" flags="lg" index="1hA7zw">
         <property id="1139535298778" name="actionId" index="1hAc7j" />
+        <property id="1139537298254" name="description" index="1hHO97" />
         <child id="1139535280620" name="executeFunction" index="1hA7z_" />
       </concept>
       <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
@@ -1497,7 +1498,7 @@
       <node concept="l2Vlx" id="_JZljY6F0k" role="2iSdaV" />
       <node concept="3F0ifn" id="_JZljY6F0p" role="3EZMnx">
         <property role="3F0ifm" value="let" />
-        <ref role="1k5W1q" to="tpen:hshT0O9" resolve="LocalVariable" />
+        <ref role="1k5W1q" to="tpen:hshQ_OE" resolve="Field" />
       </node>
       <node concept="3F2HdR" id="_JZljY6F0B" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:72KQ30Ok2U" resolve="attri" />
@@ -1595,6 +1596,7 @@
     <ref role="1h_SK9" to="exfx:72KQ30OjQG" resolve="Class" />
     <node concept="1hA7zw" id="6C2AeZqOOP8" role="1h_SK8">
       <property role="1hAc7j" value="g_hAxAO/delete_action_id" />
+      <property role="1hHO97" value="This deletes both the inherits node and the ClassRef Node." />
       <node concept="1hAIg9" id="6C2AeZqOOP9" role="1hA7z_">
         <node concept="3clFbS" id="6C2AeZqOOPa" role="2VODD2">
           <node concept="3clFbF" id="6C2AeZqOOPn" role="3cqZAp">
@@ -3648,9 +3650,11 @@
     <node concept="3EZMnI" id="24GNCTqJShW" role="2wV5jI">
       <node concept="3F0ifn" id="24GNCTqJSi6" role="3EZMnx">
         <property role="3F0ifm" value="--" />
+        <ref role="1k5W1q" to="tpen:hshO_Yc" resolve="Comment" />
       </node>
       <node concept="3F0A7n" id="24GNCTqJS$R" role="3EZMnx">
         <ref role="1NtTu8" to="exfx:24GNCTqJShv" resolve="body" />
+        <ref role="1k5W1q" to="tpen:hshO_Yc" resolve="Comment" />
       </node>
       <node concept="l2Vlx" id="24GNCTqJShZ" role="2iSdaV" />
     </node>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:adcc576e-ec7d-48ac-b7f9-4170ba25ae3d(Cells)">
+<model ref="r:adcc576e-ec7d-48ac-b7f9-4170ba25ae3d(Advanced.Cells)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />

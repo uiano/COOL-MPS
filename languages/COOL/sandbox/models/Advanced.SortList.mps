@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:b92a5042-1257-451d-9d97-72e12f63746b(SortList)">
+<model ref="r:b92a5042-1257-451d-9d97-72e12f63746b(Advanced.SortList)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />

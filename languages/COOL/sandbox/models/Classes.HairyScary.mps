@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:98a9b7d1-7371-47bc-80ae-b47528366733(HairyScary)">
+<model ref="r:98a9b7d1-7371-47bc-80ae-b47528366733(Classes.HairyScary)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />

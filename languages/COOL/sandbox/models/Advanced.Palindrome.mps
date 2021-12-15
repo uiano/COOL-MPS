@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:0d327f95-d0dd-4454-a18c-170e2e2b8af5(Palindrome)">
+<model ref="r:0d327f95-d0dd-4454-a18c-170e2e2b8af5(Advanced.Palindrome)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />

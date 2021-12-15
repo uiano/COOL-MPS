@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model ref="r:f8a6201d-264e-4d84-8ed6-7b9f6214f151(Primes)">
+<model ref="r:f8a6201d-264e-4d84-8ed6-7b9f6214f151(Advanced.Primes)">
   <persistence version="9" />
   <languages>
     <use id="526480f5-bacc-4675-9b15-2ee50ab219c2" name="COOL" version="0" />
