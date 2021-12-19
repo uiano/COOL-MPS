@@ -10,6 +10,8 @@
   <imports>
     <import index="exfx" ref="r:1a660a6f-afac-4390-8173-bd7013165842(COOL.structure)" />
     <import index="67es" ref="r:3b0f3f0e-e2ac-45cf-be67-dd3ad72932ff(COOL.baseclasses)" />
+    <import index="xigc" ref="f:diff_old1#r:b4dde771-32d9-4a1f-8e71-9794a92dfc00(COOL.typesystem@old1)" />
+    <import index="3nje" ref="f:diff_new#r:b4dde771-32d9-4a1f-8e71-9794a92dfc00(COOL.typesystem@new)" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
