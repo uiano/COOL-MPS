@@ -452,7 +452,7 @@
       <node concept="314ZR0" id="7YHumhLm9Ae" role="314ZPE">
         <node concept="314Sci" id="7YHumhLm9Eh" role="314ZR4">
           <node concept="314Se_" id="7YHumhLm9Ip" role="2roMmk">
-            <ref role="314SeG" node="7YHumhLm7Sm" resolve="truth_check" />
+            <ref role="314SeG" node="7YHumhLm7Sm" resolve="check_num" />
           </node>
         </node>
         <node concept="314SfX" id="7YHumhLmZax" role="314ZR7">

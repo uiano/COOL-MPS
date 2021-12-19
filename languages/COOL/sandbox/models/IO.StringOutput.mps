@@ -272,7 +272,7 @@
       <node concept="314Se_" id="7T2YScNSRU0" role="314ZPE">
         <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
         <node concept="1ecg7k" id="7T2YScNSS1g" role="314SeD">
-          <ref role="1ecg7n" node="7T2YScNSRzX" resolve="string" />
+          <ref role="1ecg7n" node="7T2YScNSRzX" resolve="attribute" />
         </node>
       </node>
     </node>
@@ -473,7 +473,7 @@
           <ref role="314SeG" node="7T2YScNSN7L" resolve="print_string" />
         </node>
         <node concept="314Se_" id="7T2YScNSSz8" role="314SfY">
-          <ref role="314SeG" node="7T2YScNSRRk" resolve="print_string_class" />
+          <ref role="314SeG" node="7T2YScNSRRk" resolve="print_string_attribute" />
         </node>
         <node concept="314Se_" id="7T2YScNSSF9" role="314SfY">
           <ref role="314SeG" node="7T2YScNSSjl" resolve="print_string_parameter" />

@@ -275,7 +275,7 @@
       <node concept="314Se_" id="7T2YScNUsLA" role="314ZPE">
         <ref role="314SeG" to="67es:At5JuHK8dq" resolve="out_int" />
         <node concept="1ecg7k" id="7T2YScNUsLK" role="314SeD">
-          <ref role="1ecg7n" node="7T2YScNUsLl" resolve="string" />
+          <ref role="1ecg7n" node="7T2YScNUsLl" resolve="attribute" />
         </node>
       </node>
     </node>
@@ -322,7 +322,7 @@
       <node concept="314Se_" id="7T2YScNUsLC" role="314ZPE">
         <ref role="314SeG" to="67es:At5JuHK8dq" resolve="out_int" />
         <node concept="1ecg7k" id="7T2YScNUsLL" role="314SeD">
-          <ref role="1ecg7n" node="7T2YScNUsLB" resolve="string" />
+          <ref role="1ecg7n" node="7T2YScNUsLB" resolve="int" />
         </node>
       </node>
     </node>
@@ -479,22 +479,22 @@
       <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
       <node concept="314SfX" id="7T2YScNUsLF" role="314ZPE">
         <node concept="314Se_" id="7T2YScNUsLO" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUsLn" resolve="print_string" />
+          <ref role="314SeG" node="7T2YScNUsLn" resolve="print_int" />
         </node>
         <node concept="314Se_" id="7T2YScNUsLP" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUsLp" resolve="print_string_feature" />
+          <ref role="314SeG" node="7T2YScNUsLp" resolve="print_int_attribute" />
         </node>
         <node concept="314Se_" id="7T2YScNUsLQ" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUsLr" resolve="print_string_parameter" />
+          <ref role="314SeG" node="7T2YScNUsLr" resolve="print_int_parameter" />
           <node concept="314ZPj" id="7T2YScNUu2Q" role="314SeD">
             <property role="314ZPn" value="3" />
           </node>
         </node>
         <node concept="314Se_" id="7T2YScNUsLR" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUsLt" resolve="print_string_new" />
+          <ref role="314SeG" node="7T2YScNUsLt" resolve="print_int_new" />
         </node>
         <node concept="314Se_" id="7T2YScNUsLS" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUsLv" resolve="print_string_let" />
+          <ref role="314SeG" node="7T2YScNUsLv" resolve="print_int_let" />
         </node>
       </node>
     </node>

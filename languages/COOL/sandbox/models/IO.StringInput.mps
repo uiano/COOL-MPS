@@ -289,7 +289,7 @@
         <node concept="314Se_" id="7T2YScNUz41" role="314SeD">
           <ref role="314SeG" to="67es:6C2AeZs79TH" resolve="concat" />
           <node concept="1ecg7k" id="7T2YScNUz42" role="2rpGa2">
-            <ref role="1ecg7n" node="7T2YScNUy2Z" resolve="example_text" />
+            <ref role="1ecg7n" node="7T2YScNUy2Z" resolve="prefix" />
           </node>
           <node concept="314Se_" id="7T2YScNUzc5" role="314SeD">
             <ref role="314SeG" to="67es:At5JuHK8jb" resolve="in_string" />
@@ -344,7 +344,7 @@
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
       <node concept="314SfX" id="7T2YScNUvph" role="314ZPE">
         <node concept="314ZOR" id="7T2YScNUvCs" role="314SfY">
-          <ref role="1xT5EN" node="7T2YScNUusP" resolve="input_feature" />
+          <ref role="1xT5EN" node="7T2YScNUusP" resolve="attribute" />
           <node concept="314Se_" id="7T2YScNUvE8" role="10CE43">
             <ref role="314SeG" to="67es:At5JuHK8jb" resolve="in_string" />
           </node>
@@ -354,10 +354,10 @@
           <node concept="314Se_" id="7T2YScNUzhi" role="314SeD">
             <ref role="314SeG" to="67es:6C2AeZs79TH" resolve="concat" />
             <node concept="1ecg7k" id="7T2YScNUzhj" role="2rpGa2">
-              <ref role="1ecg7n" node="7T2YScNUy2Z" resolve="example_text" />
+              <ref role="1ecg7n" node="7T2YScNUy2Z" resolve="prefix" />
             </node>
             <node concept="1ecg7k" id="7T2YScNUzpN" role="314SeD">
-              <ref role="1ecg7n" node="7T2YScNUusP" resolve="input_feature" />
+              <ref role="1ecg7n" node="7T2YScNUusP" resolve="attribute" />
             </node>
           </node>
         </node>
@@ -439,19 +439,19 @@
       <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
       <node concept="314SfX" id="7T2YScNUutb" role="314ZPE">
         <node concept="314Se_" id="7T2YScNUzxQ" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUx9L" resolve="print_in_parameter" />
+          <ref role="314SeG" node="7T2YScNUx9L" resolve="print_parameter" />
           <node concept="314ZOx" id="7T2YScNUzC_" role="314SeD">
             <property role="314ZO_" value="You typed: " />
           </node>
         </node>
         <node concept="314Se_" id="7T2YScNW2Ss" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUw5f" resolve="print_in_out_parameter" />
+          <ref role="314SeG" node="7T2YScNUw5f" resolve="print_out_parameter" />
         </node>
         <node concept="314Se_" id="7T2YScNW32b" role="314SfY">
-          <ref role="314SeG" node="7T2YScNUvoD" resolve="print_in_feature" />
+          <ref role="314SeG" node="7T2YScNUvoD" resolve="print_attribute" />
         </node>
         <node concept="314Se_" id="7T2YScNW3NU" role="314SfY">
-          <ref role="314SeG" node="7T2YScNW3ks" resolve="print_in_let" />
+          <ref role="314SeG" node="7T2YScNW3ks" resolve="print_let" />
         </node>
         <node concept="3DQ70j" id="7T2YScNXI7J" role="lGtFl">
           <property role="3V$3am" value="exprs" />

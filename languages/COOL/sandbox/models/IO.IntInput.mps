@@ -147,7 +147,7 @@
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
       <node concept="314SfX" id="7T2YScNXCfq" role="314ZPE">
         <node concept="314ZOR" id="7T2YScNXCjH" role="314SfY">
-          <ref role="1xT5EN" node="7T2YScNW3VC" resolve="input_feature" />
+          <ref role="1xT5EN" node="7T2YScNW3VC" resolve="attribute" />
           <node concept="314Se_" id="7T2YScNXCqE" role="10CE43">
             <ref role="314SeG" to="67es:At5JuHK8pY" resolve="in_int" />
           </node>
@@ -155,7 +155,7 @@
         <node concept="314Se_" id="7T2YScNXC_$" role="314SfY">
           <ref role="314SeG" to="67es:At5JuHK8dq" resolve="out_int" />
           <node concept="1ecg7k" id="7T2YScNXCIr" role="314SeD">
-            <ref role="1ecg7n" node="7T2YScNW3VC" resolve="input_feature" />
+            <ref role="1ecg7n" node="7T2YScNW3VC" resolve="attribute" />
           </node>
         </node>
       </node>
@@ -310,16 +310,16 @@
       <ref role="314ZP_" to="67es:2QgYvTHaKV2" resolve="SELF_TYPE" />
       <node concept="314SfX" id="7T2YScNW3VU" role="314ZPE">
         <node concept="314Se_" id="7T2YScNXEFW" role="314SfY">
-          <ref role="314SeG" node="7T2YScNXCbz" resolve="print_feature" />
+          <ref role="314SeG" node="7T2YScNXCbz" resolve="print_int_attribute" />
         </node>
         <node concept="314Se_" id="7T2YScNXB5E" role="314SfY">
-          <ref role="314SeG" node="7T2YScNW3VE" resolve="print_add" />
+          <ref role="314SeG" node="7T2YScNW3VE" resolve="print_int_add" />
           <node concept="314ZPj" id="7T2YScNXBhh" role="314SeD">
             <property role="314ZPn" value="15" />
           </node>
         </node>
         <node concept="314Se_" id="7T2YScNXE$h" role="314SfY">
-          <ref role="314SeG" node="7T2YScNXDIB" resolve="print_let" />
+          <ref role="314SeG" node="7T2YScNXDIB" resolve="print_int_let" />
         </node>
         <node concept="3DQ70j" id="7T2YScNXHGl" role="lGtFl">
           <property role="3V$3am" value="exprs" />
