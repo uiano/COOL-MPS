@@ -106,7 +106,7 @@
       <property role="TrG5h" value="io" />
       <ref role="314ZOF" to="67es:At5JuHK85F" resolve="IO" />
       <node concept="314Sct" id="42UWjFr7YzQ" role="314ZOK">
-        <ref role="314SfN" node="42UWjFr80YT" resolve="B" />
+        <ref role="314SfN" to="67es:At5JuHK85F" resolve="IO" />
       </node>
     </node>
     <node concept="3DQ70j" id="7bBGCzxHaXS" role="lGtFl">

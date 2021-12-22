@@ -95,7 +95,7 @@
       <ref role="PrY4T" node="72KQ30OjRy" resolve="IFeature" />
     </node>
     <node concept="PrWs8" id="2hy8a5EkM5z" role="PzmwI">
-      <ref role="PrY4T" node="2hy8a5EkM5w" resolve="IMethodDeclaration" />
+      <ref role="PrY4T" node="2hy8a5EkM5w" resolve="IMethodDecleration" />
     </node>
     <node concept="PrWs8" id="5mL3sGOeq8y" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -478,7 +478,7 @@
       <property role="IQ2ns" value="126878559839011020" />
       <property role="20kJfa" value="methodCalled" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2hy8a5EkM5w" resolve="IMethodDeclaration" />
+      <ref role="20lvS9" node="2hy8a5EkM5w" resolve="IMethodDecleration" />
     </node>
     <node concept="1TJgyj" id="5tu5hNceduy" role="1TKVEi">
       <property role="IQ2ns" value="6295492542540076962" />
@@ -619,7 +619,7 @@
   <node concept="PlHQZ" id="2hy8a5EkM5w">
     <property role="EcuMT" value="2621693810728706400" />
     <property role="3GE5qa" value="expression" />
-    <property role="TrG5h" value="IMethodDeclaration" />
+    <property role="TrG5h" value="IMethodDecleration" />
     <node concept="PrWs8" id="2hy8a5EkM5x" role="PrDN$">
       <ref role="PrY4T" node="4mMp1b3KdW2" resolve="ICoolName" />
     </node>
@@ -633,7 +633,7 @@
       <property role="IQ2ns" value="2621693810728706419" />
       <property role="20kJfa" value="method" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2hy8a5EkM5w" resolve="IMethodDeclaration" />
+      <ref role="20lvS9" node="2hy8a5EkM5w" resolve="IMethodDecleration" />
     </node>
   </node>
   <node concept="1TIwiD" id="2hy8a5EkM5P">

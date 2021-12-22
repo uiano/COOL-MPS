@@ -577,7 +577,7 @@
             </node>
             <node concept="2Zo12i" id="5mL3sGOhd8P" role="2OqNvi">
               <node concept="chp4Y" id="5mL3sGOhdc1" role="2Zo12j">
-                <ref role="cht4Q" to="exfx:2hy8a5EkM5w" resolve="IMethodDeclaration" />
+                <ref role="cht4Q" to="exfx:2hy8a5EkM5w" resolve="IMethodDecleration" />
               </node>
             </node>
           </node>
@@ -908,7 +908,7 @@
             </node>
             <node concept="2Zo12i" id="31Kfdby31rl" role="2OqNvi">
               <node concept="chp4Y" id="31Kfdby31uu" role="2Zo12j">
-                <ref role="cht4Q" to="exfx:2hy8a5EkM5w" resolve="IMethodDeclaration" />
+                <ref role="cht4Q" to="exfx:2hy8a5EkM5w" resolve="IMethodDecleration" />
               </node>
             </node>
           </node>

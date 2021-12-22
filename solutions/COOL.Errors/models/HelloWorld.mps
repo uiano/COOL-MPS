@@ -40,9 +40,9 @@
     <node concept="314ZUh" id="64QC5GX0dsU" role="314ZU9">
       <property role="TrG5h" value="main" />
       <ref role="314ZP_" to="67es:3OgcKIjIYmj" resolve="Object" />
-      <node concept="314Se_" id="36GiWlixnHE" role="314ZPE">
+      <node concept="314Se_" id="64QC5GX0dsW" role="314ZPE">
         <ref role="314SeG" to="67es:At5JuHK86n" resolve="out_string" />
-        <node concept="314ZOx" id="36GiWlixnJV" role="314SeD">
+        <node concept="314ZOx" id="64QC5GX0dsX" role="314SeD">
           <property role="314ZO_" value="Hello, world.\n" />
         </node>
       </node>
