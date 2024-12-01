@@ -41,30 +41,30 @@
     </language>
   </registry>
   <node concept="3FgkA8" id="2fy714Rrm_S">
-    <property role="TrG5h" value="test1" />
-    <property role="3Fgkti" value="desc.." />
+    <property role="TrG5h" value="Object_Generation" />
+    <property role="3Fgkti" value="Generate a Java version of Object creation" />
     <node concept="3FggHx" id="2fy714RrrLy" role="3FggHh">
       <node concept="3FggHH" id="2fy714RrrLz" role="3FggHC">
-        <ref role="3FggHE" node="2fy714Ry_Vc" resolve="in" />
+        <ref role="3FggHE" node="2fy714RKejN" resolve="in" />
       </node>
       <node concept="3FggHH" id="2fy714RrrL$" role="3FggHm">
-        <ref role="3FggHE" node="2fy714Ry_Vh" resolve="out" />
+        <ref role="3FggHE" node="2fy714RKejS" resolve="out" />
       </node>
     </node>
-    <node concept="3Fgkto" id="2fy714Ry_Vc" role="3Fgkth">
+    <node concept="3Fgkto" id="2fy714RKejN" role="3Fgkth">
       <property role="TrG5h" value="in" />
-      <node concept="1dCxOl" id="2fy714Ry_Ve" role="3Fgkt4">
+      <node concept="1dCxOl" id="2fy714RKejP" role="3Fgkt4">
         <property role="1XweGQ" value="r:3de5e15c-e3e7-4a06-9fee-16a5aee972ed" />
-        <node concept="1j_P7g" id="2fy714Ry_Vf" role="1j$8Uc">
+        <node concept="1j_P7g" id="2fy714RKejQ" role="1j$8Uc">
           <property role="1j_P7h" value="models.generateInput" />
         </node>
       </node>
     </node>
-    <node concept="3Fgkto" id="2fy714Ry_Vh" role="3Fgkth">
+    <node concept="3Fgkto" id="2fy714RKejS" role="3Fgkth">
       <property role="TrG5h" value="out" />
-      <node concept="1dCxOl" id="2fy714Ry_Vk" role="3Fgkt4">
+      <node concept="1dCxOl" id="2fy714RKejV" role="3Fgkt4">
         <property role="1XweGQ" value="r:dce698be-8544-459c-9173-2032277d6060" />
-        <node concept="1j_P7g" id="2fy714Ry_Vl" role="1j$8Uc">
+        <node concept="1j_P7g" id="2fy714RKejW" role="1j$8Uc">
           <property role="1j_P7h" value="models.generateOutput" />
         </node>
       </node>
