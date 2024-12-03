@@ -37,25 +37,11 @@
   </registry>
   <node concept="1lH9Xt" id="5NPABGvrd0Y">
     <property role="3DII0k" value="2hh8MJdVwqX/command" />
-    <property role="TrG5h" value="Class_Name" />
+    <property role="TrG5h" value="Class_Name_Constraints" />
     <node concept="1qefOq" id="5NPABGvrd10" role="1SKRRt">
       <node concept="314ZVc" id="5NPABGvrd0Z" role="1qenE9">
         <node concept="7CXmI" id="5NPABGvrd14" role="lGtFl">
           <node concept="1TM$A" id="5NPABGvrd15" role="7EUXB" />
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="5NPABGvrd19" role="1SKRRt">
-      <node concept="314ZVc" id="5NPABGvrd1b" role="1qenE9">
-        <node concept="7CXmI" id="5NPABGvrd1f" role="lGtFl">
-          <node concept="1TM$A" id="5NPABGvrd1g" role="7EUXB" />
-        </node>
-      </node>
-    </node>
-    <node concept="1qefOq" id="5NPABGvrd1k" role="1SKRRt">
-      <node concept="314ZVc" id="5NPABGvrd1m" role="1qenE9">
-        <node concept="7CXmI" id="5NPABGvrd1q" role="lGtFl">
-          <node concept="1TM$A" id="5NPABGvrd1r" role="7EUXB" />
         </node>
       </node>
     </node>
